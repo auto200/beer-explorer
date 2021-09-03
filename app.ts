@@ -1,84 +1,44 @@
-import puppeteer, { Browser } from "puppeteer";
+import puppeteer from "puppeteer";
+import { scrapCalsberg } from "./scrapers/calsberg/calsberg";
+import fs from "fs/promises";
+import { performance } from "perf_hooks";
+
+const OUT_PATH = "./out";
+const CALSBERG_OUT_PATH = `${OUT_PATH}/calsberg.json`;
 
 (async () => {
-  const browser = await puppeteer.launch({
-    headless: false,
-    defaultViewport: null,
-  });
-  await scrapCalsberg(browser);
+  try {
+    await createDirsIfNotExists(OUT_PATH);
+
+    const browser = await puppeteer.launch({
+      headless: false,
+      defaultViewport: null,
+    });
+
+    const calsbergScrapingStartTime = performance.now();
+    const calsbergBeers = await scrapCalsberg(browser);
+    console.log(
+      `Calsberg scraping done. Operation took ${
+        (performance.now() - calsbergScrapingStartTime) / 1000
+      }sec`
+    );
+
+    await saveBeersData(CALSBERG_OUT_PATH, calsbergBeers);
+  } catch (err) {
+    console.log(err);
+  }
 })();
 
-async function scrapCalsberg(browser: Browser) {
-  const BASE_URL = "https://carlsbergpolska.pl";
-  const BEER_LIST_URL = `${BASE_URL}/nasze-piwa`;
-
-  const page = await browser.newPage();
-  await page.goto(BEER_LIST_URL);
-  await page.keyboard.type("99");
-
-  const beerSpecificPageURLS = (await page
-    .evaluate(() => {
-      const beersContainerSelector =
-        ".brands-list__result-records div div .row > div";
-      const beers = [
-        ...document.querySelectorAll(beersContainerSelector),
-      ] as HTMLElement[];
-      return beers.map((el) => el.querySelector("a")?.href);
-    })
-    .then((urls) => urls.filter(Boolean))) as string[];
-
-  scrapCalsbergBeerPage(browser, beerSpecificPageURLS[1]);
+async function createDirsIfNotExists(path: string) {
+  try {
+    await fs.access(path);
+  } catch {
+    fs.mkdir(path, { recursive: true });
+  }
 }
 
-async function scrapCalsbergBeerPage(browser: Browser, pageUrl: string) {
-  const page = await browser.newPage();
-  await page.goto(pageUrl);
-
-  const img = await page.evaluate(() => {
-    const imgSelector = ".module--product__image-container.align--center img";
-    return (document.querySelector(imgSelector) as HTMLImageElement).currentSrc;
+async function saveBeersData(path: string, data: object) {
+  await fs.writeFile(path, JSON.stringify(data, null, 2), {
+    flag: "w",
   });
-
-  const infos = await page.evaluate(() => {
-    const productInfoSelector = ".module--product__info";
-
-    const name = (
-      document.querySelector(`${productInfoSelector} h2`) as HTMLElement
-    ).innerText;
-
-    const beerDetailsSelector = `${productInfoSelector} .product-meta.cf`;
-
-    const [type, alcoholByVolume, origin] = (
-      [
-        ...document.querySelectorAll(`${beerDetailsSelector} dd`),
-      ] as HTMLElement[]
-    ).map((el) => el.innerText);
-
-    const description = (document.querySelector(
-      `${productInfoSelector} p`
-    ) as HTMLElement)!.innerText;
-
-    return { name, type, alcoholByVolume, origin, description };
-  });
-
-  const nutritionalValues = await page.evaluate(() => {
-    const getElementSiblingText = (selector: string): string | undefined =>
-      (document.querySelector(selector)?.nextElementSibling as HTMLElement)
-        ?.innerText;
-
-    const nutritionalValues = {
-      kj: getElementSiblingText("#kJ"),
-      kcal: getElementSiblingText("#kcal"),
-      carbs: getElementSiblingText("#Carbohydrates"),
-      sugars: getElementSiblingText("#Sugars"),
-      protein: getElementSiblingText("#Protein"),
-      fat: getElementSiblingText("#Fat"),
-      saturatedFat: getElementSiblingText("#SaturatedFat"),
-      salt: getElementSiblingText("#Salt"),
-    };
-
-    return nutritionalValues;
-  });
-
-  console.log({ img, ...infos, nutritionalValues });
 }
