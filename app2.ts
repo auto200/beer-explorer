@@ -1,4 +1,5 @@
-import { scrapeCalsberg } from "./scrapers/calsberg/cheerio";
+import puppeteer from "puppeteer";
+import { scrapCalsberg } from "./scrapers/calsberg/calsberg";
 import fs from "fs/promises";
 import { performance } from "perf_hooks";
 
@@ -9,15 +10,20 @@ const CALSBERG_OUT_PATH = `${OUT_PATH}/calsberg.json`;
   try {
     await createDirsIfNotExists(OUT_PATH);
 
+    const browser = await puppeteer.launch({
+      headless: false,
+      defaultViewport: null,
+    });
+
     const calsbergScrapingStartTime = performance.now();
-    const calsbergBeers = await scrapeCalsberg();
+    const calsbergBeers = await scrapCalsberg(browser);
     console.log(
       `Calsberg scraping done. Operation took ${
         (performance.now() - calsbergScrapingStartTime) / 1000
       }sec`
     );
 
-    // await saveBeersData(CALSBERG_OUT_PATH, calsbergBeers);
+    await saveBeersData(CALSBERG_OUT_PATH, calsbergBeers);
   } catch (err) {
     console.log(err);
   }

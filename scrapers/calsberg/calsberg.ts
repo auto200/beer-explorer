@@ -53,9 +53,7 @@ const verifyAge = async (browser: Browser) => {
 };
 
 const getBeerCollectionPageURLS = async (browser: Browser) => {
-  console.log("wwww");
   const page = await gotoPage(browser, CALSBERG_BEER_COLLECTION_URL);
-  console.log("asd");
 
   const numberOfPages = await page
     .evaluate(() => {
