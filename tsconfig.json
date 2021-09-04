@@ -4,8 +4,6 @@
     "module": "commonjs",
     "lib": [
       "ES2021",
-      "DOM",
-      "DOM.Iterable"
     ],
     "allowJs": false,
     "outDir": "build",

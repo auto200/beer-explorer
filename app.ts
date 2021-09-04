@@ -1,4 +1,4 @@
-import { scrapeCalsberg } from "./scrapers/calsberg/cheerio";
+import { scrapeCalsberg } from "./scrapers/calsberg";
 import fs from "fs/promises";
 import { performance } from "perf_hooks";
 
@@ -17,7 +17,7 @@ const CALSBERG_OUT_PATH = `${OUT_PATH}/calsberg.json`;
       }sec`
     );
 
-    // await saveBeersData(CALSBERG_OUT_PATH, calsbergBeers);
+    await saveBeersData(CALSBERG_OUT_PATH, calsbergBeers);
   } catch (err) {
     console.log(err);
   }

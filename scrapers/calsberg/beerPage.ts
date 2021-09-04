@@ -1,72 +1,56 @@
-import { Browser, Page } from "puppeteer";
+import axios from "../axios";
+import cheerio, { CheerioAPI } from "cheerio";
 import { CALSBERG_BASE_URL } from "./constants";
-import { gotoPage } from "./utils";
 
-export const scrapCalsbergBeerInfoFromURL = async (
-  browser: Browser,
-  pageUrl: string
-) => {
-  const page = await gotoPage(browser, pageUrl);
+export const scrapeCalsbergBeerInfoFromURL = async (url: string) => {
+  const { data: html } = await axios.get(url);
+  const $ = cheerio.load(html);
 
-  const infos = await getCalsbergBeerInfos(page);
-  const nutritionalValues = await getCalsbergBeerNutritionalValues(page);
-  const img = await getCalsbergBeerImg(page);
+  const infos = await getCalsbergBeerInfos($);
+  const nutritionalValues = await getCalsbergBeerNutritionalValues($);
+  const img = await getCalsbergBeerImg($);
 
-  await page.close();
-
-  return { img, ...infos, nutritionalValues };
+  return { originalUrl: url, img, ...infos, nutritionalValues };
 };
 
-const getCalsbergBeerInfos = async (page: Page) => {
-  return await page.evaluate(() => {
-    const productInfoSelector = ".module--product__info";
+const getCalsbergBeerInfos = async ($: CheerioAPI) => {
+  const name = $(`.module--product__info h2`).text().trim();
+  const description = $(`.module--product__info p`)
+    .text()
+    .replaceAll(":", ": ")
+    .trim();
+  const type = $("#BeerType").next().text().trim();
+  const alcoholByVolume = $("#ABV").next().text().trim();
+  const origin = $("#Origin").next().text().trim();
+  const ingredients = $(".module--product-ingredients__description")
+    .text()
+    .trim();
 
-    const name = (
-      document.querySelector(`${productInfoSelector} h2`) as HTMLElement
-    ).innerText;
-
-    const beerDetailsSelector = `${productInfoSelector} .product-meta.cf`;
-
-    const [type, alcoholByVolume, origin] = (
-      [
-        ...document.querySelectorAll(`${beerDetailsSelector} dd`),
-      ] as HTMLElement[]
-    ).map((el) => el.innerText);
-
-    const description = (
-      document.querySelector(`${productInfoSelector} p`) as HTMLElement
-    ).innerText;
-
-    return { name, type, alcoholByVolume, origin, description };
-  });
+  return { name, description, type, alcoholByVolume, origin, ingredients };
 };
 
-const getCalsbergBeerNutritionalValues = async (page: Page) => {
-  return await page.evaluate(() => {
-    const getNextELementSiblingText = (selector: string): string | undefined =>
-      (document.querySelector(selector)?.nextElementSibling as HTMLElement)
-        ?.innerText;
+const getCalsbergBeerNutritionalValues = async ($: CheerioAPI) => {
+  const getNextELementSiblingText = (selector: string) =>
+    $(selector).next().text().trim();
 
-    const nutritionalValues = {
-      kj: getNextELementSiblingText("#kJ"),
-      kcal: getNextELementSiblingText("#kcal"),
-      carbs: getNextELementSiblingText("#Carbohydrates"),
-      sugars: getNextELementSiblingText("#Sugars"),
-      protein: getNextELementSiblingText("#Protein"),
-      fat: getNextELementSiblingText("#Fat"),
-      saturatedFat: getNextELementSiblingText("#SaturatedFat"),
-      salt: getNextELementSiblingText("#Salt"),
-    };
+  const nutritionalValues = {
+    kj: getNextELementSiblingText("#kJ"),
+    kcal: getNextELementSiblingText("#kcal"),
+    carbs: getNextELementSiblingText("#Carbohydrates"),
+    sugars: getNextELementSiblingText("#Sugars"),
+    protein: getNextELementSiblingText("#Protein"),
+    fat: getNextELementSiblingText("#Fat"),
+    saturatedFat: getNextELementSiblingText("#SaturatedFat"),
+    salt: getNextELementSiblingText("#Salt"),
+  };
 
-    return nutritionalValues;
-  });
+  return nutritionalValues;
 };
 
-const getCalsbergBeerImg = async (page: Page) => {
-  return await page.evaluate(async (CALSBERG_BASE_URL) => {
-    const imgSelector = ".module--product__image-container.align--center img";
-    const imgEl = document.querySelector(imgSelector) as HTMLImageElement;
-    //get first url from srcset and trim query params;
-    return `${CALSBERG_BASE_URL}${imgEl.srcset.split(" ")[0]}`.split("?")[0];
-  }, CALSBERG_BASE_URL);
+const getCalsbergBeerImg = async ($: CheerioAPI) => {
+  const srcset = $(".module--product__image-container.align--center img").attr(
+    "srcset"
+  )!;
+  //get first url from srcset and trim query params;
+  return `${CALSBERG_BASE_URL}${srcset.split(" ")[0]}`.split("?")[0];
 };

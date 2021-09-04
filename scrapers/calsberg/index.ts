@@ -1,1 +1,1 @@
-export { scrapCalsberg } from "./calsberg";
+export { scrapeCalsberg } from "./calsberg";

@@ -1,70 +1,44 @@
-import { Browser } from "puppeteer";
-import { scrapCalsbergBeerInfoFromURL } from "./beerPage";
-import { chunk } from "lodash";
 import {
   CALSBERG_BASE_URL,
-  CALSBERG_SCRAPING_CHUNK_SIZE,
-  CALSBERG_BEER_COLLECTION_URL,
   CALSBERG_BEERS_PER_COLLECTION,
+  CALSBERG_BEER_COLLECTION_URL,
 } from "./constants";
-import { gotoPage } from "./utils";
+import axios from "../axios";
+import cheerio from "cheerio";
+import { scrapeCalsbergBeerInfoFromURL } from "./beerPage";
 
-export const scrapCalsberg = async (browser: Browser) => {
-  // not sure if it is necessary
-  await verifyAge(browser);
-
-  const beerCollectionPageURLS = await getBeerCollectionPageURLS(browser);
+export const scrapeCalsberg = async () => {
+  const beerCollectionPageURLS = await getBeerCollectionPageURLS();
   const beerSpecificPageURLS = await Promise.all(
     beerCollectionPageURLS.map(
-      async (url) =>
-        await getBeerSpecificPageURLSFromBeerCollectionURL(browser, url)
+      async (url) => await getBeerSpecificPageURLSFromBeerCollectionURL(url)
     )
   ).then((result) => result.flat());
-
-  const chunkedBeerURLS = chunk(
-    beerSpecificPageURLS,
-    CALSBERG_SCRAPING_CHUNK_SIZE
-  );
-
-  //TODO: strongly type beer object
-  let beers: any = [];
-  let chunkCounter = 0;
-
-  console.log("Scraping started");
-  for (const urls of chunkedBeerURLS) {
-    const calsbergBeers = await Promise.all(
-      urls.map(async (url) => await scrapCalsbergBeerInfoFromURL(browser, url))
-    );
-    beers = [...beers, ...calsbergBeers];
-    console.log(
-      `Calsberg scraping in progress - ${++chunkCounter}/${
-        chunkedBeerURLS.length
-      }`
-    );
-  }
-
-  return beers;
-};
-
-const verifyAge = async (browser: Browser) => {
-  const page = await gotoPage(browser, CALSBERG_BASE_URL);
-  await page.keyboard.type("99");
-  return await page.close();
-};
-
-const getBeerCollectionPageURLS = async (browser: Browser) => {
-  const page = await gotoPage(browser, CALSBERG_BEER_COLLECTION_URL);
-
-  const numberOfPages = await page
-    .evaluate(() => {
-      const resultsSelector = ".brands-list__result-count__heading";
-      return parseInt(
-        (document.querySelector(resultsSelector) as HTMLElement).innerText
+  let progress = 0;
+  const calsbergBeers = await Promise.all(
+    beerSpecificPageURLS.map(async (url) => {
+      const info = await scrapeCalsbergBeerInfoFromURL(url);
+      console.log(
+        `Scraping beers - progress: ${++progress}/${
+          beerSpecificPageURLS.length
+        }`
       );
+      return info;
     })
-    .then((results) => Math.ceil(results / CALSBERG_BEERS_PER_COLLECTION));
+  );
+  return calsbergBeers;
+};
 
-  await page.close();
+const getBeerCollectionPageURLS = async () => {
+  const { data: html } = await axios.get(CALSBERG_BEER_COLLECTION_URL);
+  const $ = cheerio.load(html);
+
+  const numberOfResults = parseInt(
+    $(".brands-list__result-count__heading").text()
+  );
+  const numberOfPages = Math.ceil(
+    numberOfResults / CALSBERG_BEERS_PER_COLLECTION
+  );
 
   return new Array(numberOfPages)
     .fill(null)
@@ -72,20 +46,16 @@ const getBeerCollectionPageURLS = async (browser: Browser) => {
 };
 
 const getBeerSpecificPageURLSFromBeerCollectionURL = async (
-  browser: Browser,
   collectionUrl: string
 ) => {
-  const page = await gotoPage(browser, collectionUrl);
-  const beerSpecificURLS = (await page
-    .evaluate(() => {
-      const beersContainerSelector =
-        ".brands-list__result-records div div .row > div";
-      const beers = [
-        ...document.querySelectorAll(beersContainerSelector),
-      ] as HTMLElement[];
-      return beers.map((el) => el.querySelector("a")?.href);
-    })
-    .then((urls) => urls.filter(Boolean))) as string[];
-  await page.close();
+  const { data: html } = await axios.get(collectionUrl);
+  const $ = cheerio.load(html);
+
+  const beerSpecificURLS: string[] = [];
+
+  $(".brands-list__result-image__holder a").each((_, el) => {
+    beerSpecificURLS.push(`${CALSBERG_BASE_URL}${$(el).attr("href")}`);
+  });
+
   return beerSpecificURLS;
 };
