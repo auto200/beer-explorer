@@ -23,16 +23,16 @@ export const scrapeAbc = async () => {
 };
 
 const getBeerNutritionalValues = ($: CheerioAPI, el: Element) => {
-  const nutritionalValuesOrder = [
-    "kj/kcal",
-    "fat",
-    "saturatedFat",
-    "carbs",
-    "sugar",
-    "protein",
-    "salt",
-  ];
-  const nutritionalValues: { [key: string]: string } = {};
+  const nutritionalValues = {
+    kj: "",
+    kcal: "",
+    fat: "",
+    saturatedFat: "",
+    carbs: "",
+    sugar: "",
+    protein: "",
+    salt: "",
+  };
 
   $(el)
     .find(".attributes .col-auto.value")
@@ -46,8 +46,11 @@ const getBeerNutritionalValues = ($: CheerioAPI, el: Element) => {
         nutritionalValues.kcal = kcal;
         return;
       }
+      const key = Object.keys(nutritionalValues)[
+        i + 1
+      ] as keyof typeof nutritionalValues;
 
-      nutritionalValues[nutritionalValuesOrder[i]] = $(el).text();
+      nutritionalValues[key] = $(el).text();
     });
 
   return nutritionalValues;

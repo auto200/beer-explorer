@@ -27,6 +27,7 @@ export const scrapeCalsberg = async () => {
       return info;
     })
   );
+
   return calsbergBeers;
 };
 
@@ -52,11 +53,9 @@ const getBeerSpecificPageURLSFromBeerCollectionURL = async (
   const { data: html } = await axios.get(collectionUrl);
   const $ = cheerio.load(html);
 
-  const beerSpecificURLS: string[] = [];
-
-  $(".brands-list__result-image__holder a").each((_, el) => {
-    beerSpecificURLS.push(`${CALSBERG_BASE_URL}${$(el).attr("href")}`);
-  });
+  const beerSpecificURLS = $(".brands-list__result-image__holder a")
+    .map((_, el) => `${CALSBERG_BASE_URL}${$(el).attr("href")}`)
+    .toArray();
 
   return beerSpecificURLS;
 };
