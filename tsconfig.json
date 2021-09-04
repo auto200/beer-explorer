@@ -7,8 +7,6 @@
     ],
     "allowJs": false,
     "outDir": "build",
-    "rootDir": "./",
-    "baseUrl": ".",
     "strict": true,
     "noImplicitAny": true,
     "esModuleInterop": true,

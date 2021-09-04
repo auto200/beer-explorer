@@ -10,16 +10,17 @@ import { scrapeCalsbergBeerInfoFromURL } from "./beerPage";
 export const scrapeCalsberg = async () => {
   const beerCollectionPageURLS = await getBeerCollectionPageURLS();
   const beerSpecificPageURLS = await Promise.all(
-    beerCollectionPageURLS.map(
-      async (url) => await getBeerSpecificPageURLSFromBeerCollectionURL(url)
+    beerCollectionPageURLS.map((url) =>
+      getBeerSpecificPageURLSFromBeerCollectionURL(url)
     )
   ).then((result) => result.flat());
+
   let progress = 0;
   const calsbergBeers = await Promise.all(
     beerSpecificPageURLS.map(async (url) => {
       const info = await scrapeCalsbergBeerInfoFromURL(url);
       console.log(
-        `Scraping beers - progress: ${++progress}/${
+        `Scraping calsberg beer - progress: ${++progress}/${
           beerSpecificPageURLS.length
         }`
       );
