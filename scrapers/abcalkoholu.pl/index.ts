@@ -1,0 +1,1 @@
+export { scrapeAbcalkoholu } from "./abcalkoholu";

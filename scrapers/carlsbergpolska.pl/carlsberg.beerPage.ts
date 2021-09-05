@@ -1,8 +1,8 @@
 import axios from "../axios";
 import cheerio, { CheerioAPI } from "cheerio";
-import { CARLSBERG_BASE_URL } from "./constants";
+import { CARLSBERG_BASE_URL } from "./carlsberg.constants";
 
-export const scrapeCalsbergBeerInfoFromURL = async (url: string) => {
+export const getCarlsbergBeerInfoFromURL = async (url: string) => {
   const { data: html } = await axios.get(url);
   const $ = cheerio.load(html);
 

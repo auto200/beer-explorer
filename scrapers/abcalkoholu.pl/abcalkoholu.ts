@@ -1,16 +1,17 @@
 import axios from "../axios";
 import cheerio, { CheerioAPI, Element } from "cheerio";
+import { ABC_ALKOHOLU_BEER_COLLECTION_URL } from "./abcalkoholu.constants";
 
-const BASE_URL = "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze";
-
-export const scrapeAbc = async () => {
-  const { data: html } = await axios.get(BASE_URL);
+export const scrapeAbcalkoholu = async () => {
+  const { data: html } = await axios.get(ABC_ALKOHOLU_BEER_COLLECTION_URL);
   const $ = cheerio.load(html);
 
   const beers = $("._row.beer-grid")
     .children()
     .map((_, el) => {
-      const originalUrl = `${BASE_URL}${$(el).find("a.no-link").attr("href")}`;
+      const originalUrl = `${ABC_ALKOHOLU_BEER_COLLECTION_URL}${$(el)
+        .find("a.no-link")
+        .attr("href")}`;
       const name = $(el).find(".title.h3").text().trim();
       const img = $(el).find(".image img.cover").attr("src")!;
       const nutritionalValues = getBeerNutritionalValues($, el);

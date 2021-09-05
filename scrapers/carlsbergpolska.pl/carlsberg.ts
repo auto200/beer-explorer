@@ -2,10 +2,10 @@ import {
   CARLSBERG_BASE_URL,
   CARLSBERG_BEERS_PER_COLLECTION,
   CARLSBERG_BEER_COLLECTION_URL,
-} from "./constants";
+} from "./carlsberg.constants";
 import axios from "../axios";
 import cheerio from "cheerio";
-import { scrapeCalsbergBeerInfoFromURL } from "./beerPage";
+import { getCarlsbergBeerInfoFromURL } from "./carlsberg.beerPage";
 
 export const scrapeCarlsberg = async () => {
   const beerCollectionPageURLS = await getBeerCollectionPageURLS();
@@ -18,7 +18,7 @@ export const scrapeCarlsberg = async () => {
   let progress = 0;
   const calsbergBeers = await Promise.all(
     beerSpecificPageURLS.map(async (url) => {
-      const info = await scrapeCalsbergBeerInfoFromURL(url);
+      const info = await getCarlsbergBeerInfoFromURL(url);
       console.log(
         `Scraping calsberg beer - progress: ${++progress}/${
           beerSpecificPageURLS.length

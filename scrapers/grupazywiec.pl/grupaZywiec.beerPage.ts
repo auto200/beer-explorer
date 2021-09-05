@@ -1,35 +1,7 @@
 import axios from "../axios";
 import cheerio, { CheerioAPI, Element } from "cheerio";
 
-const BASE_URL = "https://www.grupazywiec.pl/marki";
-
-export const scrapeGrupazywiec = async () => {
-  const { data: html } = await axios.get(BASE_URL);
-  const $ = cheerio.load(html);
-  const collectionURLS = getBrandCollectionURLS($);
-
-  const beers = await Promise.all(
-    collectionURLS.map(async (url) => getBeerInfosFromCollectionUrl(url))
-  ).then((beers) => beers.flat());
-
-  return beers;
-};
-
-const getBrandCollectionURLS = ($: CheerioAPI) => {
-  const brandCollectionURLS = $(".l-content-padding.l-content-margin.clearfix")
-    .children()
-    .map((i, el) => {
-      //theres an empty element for some reason
-      if (i === 0) return;
-
-      return $(el).find(".post--brand").children().first().attr("href");
-    })
-    .toArray();
-
-  return brandCollectionURLS;
-};
-
-const getBeerInfosFromCollectionUrl = async (url: string) => {
+export const getGrupaZywiecBeerInfoFromCollectionUrl = async (url: string) => {
   const { data: html } = await axios.get(url);
   const $ = cheerio.load(html);
 

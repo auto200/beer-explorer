@@ -2,14 +2,14 @@ import fs from "fs/promises";
 import { performance } from "perf_hooks";
 import {
   scrapeCarlsberg,
-  scrapeAbc,
-  scrapeGrupazywiec,
+  scrapeAbcalkoholu,
+  scrapeGrupaZywiec,
   scrapeVanPur,
 } from "./scrapers";
 
 const OUT_PATH = "./out";
 const CARLSBERG_OUT_PATH = `${OUT_PATH}/carlsbergpolska.json`;
-const ABC_OUT_PATH = `${OUT_PATH}/abc.json`;
+const ABC_OUT_PATH = `${OUT_PATH}/abcalkoholu.json`;
 const GRUPAZYWIEC_OUT_PATH = `${OUT_PATH}/grupazywiec.json`;
 const VAN_PUR_OUT_PATH = `${OUT_PATH}/vanpur.json`;
 
@@ -18,9 +18,9 @@ const VAN_PUR_OUT_PATH = `${OUT_PATH}/vanpur.json`;
     await createDirsIfNotExists(OUT_PATH);
     await Promise.all([
       handleCarlsberg(),
-      handleAbc(),
+      handleAbcalkoholu(),
       handleGrupazywiec(),
-      handleVanpur(),
+      handleVanPur(),
     ]);
   } catch (err) {
     console.log(err);
@@ -39,21 +39,21 @@ async function handleCarlsberg() {
   await saveBeersData(CARLSBERG_OUT_PATH, carlsbergBeers);
 }
 
-async function handleAbc() {
+async function handleAbcalkoholu() {
   const scrapingStartTime = performance.now();
-  const abcBeers = await scrapeAbc();
+  const abcalkoholuBeers = await scrapeAbcalkoholu();
   console.log(
-    `Abc scraping done. Operation took ${
+    `Abcalkoholu scraping done. Operation took ${
       (performance.now() - scrapingStartTime) / 1000
     }sec`
   );
 
-  await saveBeersData(ABC_OUT_PATH, abcBeers);
+  await saveBeersData(ABC_OUT_PATH, abcalkoholuBeers);
 }
 
 async function handleGrupazywiec() {
   const scrapingStartTime = performance.now();
-  const grupaZywiecBeers = await scrapeGrupazywiec();
+  const grupaZywiecBeers = await scrapeGrupaZywiec();
   console.log(
     `Grupazywiec scraping done. Operation took ${
       (performance.now() - scrapingStartTime) / 1000
@@ -63,7 +63,7 @@ async function handleGrupazywiec() {
   await saveBeersData(GRUPAZYWIEC_OUT_PATH, grupaZywiecBeers);
 }
 
-async function handleVanpur() {
+async function handleVanPur() {
   const scrapingStartTime = performance.now();
   const vanPurBeers = await scrapeVanPur();
   console.log(

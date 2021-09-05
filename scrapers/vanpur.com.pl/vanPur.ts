@@ -1,8 +1,10 @@
 import axios from "../axios";
 import cheerio from "cheerio";
-
-const VAN_PUR_BASE_URL = "https://vanpur.com.pl";
-const VAN_PUR_BEER_COLLECTION_URL = `${VAN_PUR_BASE_URL}/pl/nasze-marki.html`;
+import {
+  VAN_PUR_BASE_URL,
+  VAN_PUR_BEER_COLLECTION_URL,
+} from "./vanPur.constants";
+import { getVanPurBeerInfoFromURL } from "./vanPur.beerPage";
 
 export const scrapeVanPur = async () => {
   const collectionURLS = await getBeerCollectionURLS();
@@ -10,7 +12,7 @@ export const scrapeVanPur = async () => {
     collectionURLS.map((url) => getBeerSpecificURLSFromCollectionURL(url))
   ).then((beers) => beers.flat());
   const beers = await Promise.all(
-    beerSpecificURLS.map((url) => getBeerInfoFrmBeerSpecificURL(url))
+    beerSpecificURLS.map((url) => getVanPurBeerInfoFromURL(url))
   );
 
   return beers;
@@ -42,35 +44,4 @@ const getBeerSpecificURLSFromCollectionURL = async (url: string) => {
     .toArray();
 
   return beerURLS;
-};
-
-const getBeerInfoFrmBeerSpecificURL = async (url: string) => {
-  const { data: html } = await axios.get(url);
-  const $ = cheerio.load(html);
-
-  const name = $("h1.title").text();
-  const img = `${VAN_PUR_BASE_URL}/${$(".col.photo img").attr("src")}`;
-  const description =
-    $("div.col .dynamic_content.mt_40").text() ||
-    $(".row.c2x1.mt_20").children().first().text();
-  const alcoholByVolume = $("table.border.fs_16 tr")
-    .children()
-    .first()
-    .find("b.dark")
-    .text();
-  const servingTemperature = $("table.border.fs_16 tr")
-    .children()
-    .last()
-    .find("b.dark")
-    .text();
-
-  return {
-    owner: "Van Pur",
-    originalUrl: url,
-    img,
-    name,
-    description,
-    alcoholByVolume,
-    servingTemperature,
-  };
 };
