@@ -1,8 +1,9 @@
 import axios from "../axios";
 import cheerio, { CheerioAPI, Element } from "cheerio";
 import { ABC_ALKOHOLU_BEER_COLLECTION_URL } from "./abcalkoholu.constants";
+import { AbcalkoholuBeer, NutritionalValues } from "../../types";
 
-export const scrapeAbcalkoholu = async () => {
+export const scrapeAbcalkoholu = async (): Promise<AbcalkoholuBeer[]> => {
   const { data: html } = await axios.get(ABC_ALKOHOLU_BEER_COLLECTION_URL);
   const $ = cheerio.load(html);
 
@@ -14,10 +15,10 @@ export const scrapeAbcalkoholu = async () => {
         .attr("href")}`;
       const name = $(el).find(".title.h3").text().trim();
       const img = $(el).find(".image img.cover").attr("src")!;
-      const nutritionalValues = getBeerNutritionalValues($, el);
+      const nutritionalValues = getNutritionalValues($, el);
 
       return {
-        owner: "Kompania Piwowarska",
+        owner: "Kompania Piwowarska" as const,
         originalUrl,
         name,
         img,
@@ -29,14 +30,17 @@ export const scrapeAbcalkoholu = async () => {
   return beers;
 };
 
-const getBeerNutritionalValues = ($: CheerioAPI, el: Element) => {
+const getNutritionalValues = (
+  $: CheerioAPI,
+  el: Element
+): NutritionalValues => {
   const nutritionalValues = {
     kj: "",
     kcal: "",
     fat: "",
     saturatedFat: "",
     carbs: "",
-    sugar: "",
+    sugars: "",
     protein: "",
     salt: "",
   };

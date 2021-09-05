@@ -5,8 +5,9 @@ import {
   VAN_PUR_BEER_COLLECTION_URL,
 } from "./vanPur.constants";
 import { getVanPurBeerInfoFromURL } from "./vanPur.beerPage";
+import { VanPurBeer } from "../../types";
 
-export const scrapeVanPur = async () => {
+export const scrapeVanPur = async (): Promise<VanPurBeer[]> => {
   const collectionURLS = await getBeerCollectionURLS();
   const beerSpecificURLS = await Promise.all(
     collectionURLS.map((url) => getBeerSpecificURLSFromCollectionURL(url))

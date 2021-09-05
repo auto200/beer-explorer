@@ -1,8 +1,11 @@
 import axios from "../axios";
 import cheerio from "cheerio";
 import { VAN_PUR_BASE_URL } from "./vanPur.constants";
+import { VanPurBeer } from "../../types";
 
-export const getVanPurBeerInfoFromURL = async (url: string) => {
+export const getVanPurBeerInfoFromURL = async (
+  url: string
+): Promise<VanPurBeer> => {
   const { data: html } = await axios.get(url);
   const $ = cheerio.load(html);
 

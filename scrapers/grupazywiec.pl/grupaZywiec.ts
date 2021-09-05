@@ -1,16 +1,17 @@
 import axios from "../axios";
 import cheerio, { CheerioAPI } from "cheerio";
 import { GRUPA_ZYWIEC_BEER_COLLECTION_URL } from "./grupaZywiec.constants";
-import { getGrupaZywiecBeerInfoFromCollectionUrl } from "./grupaZywiec.beerPage";
+import { getGrupaZywiecBeersInfoFromCollectionUrl } from "./grupaZywiec.beerPage";
+import { GrupaZywiecBeer } from "../../types";
 
-export const scrapeGrupaZywiec = async () => {
+export const scrapeGrupaZywiec = async (): Promise<GrupaZywiecBeer[]> => {
   const { data: html } = await axios.get(GRUPA_ZYWIEC_BEER_COLLECTION_URL);
   const $ = cheerio.load(html);
   const collectionURLS = getBrandCollectionURLS($);
 
   const beers = await Promise.all(
     collectionURLS.map(async (url) =>
-      getGrupaZywiecBeerInfoFromCollectionUrl(url)
+      getGrupaZywiecBeersInfoFromCollectionUrl(url)
     )
   ).then((beers) => beers.flat());
 

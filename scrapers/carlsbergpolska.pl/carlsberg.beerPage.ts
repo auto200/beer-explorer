@@ -1,19 +1,22 @@
 import axios from "../axios";
 import cheerio, { CheerioAPI } from "cheerio";
 import { CARLSBERG_BASE_URL } from "./carlsberg.constants";
+import { CarlsbergBeer, NutritionalValues } from "../../types";
 
-export const getCarlsbergBeerInfoFromURL = async (url: string) => {
+export const getCarlsbergBeerInfoFromURL = async (
+  url: string
+): Promise<CarlsbergBeer> => {
   const { data: html } = await axios.get(url);
   const $ = cheerio.load(html);
 
-  const infos = await getCalsbergBeerInfos($);
-  const nutritionalValues = await getCalsbergBeerNutritionalValues($);
-  const img = await getCalsbergBeerImg($);
+  const infos = getBeerInfo($);
+  const nutritionalValues = await getNutritionalValues($);
+  const img = getBeerImg($);
 
   return { originalUrl: url, img, ...infos, nutritionalValues };
 };
 
-const getCalsbergBeerInfos = async ($: CheerioAPI) => {
+const getBeerInfo = ($: CheerioAPI) => {
   const name = $(`.module--product__info h2`).text().trim();
   const description = $(`.module--product__info p`)
     .text()
@@ -27,7 +30,7 @@ const getCalsbergBeerInfos = async ($: CheerioAPI) => {
     .trim();
 
   return {
-    owner: "Carlsberg Polska",
+    owner: "Carlsberg Polska" as const,
     name,
     description,
     type,
@@ -37,7 +40,7 @@ const getCalsbergBeerInfos = async ($: CheerioAPI) => {
   };
 };
 
-const getCalsbergBeerNutritionalValues = async ($: CheerioAPI) => {
+const getNutritionalValues = ($: CheerioAPI): NutritionalValues => {
   const getNextELementSiblingText = (selector: string) =>
     $(selector).next().text().trim();
 
@@ -55,7 +58,7 @@ const getCalsbergBeerNutritionalValues = async ($: CheerioAPI) => {
   return nutritionalValues;
 };
 
-const getCalsbergBeerImg = async ($: CheerioAPI) => {
+const getBeerImg = ($: CheerioAPI) => {
   const srcset = $(".module--product__image-container.align--center img").attr(
     "srcset"
   )!;

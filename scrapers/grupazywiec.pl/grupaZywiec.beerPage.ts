@@ -1,7 +1,10 @@
 import axios from "../axios";
 import cheerio, { CheerioAPI, Element } from "cheerio";
+import { GrupaZywiecBeer, NutritionalValues } from "../../types";
 
-export const getGrupaZywiecBeerInfoFromCollectionUrl = async (url: string) => {
+export const getGrupaZywiecBeersInfoFromCollectionUrl = async (
+  url: string
+): Promise<GrupaZywiecBeer[]> => {
   const { data: html } = await axios.get(url);
   const $ = cheerio.load(html);
 
@@ -9,7 +12,7 @@ export const getGrupaZywiecBeerInfoFromCollectionUrl = async (url: string) => {
     .first()
     .children()
     .map((_, el) => {
-      const img = $(el).find(".lightbox__content__right img").attr("src");
+      const img = $(el).find(".lightbox__content__right img").attr("src")!;
       const name = $(el).find(".text h1").text();
       const description = $(el)
         .find(".text")
@@ -19,7 +22,7 @@ export const getGrupaZywiecBeerInfoFromCollectionUrl = async (url: string) => {
       const nutritionalValues = getNutritionalValues($, el);
 
       return {
-        owner: "Grupa Żywiec",
+        owner: "Grupa Żywiec" as const,
         originalUrl: url,
         img,
         name,
@@ -32,7 +35,10 @@ export const getGrupaZywiecBeerInfoFromCollectionUrl = async (url: string) => {
   return beers;
 };
 
-const getNutritionalValues = ($: CheerioAPI, el: Element) => {
+const getNutritionalValues = (
+  $: CheerioAPI,
+  el: Element
+): NutritionalValues => {
   const nutritionalValues = {
     kj: "",
     kcal: "",

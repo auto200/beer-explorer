@@ -1,5 +1,6 @@
 import fs from "fs/promises";
 import { performance } from "perf_hooks";
+import { Beer } from "./types";
 import {
   scrapeCarlsberg,
   scrapeAbcalkoholu,
@@ -83,8 +84,8 @@ async function createDirsIfNotExists(path: string) {
   }
 }
 
-async function saveBeersData(path: string, data: object[]) {
-  await fs.writeFile(path, JSON.stringify(data, null, 2), {
+async function saveBeersData(path: string, beersData: Beer[]) {
+  await fs.writeFile(path, JSON.stringify(beersData, null, 2), {
     flag: "w",
   });
 }

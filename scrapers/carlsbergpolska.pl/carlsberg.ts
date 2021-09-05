@@ -6,8 +6,9 @@ import {
 import axios from "../axios";
 import cheerio from "cheerio";
 import { getCarlsbergBeerInfoFromURL } from "./carlsberg.beerPage";
+import { CarlsbergBeer } from "../../types";
 
-export const scrapeCarlsberg = async () => {
+export const scrapeCarlsberg = async (): Promise<CarlsbergBeer[]> => {
   const beerCollectionPageURLS = await getBeerCollectionPageURLS();
   const beerSpecificPageURLS = await Promise.all(
     beerCollectionPageURLS.map((url) =>
