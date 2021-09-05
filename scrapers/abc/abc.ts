@@ -12,10 +12,16 @@ export const scrapeAbc = async () => {
     .map((_, el) => {
       const originalUrl = `${BASE_URL}${$(el).find("a.no-link").attr("href")}`;
       const name = $(el).find(".title.h3").text().trim();
-      const image = $(el).find(".image img.cover").attr("src")!;
+      const img = $(el).find(".image img.cover").attr("src")!;
       const nutritionalValues = getBeerNutritionalValues($, el);
 
-      return { originalUrl, name, image, nutritionalValues };
+      return {
+        owner: "Kompania Piwowarska",
+        originalUrl,
+        name,
+        img,
+        nutritionalValues,
+      };
     })
     .toArray();
 

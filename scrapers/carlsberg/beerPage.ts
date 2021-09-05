@@ -1,6 +1,6 @@
 import axios from "../axios";
 import cheerio, { CheerioAPI } from "cheerio";
-import { CALSBERG_BASE_URL } from "./constants";
+import { CARLSBERG_BASE_URL } from "./constants";
 
 export const scrapeCalsbergBeerInfoFromURL = async (url: string) => {
   const { data: html } = await axios.get(url);
@@ -26,7 +26,15 @@ const getCalsbergBeerInfos = async ($: CheerioAPI) => {
     .text()
     .trim();
 
-  return { name, description, type, alcoholByVolume, origin, ingredients };
+  return {
+    owner: "Carlsberg Polska",
+    name,
+    description,
+    type,
+    alcoholByVolume,
+    origin,
+    ingredients,
+  };
 };
 
 const getCalsbergBeerNutritionalValues = async ($: CheerioAPI) => {
@@ -52,5 +60,5 @@ const getCalsbergBeerImg = async ($: CheerioAPI) => {
     "srcset"
   )!;
   //get first url from srcset and trim query params;
-  return `${CALSBERG_BASE_URL}${srcset.split(" ")[0]}`.split("?")[0];
+  return `${CARLSBERG_BASE_URL}${srcset.split(" ")[0]}`.split("?")[0];
 };

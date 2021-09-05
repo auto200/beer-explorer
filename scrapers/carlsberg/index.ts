@@ -1,0 +1,1 @@
+export { scrapeCarlsberg } from "./carlsberg";

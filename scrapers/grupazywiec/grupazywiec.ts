@@ -19,7 +19,9 @@ const getBrandCollectionURLS = ($: CheerioAPI) => {
   const brandCollectionURLS = $(".l-content-padding.l-content-margin.clearfix")
     .children()
     .map((i, el) => {
+      //theres an empty element for some reason
       if (i === 0) return;
+
       return $(el).find(".post--brand").children().first().attr("href");
     })
     .toArray();
@@ -44,7 +46,14 @@ const getBeerInfosFromCollectionUrl = async (url: string) => {
         .trim();
       const nutritionalValues = getNutritionalValues($, el);
 
-      return { originalUrl: url, img, name, description, nutritionalValues };
+      return {
+        owner: "Grupa Żywiec",
+        originalUrl: url,
+        img,
+        name,
+        description,
+        nutritionalValues,
+      };
     })
     .toArray();
 

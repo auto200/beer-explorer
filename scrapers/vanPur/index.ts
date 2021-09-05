@@ -1,0 +1,1 @@
+export { scrapeVanPur } from "./vanPur";
