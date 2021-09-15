@@ -49,7 +49,7 @@ export type NutritionalValues = {
   salt: string;
 };
 
-export type Beer =
+export type AnyBeer =
   | AbcalkoholuBeer
   | CarlsbergBeer
   | GrupaZywiecBeer

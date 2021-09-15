@@ -6,26 +6,15 @@ import {
   scrapeGrupaZywiec,
   scrapeVanPur,
 } from "./scrapers";
-import {
-  AbcalkoholuBeer,
-  CarlsbergBeer,
-  GrupaZywiecBeer,
-  VanPurBeer,
-} from "./types";
+import { AnyBeer } from "./types";
 
 const BASE_OUT_PATH = "./out";
 const COMBINED_OUT_PATH = `${BASE_OUT_PATH}/combined.json`;
 
-type ArrayOfAnyBeer =
-  | CarlsbergBeer[]
-  | AbcalkoholuBeer[]
-  | GrupaZywiecBeer[]
-  | VanPurBeer[];
-
 interface Job {
   name: string;
   outPath: string;
-  handler: () => Promise<ArrayOfAnyBeer>;
+  handler: () => Promise<AnyBeer[]>;
 }
 
 const jobs: Job[] = [
@@ -85,9 +74,7 @@ async function saveToFile(path: string, data: any) {
 }
 
 async function combineOutputIntoOneFile() {
-  const outArrays: ArrayOfAnyBeer[] = jobs.map(({ outPath }) =>
-    require(outPath)
-  );
+  const outArrays: AnyBeer[] = jobs.map(({ outPath }) => require(outPath));
   const combined = Object.values(outArrays)
     .flat()
     //sort for consistant order, that way you can easly see what changed
