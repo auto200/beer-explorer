@@ -1,4 +1,4 @@
-import axios from "../axios";
+import axios from "../axiosInstance";
 import cheerio, { CheerioAPI, Element } from "cheerio";
 import { ABC_ALKOHOLU_BEER_COLLECTION_URL } from "./abcalkoholu.constants";
 import { AbcalkoholuBeer, NutritionalValues } from "../../types";

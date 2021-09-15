@@ -1,4 +1,4 @@
-import axios from "../axios";
+import axios from "../axiosInstance";
 import cheerio, { CheerioAPI, Element } from "cheerio";
 import { GrupaZywiecBeer, NutritionalValues } from "../../types";
 

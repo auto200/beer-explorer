@@ -1,4 +1,4 @@
-import axios from "../axios";
+import axios from "../axiosInstance";
 import cheerio from "cheerio";
 import {
   VAN_PUR_BASE_URL,

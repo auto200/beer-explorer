@@ -3,7 +3,7 @@ import {
   CARLSBERG_BEERS_PER_COLLECTION,
   CARLSBERG_BEER_COLLECTION_URL,
 } from "./carlsberg.constants";
-import axios from "../axios";
+import axios from "../axiosInstance";
 import cheerio from "cheerio";
 import { getCarlsbergBeerInfoFromURL } from "./carlsberg.beerPage";
 import { CarlsbergBeer } from "../../types";

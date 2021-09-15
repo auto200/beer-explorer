@@ -1,4 +1,4 @@
-import axios from "../axios";
+import axios from "../axiosInstance";
 import cheerio, { CheerioAPI } from "cheerio";
 import { CARLSBERG_BASE_URL } from "./carlsberg.constants";
 import { CarlsbergBeer, NutritionalValues } from "../../types";

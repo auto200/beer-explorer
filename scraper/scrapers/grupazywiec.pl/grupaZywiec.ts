@@ -1,4 +1,4 @@
-import axios from "../axios";
+import axios from "../axiosInstance";
 import cheerio, { CheerioAPI } from "cheerio";
 import { GRUPA_ZYWIEC_BEER_COLLECTION_URL } from "./grupaZywiec.constants";
 import { getGrupaZywiecBeersInfoFromCollectionUrl } from "./grupaZywiec.beerPage";
