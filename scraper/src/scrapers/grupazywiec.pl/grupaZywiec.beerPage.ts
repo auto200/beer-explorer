@@ -1,6 +1,6 @@
-import axios from "../axiosInstance";
 import cheerio, { CheerioAPI, Element } from "cheerio";
 import { GrupaZywiecBeer, NutritionalValues } from "../../types";
+import axios from "../axiosInstance";
 
 export const getGrupaZywiecBeersInfoFromCollectionUrl = async (
   url: string

@@ -1,7 +1,7 @@
-import { AnyBeer } from "./types";
 import { BASE_OUT_PATH, COMBINED_DATA_OUT_PATH } from "./CONSTANTS";
-import { createDirsIfNotExists, saveToFile } from "./utils";
 import { handleJob, jobs } from "./jobs";
+import { AnyBeer } from "./types";
+import { createDirsIfNotExists, saveToFile } from "./utils";
 
 (async () => {
   try {

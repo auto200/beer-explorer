@@ -1,7 +1,7 @@
-import axios from "../axiosInstance";
 import cheerio from "cheerio";
-import { VAN_PUR_BASE_URL } from "./vanPur.constants";
 import { VanPurBeer } from "../../types";
+import axios from "../axiosInstance";
+import { VAN_PUR_BASE_URL } from "./vanPur.constants";
 
 export const getVanPurBeerInfoFromURL = async (
   url: string

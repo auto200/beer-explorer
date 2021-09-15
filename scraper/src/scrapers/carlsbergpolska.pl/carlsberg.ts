@@ -1,12 +1,12 @@
+import cheerio from "cheerio";
+import { CarlsbergBeer } from "../../types";
+import axios from "../axiosInstance";
+import { getCarlsbergBeerInfoFromURL } from "./carlsberg.beerPage";
 import {
   CARLSBERG_BASE_URL,
   CARLSBERG_BEERS_PER_COLLECTION,
   CARLSBERG_BEER_COLLECTION_URL,
 } from "./carlsberg.constants";
-import axios from "../axiosInstance";
-import cheerio from "cheerio";
-import { getCarlsbergBeerInfoFromURL } from "./carlsberg.beerPage";
-import { CarlsbergBeer } from "../../types";
 
 export const scrapeCarlsberg = async (): Promise<CarlsbergBeer[]> => {
   const beerCollectionPageURLS = await getBeerCollectionPageURLS();

@@ -1,12 +1,11 @@
+import { performance } from "perf_hooks";
+import { BASE_OUT_PATH } from "../CONSTANTS";
 import {
-  scrapeCarlsberg,
   scrapeAbcalkoholu,
+  scrapeCarlsberg,
   scrapeGrupaZywiec,
   scrapeVanPur,
 } from "../scrapers";
-
-import { performance } from "perf_hooks";
-import { BASE_OUT_PATH } from "../CONSTANTS";
 import { AnyBeer } from "../types";
 import { saveToFile } from "../utils";
 

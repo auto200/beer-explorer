@@ -1,11 +1,11 @@
-import axios from "../axiosInstance";
 import cheerio from "cheerio";
+import { VanPurBeer } from "../../types";
+import axios from "../axiosInstance";
+import { getVanPurBeerInfoFromURL } from "./vanPur.beerPage";
 import {
   VAN_PUR_BASE_URL,
   VAN_PUR_BEER_COLLECTION_URL,
 } from "./vanPur.constants";
-import { getVanPurBeerInfoFromURL } from "./vanPur.beerPage";
-import { VanPurBeer } from "../../types";
 
 export const scrapeVanPur = async (): Promise<VanPurBeer[]> => {
   const collectionURLS = await getBeerCollectionURLS();

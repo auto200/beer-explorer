@@ -1,7 +1,7 @@
-import axios from "../axiosInstance";
 import cheerio, { CheerioAPI, Element } from "cheerio";
-import { ABC_ALKOHOLU_BEER_COLLECTION_URL } from "./abcalkoholu.constants";
 import { AbcalkoholuBeer, NutritionalValues } from "../../types";
+import axios from "../axiosInstance";
+import { ABC_ALKOHOLU_BEER_COLLECTION_URL } from "./abcalkoholu.constants";
 
 export const scrapeAbcalkoholu = async (): Promise<AbcalkoholuBeer[]> => {
   const { data: html } = await axios.get(ABC_ALKOHOLU_BEER_COLLECTION_URL);
