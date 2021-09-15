@@ -1,6 +1,5 @@
 import fs from "fs/promises";
 import { performance } from "perf_hooks";
-import { Beer } from "./types";
 import {
   scrapeCarlsberg,
   scrapeAbcalkoholu,
@@ -8,21 +7,23 @@ import {
   scrapeVanPur,
 } from "./scrapers";
 
-const OUT_PATH = "./out";
-const CARLSBERG_OUT_PATH = `${OUT_PATH}/carlsbergpolska.json`;
-const ABC_OUT_PATH = `${OUT_PATH}/abcalkoholu.json`;
-const GRUPAZYWIEC_OUT_PATH = `${OUT_PATH}/grupazywiec.json`;
-const VAN_PUR_OUT_PATH = `${OUT_PATH}/vanpur.json`;
+const OUT_BASE = "./out";
+const CARLSBERG_OUT_PATH = `${OUT_BASE}/carlsbergpolska.json`;
+const ABC_OUT_PATH = `${OUT_BASE}/abcalkoholu.json`;
+const GRUPAZYWIEC_OUT_PATH = `${OUT_BASE}/grupazywiec.json`;
+const VAN_PUR_OUT_PATH = `${OUT_BASE}/vanpur.json`;
+const COMBINED_OUT_PATH = `${OUT_BASE}/combined.json`;
 
 (async () => {
   try {
-    await createDirsIfNotExists(OUT_PATH);
+    await createDirsIfNotExists(OUT_BASE);
     await Promise.all([
       handleCarlsberg(),
       handleAbcalkoholu(),
       handleGrupazywiec(),
       handleVanPur(),
     ]);
+    await combineOutputIntoOneFile();
   } catch (err) {
     console.log(err);
   }
@@ -37,7 +38,7 @@ async function handleCarlsberg() {
     }sec`
   );
 
-  await saveBeersData(CARLSBERG_OUT_PATH, carlsbergBeers);
+  await saveToFile(CARLSBERG_OUT_PATH, carlsbergBeers);
 }
 
 async function handleAbcalkoholu() {
@@ -49,7 +50,7 @@ async function handleAbcalkoholu() {
     }sec`
   );
 
-  await saveBeersData(ABC_OUT_PATH, abcalkoholuBeers);
+  await saveToFile(ABC_OUT_PATH, abcalkoholuBeers);
 }
 
 async function handleGrupazywiec() {
@@ -61,7 +62,7 @@ async function handleGrupazywiec() {
     }sec`
   );
 
-  await saveBeersData(GRUPAZYWIEC_OUT_PATH, grupaZywiecBeers);
+  await saveToFile(GRUPAZYWIEC_OUT_PATH, grupaZywiecBeers);
 }
 
 async function handleVanPur() {
@@ -73,7 +74,7 @@ async function handleVanPur() {
     }sec`
   );
 
-  await saveBeersData(VAN_PUR_OUT_PATH, vanPurBeers);
+  await saveToFile(VAN_PUR_OUT_PATH, vanPurBeers);
 }
 
 async function createDirsIfNotExists(path: string) {
@@ -84,8 +85,20 @@ async function createDirsIfNotExists(path: string) {
   }
 }
 
-async function saveBeersData(path: string, beersData: Beer[]) {
-  await fs.writeFile(path, JSON.stringify(beersData, null, 2), {
-    flag: "w",
-  });
+async function saveToFile(path: string, data: any) {
+  await fs.writeFile(path, JSON.stringify(data, null, 2));
+}
+
+async function combineOutputIntoOneFile() {
+  const abcalkoholu = require(ABC_OUT_PATH);
+  const carlsberg = require(CARLSBERG_OUT_PATH);
+  const grupazywiec = require(GRUPAZYWIEC_OUT_PATH);
+  const vanpur = require(VAN_PUR_OUT_PATH);
+  const combined = Object.values({
+    abcalkoholu,
+    carlsberg,
+    grupazywiec,
+    vanpur,
+  }).flat();
+  await saveToFile(COMBINED_OUT_PATH, combined);
 }
