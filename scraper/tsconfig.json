@@ -6,7 +6,6 @@
       "ES2021",
     ],
     "allowJs": false,
-    "rootDir": "src",
     "outDir": "build",
     "strict": true,
     "noImplicitAny": true,

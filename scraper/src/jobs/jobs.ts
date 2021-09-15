@@ -7,7 +7,7 @@ import {
   scrapeVanPur,
 } from "../scrapers";
 import { AnyBeer } from "../types";
-import { saveToFile } from "../utils";
+import { parseToJSONAndSaveToFile } from "../utils";
 
 interface Job {
   name: string;
@@ -46,5 +46,5 @@ export const handleJob = async (job: Job) => {
     `${job.name} scraping done. Operation took ${(delta / 1000).toFixed(2)}sec`
   );
 
-  await saveToFile(job.outPath, beers);
+  await parseToJSONAndSaveToFile(job.outPath, beers);
 };

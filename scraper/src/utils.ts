@@ -8,6 +8,11 @@ export async function createDirsIfNotExists(path: string) {
   }
 }
 
-export async function saveToFile(path: string, data: any) {
+export async function parseToJSONAndSaveToFile(path: string, data: any) {
   await fs.writeFile(path, JSON.stringify(data, null, 2));
+}
+
+export async function readJSONFromFile(path: string) {
+  const buffer = await fs.readFile(path);
+  return JSON.parse(buffer.toString());
 }

@@ -1,7 +1,12 @@
 import { BASE_OUT_PATH, COMBINED_DATA_OUT_PATH } from "./CONSTANTS";
 import { handleJob, jobs } from "./jobs";
 import { AnyBeer } from "./types";
-import { createDirsIfNotExists, saveToFile } from "./utils";
+
+import {
+  createDirsIfNotExists,
+  readJSONFromFile,
+  parseToJSONAndSaveToFile,
+} from "./utils";
 
 (async () => {
   try {
@@ -14,10 +19,13 @@ import { createDirsIfNotExists, saveToFile } from "./utils";
 })();
 
 async function combineOutputIntoOneFile() {
-  const outArrays: AnyBeer[][] = jobs.map(({ outPath }) => require(outPath));
+  const outArrays: AnyBeer[][] = await Promise.all(
+    jobs.map(async ({ outPath }) => readJSONFromFile(outPath))
+  );
+
   const combined = Object.values(outArrays)
     .flat()
     //sort for consistant order, that way you can easly see what changed
     .sort((a, b) => a.owner.localeCompare(b.owner));
-  await saveToFile(COMBINED_DATA_OUT_PATH, combined);
+  await parseToJSONAndSaveToFile(COMBINED_DATA_OUT_PATH, combined);
 }

@@ -1883,8 +1883,8 @@
     "name": "Tyskie Gronie",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/tyskie-136x320.png",
     "nutritionalValues": {
-      "kj": "181 kj",
-      "kcal": "43 kcal",
+      "kj": "174 kj",
+      "kcal": "42 kcal",
       "fat": "0 g",
       "saturatedFat": "0 g",
       "carbs": "3.0 g",
@@ -2810,7 +2810,7 @@
   {
     "owner": "Van Pur",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/kuflowe/2.html",
-    "img": "https://vanpur.com.pl/undefined",
+    "img": "https://vanpur.com.pl/uploads/product2.png",
     "name": "Kuflowe",
     "description": "Numer jeden wśród piw mocnych w Polsce. Jego wyrazisty smak, moc, złoto-bursztynowa barwa, ponadprzeciętna jakość i praktyczne opakowanie sprawiają, że jest to najchętniej kupowane piwo w swojej kategorii.",
     "alcoholByVolume": "7,2%",
@@ -2846,7 +2846,7 @@
   {
     "owner": "Van Pur",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/braniewo/3.html",
-    "img": "https://vanpur.com.pl/undefined",
+    "img": "https://vanpur.com.pl/uploads/product3.png",
     "name": "Braniewo",
     "description": "Niespiesznie leżakowane piwo wyróżniające się bursztynową barwą oraz charakterystyczną goryczką. Warzone na bazie szlachetnych odmian chmielu i słodu oraz wody czerpanej z własnego ujęcia.",
     "alcoholByVolume": "5,8%",
@@ -2891,7 +2891,7 @@
   {
     "owner": "Van Pur",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/slaskie/4.html",
-    "img": "https://vanpur.com.pl/undefined",
+    "img": "https://vanpur.com.pl/uploads/product4.png",
     "name": "Śląskie",
     "description": "Piwo dedykowane dojrzałym konsumentom ceniącym spokojne, solidne piwo o głębokim i pełnym smaku, bursztynowym kolorze oraz dobrze zbalansowanej słodowej goryczce.",
     "alcoholByVolume": "7%",
@@ -3107,7 +3107,7 @@
   {
     "owner": "Van Pur",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/jasne-ze-pelne/1.html",
-    "img": "https://vanpur.com.pl/undefined",
+    "img": "https://vanpur.com.pl/uploads/product1.png",
     "name": "Jasne że Pełne",
     "description": "Lekkie piwo o łagodnym smaku, zamknięte w proste i eleganckie opakowanie o matowym wykończeniu, jest skierowane do konsumentów rozpoczynających odkrywanie walorów piwa. \n\n\nDelikatna chmielowa goryczka, wywodząca się z połączenia trzech odmian chmielu, dopełniona obfitą białą pianą zapewniają mu uniwersalność dla każdej okazji.",
     "alcoholByVolume": "5%",
@@ -3116,7 +3116,7 @@
   {
     "owner": "Van Pur",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/gornoslaskie/64.html",
-    "img": "https://vanpur.com.pl/undefined",
+    "img": "https://vanpur.com.pl/uploads/product64.png",
     "name": "Górnośląskie",
     "description": "Piwo w pełni lokalne, warzone tylko w Browarze Zabrze. Górnośląskie powstaje wyłącznie z 3 składników, z których przez wieki robiono piwo: wody, słodu i chmielu, którym zawdzięcza pełnię smaku. Do jego chmielenia, uzyskania goryczki i niepowtarzalnego aromatu używamy dwóch polskich odmian chmielu - Marynka oraz Lubelski.",
     "alcoholByVolume": "5%",
