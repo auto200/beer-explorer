@@ -6,76 +6,71 @@ import {
   scrapeGrupaZywiec,
   scrapeVanPur,
 } from "./scrapers";
+import {
+  AbcalkoholuBeer,
+  CarlsbergBeer,
+  GrupaZywiecBeer,
+  VanPurBeer,
+} from "./types";
 
-const OUT_BASE = "./out";
-const CARLSBERG_OUT_PATH = `${OUT_BASE}/carlsbergpolska.json`;
-const ABC_OUT_PATH = `${OUT_BASE}/abcalkoholu.json`;
-const GRUPAZYWIEC_OUT_PATH = `${OUT_BASE}/grupazywiec.json`;
-const VAN_PUR_OUT_PATH = `${OUT_BASE}/vanpur.json`;
-const COMBINED_OUT_PATH = `${OUT_BASE}/combined.json`;
+const BASE_OUT_PATH = "./out";
+const COMBINED_OUT_PATH = `${BASE_OUT_PATH}/combined.json`;
+
+type ArrayOfAnyBeer =
+  | CarlsbergBeer[]
+  | AbcalkoholuBeer[]
+  | GrupaZywiecBeer[]
+  | VanPurBeer[];
+
+interface Job {
+  name: string;
+  outPath: string;
+  handler: () => Promise<ArrayOfAnyBeer>;
+}
+
+const jobs: Job[] = [
+  {
+    name: "Calsberg",
+    outPath: `${BASE_OUT_PATH}/carlsbergpolska.json`,
+    handler: scrapeCarlsberg,
+  },
+  {
+    name: "Abcalkoholu",
+    outPath: `${BASE_OUT_PATH}/abcalkoholu.json`,
+    handler: scrapeAbcalkoholu,
+  },
+  {
+    name: "Grupazywiec",
+    outPath: `${BASE_OUT_PATH}/grupazywiec.json`,
+    handler: scrapeGrupaZywiec,
+  },
+  {
+    name: "Van Pur",
+    outPath: `${BASE_OUT_PATH}/vanpur.json`,
+    handler: scrapeVanPur,
+  },
+];
 
 (async () => {
   try {
-    await createDirsIfNotExists(OUT_BASE);
-    await Promise.all([
-      handleCarlsberg(),
-      handleAbcalkoholu(),
-      handleGrupazywiec(),
-      handleVanPur(),
-    ]);
+    await createDirsIfNotExists(BASE_OUT_PATH);
+    await Promise.all(jobs.map(async (job) => handleJob(job)));
     await combineOutputIntoOneFile();
   } catch (err) {
     console.log(err);
   }
 })();
 
-async function handleCarlsberg() {
-  const scrapingStartTime = performance.now();
-  const carlsbergBeers = await scrapeCarlsberg();
+const handleJob = async (job: Job) => {
+  const startTime = performance.now();
+  const beers = await job.handler();
+  const delta = performance.now() - startTime;
   console.log(
-    `Carlsberg scraping done. Operation took ${
-      (performance.now() - scrapingStartTime) / 1000
-    }sec`
+    `${job.name} scraping done. Operation took ${(delta / 1000).toFixed(2)}sec`
   );
 
-  await saveToFile(CARLSBERG_OUT_PATH, carlsbergBeers);
-}
-
-async function handleAbcalkoholu() {
-  const scrapingStartTime = performance.now();
-  const abcalkoholuBeers = await scrapeAbcalkoholu();
-  console.log(
-    `Abcalkoholu scraping done. Operation took ${
-      (performance.now() - scrapingStartTime) / 1000
-    }sec`
-  );
-
-  await saveToFile(ABC_OUT_PATH, abcalkoholuBeers);
-}
-
-async function handleGrupazywiec() {
-  const scrapingStartTime = performance.now();
-  const grupaZywiecBeers = await scrapeGrupaZywiec();
-  console.log(
-    `Grupazywiec scraping done. Operation took ${
-      (performance.now() - scrapingStartTime) / 1000
-    }sec`
-  );
-
-  await saveToFile(GRUPAZYWIEC_OUT_PATH, grupaZywiecBeers);
-}
-
-async function handleVanPur() {
-  const scrapingStartTime = performance.now();
-  const vanPurBeers = await scrapeVanPur();
-  console.log(
-    `Van Pur scraping done. Operation took ${
-      (performance.now() - scrapingStartTime) / 1000
-    }sec`
-  );
-
-  await saveToFile(VAN_PUR_OUT_PATH, vanPurBeers);
-}
+  await saveToFile(job.outPath, beers);
+};
 
 async function createDirsIfNotExists(path: string) {
   try {
@@ -90,15 +85,12 @@ async function saveToFile(path: string, data: any) {
 }
 
 async function combineOutputIntoOneFile() {
-  const abcalkoholu = require(ABC_OUT_PATH);
-  const carlsberg = require(CARLSBERG_OUT_PATH);
-  const grupazywiec = require(GRUPAZYWIEC_OUT_PATH);
-  const vanpur = require(VAN_PUR_OUT_PATH);
-  const combined = Object.values({
-    abcalkoholu,
-    carlsberg,
-    grupazywiec,
-    vanpur,
-  }).flat();
+  const outArrays: ArrayOfAnyBeer[] = jobs.map(({ outPath }) =>
+    require(outPath)
+  );
+  const combined = Object.values(outArrays)
+    .flat()
+    //sort for consistant order, that way you can easly see what changed
+    .sort((a, b) => a.owner.localeCompare(b.owner));
   await saveToFile(COMBINED_OUT_PATH, combined);
 }
