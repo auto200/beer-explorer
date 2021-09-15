@@ -10,7 +10,9 @@ export const getVanPurBeerInfoFromURL = async (
   const $ = cheerio.load(html);
 
   const name = $("h1.title").text();
-  const img = `${VAN_PUR_BASE_URL}/${$(".col.photo img").attr("src")}`;
+  const img = `${VAN_PUR_BASE_URL}/${
+    $(".col.photo img").attr("src") || $("div img.product").attr("src")
+  }`;
   const description =
     $("div.col .dynamic_content.mt_40").text() ||
     $(".row.c2x1.mt_20").children().first().text();
