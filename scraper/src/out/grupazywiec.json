@@ -1,0 +1,851 @@
+[
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Zywiec-Lager-butelka-500-ml-1.png",
+    "name": "Żywiec Jasne Pełne",
+    "description": "Żywiec Jasne Pełne Żywca warzymy od zawsze tylko w jednym miejscu na świecie – w Arcyksiążęcym Browarze w Żywcu założonym w 1856 r. W sprawach piwa jesteśmy bezkompromisowi, dlatego Żywiec powstaje wyłącznie z trzech składników: słodu jęczmiennego, chmielu i krystalicznie czystej, górskiej wody. Żywiec. Zawsze tylko z Żywca.5,6% alkoholu i 12,5% ekstraktu.\nPiwo jasne, pasteryzowane, alk. 5,6% obj. Składniki: woda, słód jęczmienny, chmiel i ekstrakt z chmielu.",
+    "nutritionalValues": {
+      "kj": "182kJ",
+      "kcal": "43kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "2,8g",
+      "sugars": "0,1g",
+      "protein": "0,5g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/03/MicrosoftTeams-image-44.png",
+    "name": "Żywiec Jasne Lekkie",
+    "description": "Żywiec Jasne Lekkie Żywiec Jasne Lekkie to orzeźwiający lager o zawartości alkoholu 4,5% i niższym poziomie goryczki. Swój słonecznie złoty kolor i zbalansowany charakter zawdzięcza wyselekcjonowanej kompozycji łagodnych chmieli oraz filtrowaniu na zimno. Został uwarzony tak, by cieszyć przyjemnym i delikatnym smakiem.\nŻywiec. Chce się Ż\n4,5% alkoholu\nPiwo jasne, pasteryzowane, alk. 4,5% obj. Składniki: woda, słód jęczmienny, chmiel i ekstrakt z chmielu.",
+    "nutritionalValues": {
+      "kj": "158kJ",
+      "kcal": "38kcal",
+      "fat": "0,1g",
+      "saturatedFat": "0,1g",
+      "carbs": "2,7g",
+      "sugars": "0,7g",
+      "protein": "0,5g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Zywiec-APA-butelka-500-ml-1.png",
+    "name": "Żywiec APA",
+    "description": "Żywiec APA Receptura piwa APA jest dziełem mistrzów Żywieckiej Szkoły Piwowarskiej. Żywiec APA to intensywnie chmielowe piwo typu Pale Ale z nutą cytrusową. Warzone z użyciem pięciu odmian chmielu, przy zastosowaniu górnej fermentacji w otwartych kadziach. Dla wzbogacenia kompozycji chmielone na zimno. Najlepiej smakuje w temperaturze od 9 do 11 stopni.5,4% alkoholu i 12,5% ekstraktu.\nPiwo jasne, pasteryzowane, alk. 5,4% obj. Składniki: woda, słód jęczmienny (monachijski, karmelowy), słód pszeniczny, chmiel (Chinook, Citra, Yellow Sub, Centennial, Amarillo), ekstrakt z chmielu Magnum. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "189kJ",
+      "kcal": "45kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "3,2g",
+      "sugars": "0,9g",
+      "protein": "0,6g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Zywiec-Biale-butelka-500-mlpng-1.png",
+    "name": "Żywiec Białe",
+    "description": "Żywiec Białe Białe piwo pszeniczne, należące do piw lżejszych. Odznacza się orzeźwiającym smakiem i naturalną mętnością. Zawiera wszystko, co najlepsze w piwie pszenicznym. Jest lekkie i delikatne, a dodatkowo przyciąga dodatkiem kolendry. Piana jest biała, obfita i doskonale trzyma się w szklance.4,9% alkoholu i 11,6% ekstraktu.\nPiwo pszeniczne, pasteryzowane, alk. 4,9% obj. Składniki: woda, słód pszeniczny, słód jęczmienny, aromat naturalny, chmiel i ekstrakt z chmielu, kolendra. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "181kJ",
+      "kcal": "43kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "3,9g",
+      "sugars": "0,9g",
+      "protein": "0,5g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Zywiec-Porter-butelka-500-ml-1.png",
+    "name": "Żywiec Porter",
+    "description": "Żywiec Porter W roku 1881 pierwsze beczki Portera opuściły Arcyksiążęcy Browar w Żywcu. Jego receptura jest dziełem mistrzów z Żywieckiej Szkoły Piwowarskiej, którzy pracowali w warzelniach arcyksiążęcych w Żywcu i Cieszynie, gdzie do dziś powstaje żywiecki Porter. Głęboki i bogaty smak zawdzięcza czterem specjalnie dobranym słodom i wierności ponad 130-letniej historii pokoleń piwowarów. 9,5% alkoholu i 21% ekstraktu.\nPiwo ciemne, pasteryzowane, alk. 9,5% obj. Składniki: woda, słód jęczmienny (monachijski, pilzneński, karmelowy, palony), cukier, chmiel i ekstrakt z chmielu.",
+    "nutritionalValues": {
+      "kj": "329kJ",
+      "kcal": "79kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "5,9g",
+      "sugars": "0,4g",
+      "protein": "0,6g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2018/07/butelka_500_miniatura-1.png",
+    "name": "Żywiec 0,0%",
+    "description": "Żywiec 0,0% Od 160 lat w Browarze Arcyksiążęcym w Żywcu warzymy doskonałe piwo. Lata doświadczeń pozwoliły nam stworzyć najwyższej jakości piwo bezalkoholowe, którego wyrazisty goryczkowy smak powstaje z połączenia wyłącznie trzech składników: słodu jęczmiennego, chmielu i krystalicznie czystej, górskiej wody. To smak, którym możesz cieszyć się bez ograniczeń zawsze wtedy, kiedy masz na to ochotę. Piwo jasne, bezalkoholowe, pasteryzowane, alk. 0,0% obj. Składniki: woda, słód jęczmienny, chmiel i ekstrakt z chmielu.",
+    "nutritionalValues": {
+      "kj": "82kJ",
+      "kcal": "19kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "4,5g",
+      "sugars": "2,2g",
+      "protein": "0,3g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Zywiec-_Amerykanskie_pszeniczne-butelka-500-ml-11-1.png",
+    "name": "Żywiec  Amerykańskie Pszeniczne",
+    "description": "Żywiec Amerykańskie Pszeniczne To niezwykle orzeźwiające piwo łączy pszeniczną lekkość oraz chmielowy aromat, który zawdzięcza amerykańskim odmianom chmielu. Ich wyraziste nuty nadają nowemu piwu rześkości, a delikatny pszeniczny smak sprawia, że jest ono łagodne i łatwo pijalne. To idealna propozycja dla wszystkich, którzy rozpoczynają swoją przygodę z piwami gatunkowymi. Styl zwany American Wheat jest niezwykle popularny za oceanem. Czas więc by zasmakowali w nim także konsumenci nad Wisłą.\nPiwo pszeniczne, pasteryzowane, alk. 4,9% obj. Składniki: woda, słód pszeniczny, słody jęczmienne, chmiel. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "184kJ",
+      "kcal": "45kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "3,9g",
+      "sugars": "0,8g",
+      "protein": "0,5g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Żywiec_IPA.png",
+    "name": "Żywiec IPA",
+    "description": "Żywiec IPA Żywiec Sesyjne IPA charakteryzuje się przyjemną chmielową goryczką oraz wyraźnie wyczuwalnymi nutami owoców egzotycznych i cytrusów. Jest chmielone na zimno wyjątkową kompozycją amerykańskich chmieli.",
+    "nutritionalValues": {
+      "kj": "",
+      "fat": "",
+      "saturatedFat": "",
+      "carbs": "",
+      "sugars": "",
+      "protein": "",
+      "salt": ""
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2019/05/BIALE_00_rodzaje_piwa.png",
+    "name": "Żywiec Białe 0,0%",
+    "description": "Żywiec Białe 0,0% Żywiec Białe 0,0% to bezalkoholowe piwo pszeniczne, charakteryzujące się lekkością. Wyróżnia się orzeźwiającym smakiem i naturalną mętnością. Zawiera wszystko, co najlepsze w piwie pszenicznym. Jest lekkie i delikatne, a ponadto przyciąga dodatkiem kolendry. Piana jest biała, obfita i doskonale utrzymuje się w szklance.",
+    "nutritionalValues": {
+      "kj": "85kJ",
+      "kcal": "20kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "5g",
+      "sugars": "2,6g",
+      "protein": "<0,3g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2019/05/IPA_00_rodzaje_piwa.png",
+    "name": "Żywiec IPA 0,0%",
+    "description": "Żywiec IPA 0,0% Żywiec Sesyjne IPA 0,0% to bezalkoholowe piwo charakteryzujące się przyjemną chmielową goryczką oraz nutami owoców egzotycznych. Jest chmielone na zimno wyjątkową kompozycją amerykańskich chmieli.",
+    "nutritionalValues": {
+      "kj": "82kJ",
+      "kcal": "19kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "4,4g",
+      "sugars": "2,6g",
+      "protein": "0,4g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/10/pFodNxGGPFI6FPUzTJdD.png",
+    "name": "Żywiec Belgijskie ALE",
+    "description": "Żywiec Belgijskie ALE Belgijskie Ale to wyjątkowy okaz - wyraziste, ale łagodne piwo o pełnym, zbalansowanym smaku. Swój charakter zawdzięcza belgijskim drożdżom i górnej fermentacji. Bursztynowej barwie towarzyszy przyprawowo-owocowy bukiet smakowy.\nNajlepiej smakuje w temperaturze 8-10 stopni.\nPiwo jasne, pasteryzowane, ekstrakt 12,5% wag., alk. 5,3% obj. Składniki: woda, słody jęczmienne, słód pszeniczny, chmiel i ekstrakt z chmielu, skórka gorzkiej pomarańczy. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "202kJ",
+      "kcal": "48kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "3,2g",
+      "sugars": "0,8g",
+      "protein": "0,8g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/heineken/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2019/05/Heineken_butelka_500ml_generic1-1.png",
+    "name": "Heineken",
+    "description": "Heineken Piwo jasne, pasteryzowne, 11,4 % wag., alk. 5% obj. Składniki: woda, słód jęczmienny, ekstrakt z chmielu.",
+    "nutritionalValues": {
+      "kj": "176kJ",
+      "kcal": "42kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "3,2g",
+      "sugars": "0g",
+      "protein": "0g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/heineken/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2019/05/Heineken-0.0.-92x330.png",
+    "name": "Heineken 0.0",
+    "description": "Heineken 0.0 Piwo jasne, bezalkoholowe, pasteryzowane, alk. 0,0% obj. Składniki: woda, słód jęczmienny, aromat naturalny, ekstrakt z chmielu.",
+    "nutritionalValues": {
+      "kj": "89kJ",
+      "kcal": "21kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "4,8g",
+      "sugars": "1,3g",
+      "protein": "0g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/04/desperados-tequila-92-330.png",
+    "name": "Desperados",
+    "description": "Desperados To wyjątkowe połączenie piwa i smaku tequili - idealny wybór na imprezy. Dla osób lubiących się wyróżniać, poszukujących niezapomnianych wrażeń i łamiących stereotypy.\nPiwo aromatyzowane, pasteryzowane, alk. 6,0% obj. Składniki: woda, słód jęczmienny, syrop glukozowo-fruktozowy, kukurydza, syrop glukozowy, chmiel, aromat, regulator kwasowości (kwas cytrynowy).",
+    "nutritionalValues": {
+      "kj": "247kJ",
+      "kcal": "59kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "6,3g",
+      "sugars": "2,2g",
+      "protein": "0g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/04/MicrosoftTeams-image-6.png",
+    "name": "Desperados Red",
+    "description": "Desperados Red To wariant smakowy, który oprócz smaku tequili zawiera także ekstrakt z guarany oraz aromat cachacy. Zapewnia świeżą falę dobrego nastroju do kontynuowania zabawy przez całą noc.\nPiwo aromatyzowane, pasteryzowane, alk. 6,0% obj. Składniki: woda, słód jęczmienny, syrop cukrowy, syrop glukozowy, kukurydza, chmiel, sok z czarnego bzu z zagęszczonego soku, aromaty, ekstrakt guarany, regulator kwasowości (kwas cytrynowy).",
+    "nutritionalValues": {
+      "kj": "263kJ",
+      "kcal": "63kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "7,3g",
+      "sugars": "3,3g",
+      "protein": "0g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/04/mojito-92x330-1.png",
+    "name": "Desperados Mojito",
+    "description": "Desperados Mojito To gorące połączenie imprezowego piwa o smaku tequili, z owocowym orzeźwieniem Mojito. Sprawia, że fiesta nigdy się nie kończy.\nPiwo aromatyzowane, pasteryzowane, alk. 6,0% obj. Składniki: woda, słód jęczmienny, cukier, syrop glukozowy, kukurydza, ekstrakt z chmielu, aromat naturalny (Tequila, mięta, limonka), regulator kwasowości (kwas cytrynowy).",
+    "nutritionalValues": {
+      "kj": "263kJ",
+      "kcal": "63kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "7,0g",
+      "sugars": "3,3g",
+      "protein": "0,5g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/04/whisky-92x330-1.png",
+    "name": "Desperados Whisky Sour",
+    "description": "Desperados Whisky Sour Poczuj ekscytujące orzeźwienie z nowym Desperadosem Whisky Sour.\nSprawdź połączenie smaku klasycznego drinka z najbardziej imprezowym piwem.\nPiwo aromatyzowane, pasteryzowane, alk. 7,0% obj., składniki: woda, słód jęczmienny, syrop glukozowy, kukurydza, cukier, regulator kwasowości (kwas cytrynowy), sok cytrynowy z zagęszczonego soku, aromaty naturalne (tequila, whisky) z innymi aromatami naturalnymi, ekstrakt z chmielu. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "310kJ",
+      "kcal": "74kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "8g",
+      "sugars": "3,8g",
+      "protein": "0,4g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/04/lime-92-330.png",
+    "name": "Desperados Lime",
+    "description": "Desperados Lime Odkryj orzeźwiający smak limonki i kaktusa w nowym lżejszym Desperados Lime.\nPora na prawdziwy strzał świeżości.\nPiwo aromatyzowane, pasteryzowane, alk. 3,0% obj., składniki: woda, słód jęczmienny, syrop cukrowy, syrop glukozowy, kukurydza, regulator kwasowości (kwas cytrynowy), naturalny aromat, ekstrakt z chmielu",
+    "nutritionalValues": {
+      "kj": "167kJ",
+      "kcal": "40kcal",
+      "fat": "0,6g",
+      "saturatedFat": "0g",
+      "carbs": "5,7g",
+      "sugars": "3,2g",
+      "protein": "0,5g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/yhU1EOlN4pkcCK0AQIak.png",
+    "name": "Desperados Strawberry Margerita",
+    "description": "Desperados Strawberry Margerita Desperados Strawberry Margarita 3% łączy piwo o smaku tequili ze słodyczą dojrzałych truskawek i orzeźwieniem limonki. Wyraźnie wyczuwalna inspiracja Margaritą i imprezowy charakter Desperadosa sprawiają, że nowy wariant ma wyróżnialny na rynku smak.\nPiwo aromatyzowane tequilą (0,2%), alk. 3% obj. Składniki: woda, słód jęczmienny, cukier, syrop glukozowy, kukurydza, naturalny aromat (zawiera Tequilę), regulator kwasowości (kwas cytrynowy), barwniki (soki z zagęszczonych soków: z czarnej marchwi i z czarnego bzu), ekstrakt z chmielu. Pasteryzowane. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "165kJ",
+      "kcal": "39kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "5,6g",
+      "sugars": "3,8g",
+      "protein": "<0,3g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/tO8cViDOJRzZSlDuV0mR.png",
+    "name": "Desperados Virgin 0,0 %",
+    "description": "Desperados Virgin 0,0 % Desperados Virgin 0.0% dedykowany jest wszystkim, którzy wiedzą, jak bawić się spontanicznie i w każdej okazji potrafią dostrzec zabawowy pierwiastek. W napojach szukają orzeźwienia i smaku, który otwiera na dobrą zabawę, ale w wersji bez alkoholu.\nPiwo bezalkoholowe, aromatyzowane, pasteryzowane, alk. 0,0% obj.\nSkładniki: woda, słód jęczmienny, cukier, syrop glukozowy, kukurydza, ekstrakt z chmielu, naturalny aromat, regulator kwasowości (kwas cytrynowy). Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "137kJ",
+      "kcal": "32kcal",
+      "fat": "<0,6g",
+      "saturatedFat": "0g",
+      "carbs": "7,8g",
+      "sugars": "4g",
+      "protein": "<0,5g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/warka/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/01/Warka-Classic-2021_butelka-500ml-z-kroplami-mini.png",
+    "name": "Warka Jasne Pełne",
+    "description": "Warka Jasne Pełne Jest to jedyne piwo o prawdziwej piwnej nazwie – „warka” to w słowniku piwowarów porcja piwa uzyskana z jednego warzenia. Piwo jasne, pasteryzowane, alk. 5,2% obj. Składniki: woda, słód jęczmienny, kukurydza, jęczmień, ekstrakt z chmielu i chmiel.",
+    "nutritionalValues": {
+      "kj": "172kJ",
+      "kcal": "41kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "2,7g",
+      "sugars": "0,8g",
+      "protein": "0,5g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/warka/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/01/Warka-Strong-2021_butelka-500ml-z-kroplami-mini.png",
+    "name": "Warka Strong",
+    "description": "Warka Strong Piwo o charakterystycznym smaku, który polscy konsumenci rozpoznają z zamkniętymi oczami. Charakteryzuje się oryginalnym słodowo-chmielowym smakiem, piękną, głęboką, bursztynową barwą oraz wyższą zawartością alkoholu (6,3%). Wyjątkowość Stronga jest rezultatem unikalnej kompozycji dwóch słodów: pilzneńskiego, który nadaje mu charakter piwny i prażonego, które dodaje unikalny słodkawy posmak oraz bursztynową barwę. Strong to piwo o doskonałej jakości, cieszące się od lat dużym zainteresowaniem i uznaniem konsumentów.\nPiwo jasne, pasteryzowane, alk. 6,3% obj. Składniki: woda, słód jęczmienny (jasny pilzneński i ciemny prażony), kukurydza, jęczmień, syrop glukozowy, syrop glukozowo-fruktozowy, ekstrakt z chmielu i chmiel.",
+    "nutritionalValues": {
+      "kj": "210kJ",
+      "kcal": "50kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "3,5g",
+      "sugars": "0,9g",
+      "protein": "0,4g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/03/d_Warka-00_butelka500_Cytryna-krople.png",
+    "name": "Warka Radler 0.0% Cytryna",
+    "description": "Warka Radler 0.0% Cytryna Innowacyjne połączenie 40% bezalkoholowego piwa Warka i 60% cytrusowej lemoniady. To doskonały smak i 0,0% alkoholu. Podwójne orzeźwienie o każdej porze dnia i w każdej sytuacji. Wyprodukowany na bazie cytrusowej lemoniady, bez dodatków barwników i substancji konserwujących. Serwowany w wysokiej szklance w temperaturze 3 stopni Celsjusza.\nBezalkoholowy napój piwny. Piwo bezalkoholowe Warka (40%) z lemoniadą o smaku cytrusowym (60%), pasteryzowane, alk. 0,0% obj. Składniki: woda, syrop fruktozowy, słód jęczmienny, sok cytrynowy z zagęszczonego soku (2,4%), sok pomarańczowy z zagęszczonego soku (1,8%), naturalny aromat, stabilizator (guma arabska), regulator kwasowości (kwas cytrynowy), przeciwutleniacz (kwas askorbinowy), ekstrakt trawy cytrynowej, ekstrakt z chmielu i chmiel. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "160kJ",
+      "kcal": "38kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "9g",
+      "sugars": "7,5g",
+      "protein": "0,2g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/03/d_Warka-00_butelka500_Grejpfrut-krople.png",
+    "name": "Warka Radler Grejpfrut z Pomarańczą 0%",
+    "description": "Warka Radler Grejpfrut z Pomarańczą 0% Bezalkoholowy napój piwny. Piwo bezalkoholowe Warka (40%) z lemoniadą o smaku grejpfruta i pomarańczy (60%), pasteryzowane, alk. 0,0% obj. Składniki: woda, syrop fruktozowy, słód jęczmienny, soki z zagęszczonych soków: cytrynowy (2,8%), pomarańczowy (1,2%), grejpfrutowy (1,0%), ekstrakt z cytryny, naturalny aromat grejpfruta z innymi naturalnymi aromatami, koncentrat soku z czarnej marchwi, stabilizator (mączka chleba świętojańskiego), ekstrakt z chmielu i chmiel. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "153kJ",
+      "kcal": "36kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "9g",
+      "sugars": "7,2g",
+      "protein": "0g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/03/d_Warka-00_butelka500_Jablko-krople.png",
+    "name": "Warka Radler Jabłko z Miętą 0%",
+    "description": "Warka Radler Jabłko z Miętą 0% Bezalkoholowy napój piwny. Piwo bezalkoholowe Warka (40%) z lemoniadą o smaku jabłka z miętą (60%), pasteryzowane, alk. 0,0% obj. Składniki: woda, syrop fruktozowy, słód jęczmienny, soki z zagęszczonych soków: jabłkowy (4,0%), cytrynowy (1,9%), naturalny aromat, ekstrakt z cytryny, stabilizator (guma arabska), olejek z mięty zielonej, ekstrakt z chmielu i chmiel. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "155kJ",
+      "kcal": "36kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "9,1g",
+      "sugars": "7,6g",
+      "protein": "0g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/03/d_Warka-00_butelka500_Dark_krople.png",
+    "name": "Warka Radler Ciemne Cytrynowe 0%",
+    "description": "Warka Radler Ciemne Cytrynowe 0% Bezalkoholowy napój piwny. Piwo ciemne bezalkoholowe Warka (50%) z lemoniadą o smaku cytrusowym (50%), pasteryzowane, alk. 0,0% obj. Składniki: woda, cukier, słód jęczmienny, ekstrakt słodu jęczmiennego, soki z zagęszczonych soków: cytrynowy (0,75%), limonkowy (0,7%), z aceroli ( 0,1%), naturalny aromat limonki z innymi naturalnymi aromatami, ekstrakt z chmielu i chmiel. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "139kJ",
+      "kcal": "33kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "8,2g",
+      "sugars": "6,1g",
+      "protein": "<0,3g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/03/d_Warka-00_butelka500_Rabarbar-krople.png",
+    "name": "Warka Radler Rabarbar z Truskawką 0%",
+    "description": "Warka Radler Rabarbar z Truskawką 0% Bezalkoholowy napój piwny. Piwo bezalkoholowe Warka (40%) z lemoniadą o smaku rabarbaru i truskawki (60%), pasteryzowane, alk. 0% obj. Składniki: woda, cukier, słód jęczmienny, soki z zagęszczonych soków: limonkowy (4,3%), rabarbarowy (0,1%), truskawkowy (0,1%). Koncentrat soku z czarnej marchwi, naturalny aromat, stabilizator, (guma arabska), ekstrakt pomarańczowy z koncentratu, ekstrakt z chmielu i chmiel. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "141kJ",
+      "kcal": "33kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "8,3g",
+      "sugars": "7g",
+      "protein": "0,3g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/EWtbb4dU1pO11CvR2fF9.png",
+    "name": "Warka Radler Ananas z Cytrusami 0%",
+    "description": "Warka Radler Ananas z Cytrusami 0% Bezalkoholowy napój piwny. Piwo bezalkoholowe Warka (40%) z lemoniadą o smaku ananasa z cytrusami (60%), pasteryzowane, alk. 0,0% obj. Składniki: woda, cukier, słód jęczmienny, soki z zagęszczonych soków: cytrynowy (3,5%), pomarańczowy (0,9%), ananasowy (0,1%), z aceroli (0,1%), naturalny aromat, ekstrakt słodu jęczmiennego, stabilizator (guma arabska), ekstrakt trawy cytrynowej, ekstrakt z chmielu. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "141kJ",
+      "kcal": "33kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "8,3g",
+      "sugars": "6,6g",
+      "protein": "<0,3g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/FsptXswalySd5lnTaP5t.png",
+    "name": "Warka Radler Kiwi z Pigwą 0%",
+    "description": "Warka Radler Kiwi z Pigwą 0% Bezalkoholowy napój piwny. Piwo bezalkoholowe Warka (40%) z lemoniadą o smaku kiwi z pigwą (60%), pasteryzowane, alk. 0,0% obj. Zawiera cukier i substancje słodzące. Składniki: woda, słód jęczmienny, cukier, soki z zagęszczonych soków: pomarańczowy (1,0%), jabłkowy (0,8%), cytrynowy (0,5%), z kiwi (0,1%), pigwowy (0,1%), naturalny aromat, regulator kwasowości (kwasek cytrynowy), ekstrakt cytryny, stabilizator (guma arabska), substancja słodząca (glikozydy stewiolowe), ekstrakt z chmielu. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "104kJ",
+      "kcal": "24kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "5,8g",
+      "sugars": "4,3g",
+      "protein": "0,3g",
+      "salt": "0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/MicrosoftTeams-image-59.png",
+    "name": "Warka Radler 3,5% Cytryna",
+    "description": "Warka Radler 3,5% Cytryna Napój piwny o smaku cytrusowym, pasteryzowany, alk. 3,5% obj. Połączenie piwa (60%) z lemoniadą o smaku cytrusowym (40%). Składniki: woda, słód jęczmienny, cukier, kukurydza, soki z zagęszczonych soków: cytrynowy (2,2%), pomarańczowy (1,8%), naturalny aromat, regulator kwasowości (kwas cytrynowy), stabilizator (guma arabska), przeciwutleniacz (kwas askorbinowy), ekstrakt trawy cytrynowej, chmiel. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "198kJ",
+      "kcal": "47kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "6,8g",
+      "sugars": "5g",
+      "protein": "<0,3g",
+      "salt": "0,02g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/d_Warka-Radler-35-Jablko-Gruszka_butelka-500ml_krople_50cm.png",
+    "name": "Warka Radler 3,5% Jabłko z Gruszką",
+    "description": "Warka Radler 3,5% Jabłko z Gruszką Napój piwny o smaku jabłka z gruszką, pasteryzowany, alk. 3,5% obj. Połączenie piwa (60%) z lemoniadą o smaku jabłka z gruszką (40%).\nSkładniki: woda, słód jęczmienny, cukier, kukurydza, soki z zagęszczonych soków: jabłkowy (3%), gruszkowy (1%), naturalny aromat, regulatory kwasowości (kwas cytrynowy i kwas jabłkowy), stabilizator (guma arabska), chmiel. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "205kJ",
+      "kcal": "49kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "7,2g",
+      "sugars": "5,3g",
+      "protein": "<0,3g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/MicrosoftTeams-image-58-1.png",
+    "name": "Warka Radler 3,5% Malina z Cytrusami",
+    "description": "Warka Radler 3,5% Malina z Cytrusami Napój piwny o smaku maliny z cytrusami, pasteryzowany, alk. 3,5% obj. Połączenie piwa (60%) z lemoniadą o smaku maliny z cytrusami (40%).\nSkładniki: woda, słód jęczmienny, cukier, kukurydza, soki z zagęszczonych soków: cytrynowy (1,5%), jabłkowy (1,3%), grejpfrutowy (0,5%), pomarańczowy (0,5%), limonkowy (0,1%), malinowy (0,1%), barwnik (koncentrat z marchwi), ekstrakt z cytryny, regulator kwasowości (kwas cytrynowy), naturalne aromaty, ekstrakt z pomarańczy, stabilizator (mączka chleba świętojańskiego), chmiel. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "213kJ",
+      "kcal": "51kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "7,7g",
+      "sugars": "5,6g",
+      "protein": "<0,3g",
+      "salt": "0,1g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/MicrosoftTeams-image-56-1.png",
+    "name": "Warka Radler 3,5% Granat z Pomarańczą",
+    "description": "Warka Radler 3,5% Granat z Pomarańczą Napój piwny o smaku granatu z pomarańczą. Piwo Warka (60%) z lemoniadą o smaku granatu z pomarańczą (40%), pasteryzowane, alk. 3,5% obj. Składniki: woda, cukier, słód jęczmienny, kukurydza, soki z zagęszczonych soków: pomarańczowy (1,0%), jabłkowy (0,9%), cytrynowy (0,5%), z granatu (0,1%), aromat naturalny, regulator kwasowości (kwas cytrynowy), ekstrakt z cytryny, barwnik (koncentrat z czarnej marchwi), stabilizator (guma arabska), chmiel. Mętność i osad są naturalnymi cechami produktu.",
+    "nutritionalValues": {
+      "kj": "201kJ",
+      "kcal": "48kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "7g",
+      "sugars": "5g",
+      "protein": "<0,3g",
+      "salt": "0,1g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/eb/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/EB_butelka_500_prosta-1.png",
+    "name": "EB",
+    "description": "EB Piwo jasne, pasteryzowane, alk. 5,2% obj. Składniki: woda, słód jęczmienny, ekstrakt z chmielu i chmiel.",
+    "nutritionalValues": {
+      "kj": "184kJ",
+      "kcal": "44kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "3,3g",
+      "sugars": "1g",
+      "protein": "0,5g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/specjal/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/l687Iumzbc76xmelm0qx.png",
+    "name": "Specjal Jasny Pełny",
+    "description": "Specjal Jasny Pełny Specjal Jasny Pełny to lager o bogatym, szlachetnym smaku i wyraźnie zaznaczonej goryczce oraz zawartości alkoholu 5,8% obj. To flagowe piwo Browaru w Elblągu warzone z najlepszej jakości składników według oryginalnej receptury.\nSkładniki: woda, słód jęczmienny, kukurydza, ekstrakt z chmielu i chmiel.",
+    "nutritionalValues": {
+      "kj": "189kJ",
+      "kcal": "45kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "3,2g",
+      "sugars": "1,5g",
+      "protein": "0,3g",
+      "salt": "0g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/namyslow/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/namyslow-pils.png",
+    "name": "Namysłów Pils",
+    "description": "Namysłów Pils Piwo Namysłów Pils to klasyka gatunku. Złociste, klarowne, tradycyjne, pełne piwo o wysokim chmielowym aromacie i idealnie zbalansowanej goryczce. Smakuje przy każdej okazji. Początkowo wyczuwalne zielone nuty chmielu, stopniowo ustępują miejsca słodkim aromatom słodowym by na koniec ustąpić miejsca wyraźnej, ale szlachetnej goryczce chmielowej. Piwo rześkie, z półwytrawnym finiszem. Na oryginalny, wyjątkowy smak Pilsa ogromny wpływ ma tradycyjny sposób warzenia, niespieszne fermentowanie w otwartej kadzi. Pils powstaje dzięki zastosowaniu drożdży dolnej fermentacji, co wymaga długiej fermentacji i leżakowania w niskich temperaturach. Musujący bukiet chmielowy to znak rozpoznawczy Pilsa. Idealny na rozpoczęcie piwnej degustacji z uwagi na jego sesyjny, bardzo orzeźwiający charakter. 6,0% alkoholu i 12% ekstraktu.\nPiwo jasne, pasteryzowane, alk. 6,0%. Składniki: woda, słód jęczmienny, jęczmień, chmiel, ekstrakt z chmielu.",
+    "nutritionalValues": {
+      "kj": "184kJ",
+      "kcal": "44kcal",
+      "fat": "<0,1g",
+      "saturatedFat": "<0,1g",
+      "carbs": "3,1g",
+      "sugars": "<1,7g",
+      "protein": "0,3g",
+      "salt": "<0,021g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/namyslow/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/namyslow.png",
+    "name": "Namysłów Ciemne typu Irlandzkiego",
+    "description": "Namysłów Ciemne typu Irlandzkiego Namysłów ciemne typu Irlandzkiego. Warzone z pięciu słodów piwo ciemne mocno słodowe, kremowe z nutami karmelowymi, kawowymi, czekoladowymi, toffi i chlebowymi, bez posmaków dymionych i przypalonych. Piwo, czyste, gładkie, o delikatnej goryczce, pozostającej na dalszym planie, równoważącej słodycz piwa. Aromat chmielowy lekko wyczuwalny. Kolor ciemno brązowy z czerwonymi refleksami widocznymi zwłaszcza w promieniach słońca, gęsta, kremowa, długo utrzymującą się piana. Piwo pełne, treściwe, końcówka słodkawa, przypominająca rodzynki, umiarkowanie nagazowanie. Sesyjny charakter sprawia, że można cieszyć się tym ciemnym piwem przez cały wieczór. 4,7% alkoholu i 12% ekstraktu.\nPiwo ciemne, pasteryzowane, alk. 4,7%. Składniki: woda, słody jęczmienne: jasny pilzneński, monachijski, melanoidowy, karmelowy oraz czekoladowy ciemny, chmiel.",
+    "nutritionalValues": {
+      "kj": "190kJ",
+      "kcal": "45kcal",
+      "fat": "<0,1g",
+      "saturatedFat": "<0,1g",
+      "carbs": "4,2g",
+      "sugars": "<2,5g",
+      "protein": "0,4g",
+      "salt": "<0,016g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/tatra/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/BUTELKA_500-TATRA-JASNE_MALY-1.png",
+    "name": "Tatra Janse Pełne",
+    "description": "Tatra Janse Pełne Klasyczny lager o wyraźnym aromacie i doskonałym, głębokim smaku, ceniony przez piwoszy preferujących tradycyjne, męskie piwo. Świetnie sprawdza się podczas chwili wytchnienia po ciężkim dniu. Zawartość alkoholu – 6%.\nPiwo jasne, pasteryzowane, alk. 6,0% obj., zawiera słód jęczmienny i jęczmień.",
+    "nutritionalValues": {
+      "kj": "192kJ",
+      "kcal": "46kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "2,3g",
+      "sugars": "0,7g",
+      "protein": "0,8g",
+      "salt": "<0.01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/tatra/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/Tatra_M_butelka_packshot_RGB-copy-1.png",
+    "name": "Tatra Mocne",
+    "description": "Tatra Mocne Wariant o zwiększonej zawartości alkoholu i ekstraktu. To wybór konsumentów o wyrobionym smaku, szukających intensywnej goryczki doprawionej wyrazistym aromatem chmielu.Zawartość alkoholu – 7%.\nPiwo jasne, pasteryzowane, alk. 7,0% obj., zawiera słód jęczmienny i jęczmień.",
+    "nutritionalValues": {
+      "kj": "219kJ",
+      "kcal": "52kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "2,9g",
+      "sugars": "0,2g",
+      "protein": "0,4g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/krolewskie/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/BUTELKA_KROLEWSKIE_RGB-1.png",
+    "name": "Królewskie",
+    "description": "Królewskie Piwo jasne, które łączy w sobie warszawski charakteri królewski pełny smak. Zawartość alkoholu 5.6%\nPiwo jasne, pasteryzowane, alk. 5,6% obj. Składniki: woda, słód jęczmienny, kukurydza, jęczmień, ekstrakt z chmielu i chmiel.",
+    "nutritionalValues": {
+      "kj": "175kJ",
+      "kcal": "42kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "2,5g",
+      "sugars": "0,7g",
+      "protein": "0,3g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/lezajsk/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/LEZAJSK_BUTELKA_500_PELNE_RGB-1.png",
+    "name": "Leżajsk Pełne",
+    "description": "Leżajsk Pełne Klasyczny jasny lager, który swój niepowtarzalny smak zawdzięcza miejscu pochodzenia – naturalnemu, spokojnemu regionowi Podkarpacia. To doskonały wybór dla tych, którzy cenią harmonię smaku pełnego piwa. Zawartość alkoholu 5,5% obj.\nPiwo jasne, pasteryzowane, alk. 5,5% obj., zawiera słód jęczmienny i jęczmień.",
+    "nutritionalValues": {
+      "kj": "177kJ",
+      "kcal": "42kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "2,5g",
+      "sugars": "0,7g",
+      "protein": "0,4g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/lezajsk/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/LEZAJSK_BUTELKA_500_CHMIEL_RGB-1.png",
+    "name": "Leżajsk Chmielowe Pils",
+    "description": "Leżajsk Chmielowe Pils Powstaje na bazie wody, słodu jęczmiennego i chmielu aromatycznego. Jest chmielone na zimno i leżakuje w unikalnych, poziomych tankach w regionalnym browarze w Leżajsku. Zawartość alkoholu 5,0%. Piwo jasne, pasteryzowane, alk. 5,0 % obj. Składniki: woda, słody jęczmienne, ekstrakt z chmielu i chmiel.",
+    "nutritionalValues": {
+      "kj": "179kJ",
+      "kcal": "43kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "3g",
+      "sugars": "1g",
+      "protein": "0,7g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/lezajsk/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/Grafika_Butelka-lezajsk1.png",
+    "name": "Leżajsk Pszeniczne Klarowne",
+    "description": "Leżajsk Pszeniczne Klarowne Powstaje z użyciem drożdży górnej fermentacji, na bazie wody, słodu pszenicznego, słodu jęczmiennego i chmielu. To dowód na to, że piwo pszeniczne nie musi być mętne. Zawartość alkoholu 5,0% obj.\nPiwo pszeniczne górnej fermentacji, pasteryzowane, filtrowane, alk. 5,0 % obj. Składniki: woda, słód pszeniczny, słody jęczmienne, chmiel i ekstrakt z chmielu.",
+    "nutritionalValues": {
+      "kj": "181kJ",
+      "kcal": "43kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "3,2g",
+      "sugars": "0,9g",
+      "protein": "0,6g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/lezajsk/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/lezajsk-xxl.png",
+    "name": "Leżajsk Niepasteryzowane",
+    "description": "Leżajsk Niepasteryzowane Piwo jasne, niepasteryzowane, mikrofiltrowane, alk. 5,1% obj. Składniki: woda, słód jęczmienny, kukurydza, jęczmień, ekstrakt z chmielu i chmiel.",
+    "nutritionalValues": {
+      "kj": "173kJ",
+      "kcal": "42kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "2,9g",
+      "sugars": "0,8g",
+      "protein": "0,3g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/brackie/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/04/brackie_cieszyn_rodzaje_piwa.jpg",
+    "name": "Brackie Cieszyn",
+    "description": "Brackie Cieszyn Piwo jasne dolnej fermentacji. Jest warzone w najbardziej tradycyjnym Browarze Grupy Żywiec – Brackim Browarze Zamkowym w Cieszynie. Do dziś przy produkcji piwa stosuje się tam otwarte kadzie fermentacyjne. Piwo jasne, pasteryzowane, alk. 5,5% obj. Składniki: woda, słód jęczmienny, cukier, ekstrakt z chmielu i chmiel.",
+    "nutritionalValues": {
+      "kj": "187kJ",
+      "kcal": "45kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "3g",
+      "sugars": "0,8g",
+      "protein": "0,5g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/brackie/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/Brackie-Pils-butelka-wizualizacja-png-32-2017-07-27-1.png",
+    "name": "Brackie Pils",
+    "description": "Brackie Pils Receptura Brackie Pils powstała w Cieszynie – wyjątkowym mieście, gdzie na dwóch brzegach rzeki Olzy Polacy i Czesi wspólnie żyją, pracują i wymieniają się doświadczeniami. Stworzyło ją dwóch browarników: z Cieszyna i Czech, a każdy z nich wniósł do tego wyjątkowego piwa swoje wieloletnie doświadczenie i kunszt piwowarski. Mirosław Pastucha to piwowar z niemal 20-letnim stażem, który poznawał tajniki warzenia doskonałego piwa od swojego ojca, także browarnika. Czeski piwowar, Svatopluk Vrzala swoją karierę w browarnictwie rozpoczął po ukończeniu studiów w Pradze i od tego czasu z niesłabnącą pasją warzy kolejne piwa. Warzone w Browarze w Żywcu.\nPiwo jasne, pasteryzowane, alk. 5,2% obj. Składniki: woda, słód jęczmienny, jęczmień, chmiel i ekstrakt z chmielu.",
+    "nutritionalValues": {
+      "kj": "193kJ",
+      "kcal": "46kcal",
+      "fat": "0g",
+      "saturatedFat": "0g",
+      "carbs": "3,7g",
+      "sugars": "1g",
+      "protein": "0,5g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/zlaty-bazant/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2019/03/zlaty_bazant_miniatura_wieksza.png",
+    "name": "Zlatý Bažant",
+    "description": "Zlatý Bažant Piwo jasne, pasteryzowane, ekstrakt 12% wag., alk. 4,7% obj. Składniki: woda, słód jęczmienny, ekstrakt z chmielu i chmiel.",
+    "nutritionalValues": {
+      "kj": "184kJ",
+      "kcal": "44kcal",
+      "fat": "<0,05g",
+      "saturatedFat": "<0,03g",
+      "carbs": "4g",
+      "sugars": "<0,5g",
+      "protein": "0,6g",
+      "salt": "<0,01g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/pozostale-marki/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/06/zamkowe-92-330.png",
+    "name": "Zamkowe",
+    "description": "Zamkowe Regionalny lager o tradycyjnej, szlachetnej goryczce. Sięgając po piwo Zamkowe, cieszysz się tradycyjnym, naturalnym pełnym smakiem, gęstą pianą oraz wspaniałym chmielowym aromatem. Połączenie tradycyjnej receptury, krystalicznej wody z własnego źródła, najszlachetniejszych odmian chmielu i słodu sprawia, że regionalne piwo Zamkowe, niezmiennie od wieków cieszy podniebienia smakoszy. Nasza tradycyjna metoda sprawia, że w piwie Zamkowe zachowujemy pełnię smaku. Niepowtarzalny chmielowy aromat piwa Zamkowe zawdzięczamy trzeciej dawce chmielu. Warzone blisko stąd, rodzime piwo Zamkowe doskonale gasi pragnienie.\nPiwo jasne, pasteryzowane, alk. 5,6% obj. Składniki: woda, słód jęczmienny, jęczmień, chmiel, ekstrakt z chmielu.",
+    "nutritionalValues": {
+      "kj": "166kJ",
+      "kcal": "40kcal",
+      "fat": "<0,1g",
+      "saturatedFat": "<0,1g",
+      "carbs": "2,4g",
+      "sugars": "<1,2g",
+      "protein": "0,5g",
+      "salt": "<0,017g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/pozostale-marki/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/zloty-denar.png",
+    "name": "Złoty Denar",
+    "description": "Złoty Denar Złociste piwo o wyrazistym smaku, jego wysoka jakość kryje w sobie tajemnicę niepowtarzalnej receptury.\nPiwo jasne, pasteryzowane, alk. 4,0% obj. Składniki: woda, słód jęczmienny, jęczmień, chmiel, ekstrakt z chmielu.",
+    "nutritionalValues": {
+      "kj": "127kJ",
+      "kcal": "30kcal",
+      "fat": "<0,1g",
+      "saturatedFat": "<0,1g",
+      "carbs": "2,1g",
+      "sugars": "<1,3g",
+      "protein": "0,4g",
+      "salt": "<0,016g"
+    }
+  },
+  {
+    "owner": "Grupa Żywiec",
+    "originalUrl": "https://www.grupazywiec.pl/marki/pozostale-marki/",
+    "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/zloty-denar-mocny.png",
+    "name": "Złoty Denar Mocny",
+    "description": "Złoty Denar Mocny Piwo o pełnym piwnym smaku oraz stałej wysokiej jakości – bez kompromisów.\nPiwo jasne, pasteryzowane, alk. 6,1% obj. Składniki: woda, słód jęczmienny, jęczmień, chmiel, ekstrakt z chmielu.",
+    "nutritionalValues": {
+      "kj": "183kJ",
+      "kcal": "44kcal",
+      "fat": "<0,1g",
+      "saturatedFat": "<0,1g",
+      "carbs": "3,0g",
+      "sugars": "<1,6g",
+      "protein": "0,5g",
+      "salt": "<0,017g"
+    }
+  }
+]
