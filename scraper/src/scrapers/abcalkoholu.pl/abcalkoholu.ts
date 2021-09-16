@@ -48,6 +48,7 @@ const getNutritionalValues = (
   $(el)
     .find(".attributes .col-auto.value")
     .each((i, el) => {
+      //first row contains information about both kj and kcal
       if (i === 0) {
         const [kj, kcal] = $(el)
           .text()
@@ -57,6 +58,7 @@ const getNutritionalValues = (
         nutritionalValues.kcal = kcal;
         return;
       }
+
       const key = Object.keys(nutritionalValues)[
         i + 1
       ] as keyof typeof nutritionalValues;
