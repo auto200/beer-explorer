@@ -21,17 +21,18 @@ const BeerGridItem: React.FC<Props> = ({ beer }) => {
   const titleRef = useRef<HTMLHeadingElement>(null);
 
   useEffect(() => {
-    const MARGIN = 3;
     if (!titleRef.current) return;
+
+    const MARGIN = 3;
+    const { scrollHeight, clientHeight } = titleRef.current;
     //for some reason all elements even not visibly overflowing have some margin
-    if (titleRef.current.scrollHeight - titleRef.current.clientHeight > MARGIN)
-      setIsTooltipVisible(true);
-  }, [titleRef.current]);
+    if (scrollHeight - clientHeight > MARGIN) setIsTooltipVisible(true);
+  }, []);
 
   return (
     //TODO: pass proper href to the product page
     <Link href="#">
-      <VStack>
+      <VStack as="a">
         <Tooltip
           label={beer.name}
           placement="top"
