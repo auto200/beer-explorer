@@ -1,5 +1,5 @@
 import cheerio, { CheerioAPI } from "cheerio";
-import { GrupaZywiecBeer } from "../../types";
+import { GrupaZywiecBeer } from "@shared/types";
 import axios from "../axiosInstance";
 import { getGrupaZywiecBeersInfoFromCollectionUrl } from "./grupaZywiec.beerPage";
 import { GRUPA_ZYWIEC_BEER_COLLECTION_URL } from "./grupaZywiec.constants";

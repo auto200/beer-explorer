@@ -1,5 +1,5 @@
 import cheerio, { CheerioAPI, Element } from "cheerio";
-import { GrupaZywiecBeer, NutritionalValues } from "../../types";
+import { GrupaZywiecBeer, NutritionalValues } from "@shared/types";
 import axios from "../axiosInstance";
 
 export const getGrupaZywiecBeersInfoFromCollectionUrl = async (

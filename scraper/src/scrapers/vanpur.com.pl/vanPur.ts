@@ -1,5 +1,5 @@
 import cheerio from "cheerio";
-import { VanPurBeer } from "../../types";
+import { VanPurBeer } from "@shared/types";
 import axios from "../axiosInstance";
 import { getVanPurBeerInfoFromURL } from "./vanPur.beerPage";
 import {

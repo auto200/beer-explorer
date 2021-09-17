@@ -1,5 +1,5 @@
 import cheerio, { CheerioAPI, Element } from "cheerio";
-import { AbcalkoholuBeer, NutritionalValues } from "../../types";
+import { AbcalkoholuBeer, NutritionalValues } from "@shared/types";
 import axios from "../axiosInstance";
 import { ABC_ALKOHOLU_BEER_COLLECTION_URL } from "./abcalkoholu.constants";
 

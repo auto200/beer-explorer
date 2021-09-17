@@ -1,6 +1,6 @@
 import { BASE_OUT_PATH, COMBINED_DATA_OUT_PATH } from "./CONSTANTS";
 import { handleJob, jobs } from "./jobs";
-import { AnyBeer } from "./types";
+import { AnyBeer } from "@shared/types";
 
 import {
   createDirsIfNotExists,

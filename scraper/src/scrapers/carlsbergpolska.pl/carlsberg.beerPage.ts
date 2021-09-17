@@ -1,5 +1,5 @@
 import cheerio, { CheerioAPI } from "cheerio";
-import { CarlsbergBeer, NutritionalValues } from "../../types";
+import { CarlsbergBeer, NutritionalValues } from "@shared/types";
 import axios from "../axiosInstance";
 import { CARLSBERG_BASE_URL } from "./carlsberg.constants";
 

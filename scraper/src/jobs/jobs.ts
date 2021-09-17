@@ -6,7 +6,7 @@ import {
   scrapeGrupaZywiec,
   scrapeVanPur,
 } from "../scrapers";
-import { AnyBeer } from "../types";
+import { AnyBeer } from "@shared/types";
 import { parseToJSONAndSaveToFile } from "../utils";
 
 interface Job {
