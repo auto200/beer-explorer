@@ -1,6 +1,10 @@
 [
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-Jasne-Pelne",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Zywiec-Lager-butelka-500-ml-1.png",
     "name": "Żywiec Jasne Pełne",
@@ -17,7 +21,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-Jasne-Lekkie",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/03/MicrosoftTeams-image-44.png",
     "name": "Żywiec Jasne Lekkie",
@@ -34,7 +42,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-APA",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Zywiec-APA-butelka-500-ml-1.png",
     "name": "Żywiec APA",
@@ -51,7 +63,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-Biale",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Zywiec-Biale-butelka-500-mlpng-1.png",
     "name": "Żywiec Białe",
@@ -68,7 +84,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-Porter",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Zywiec-Porter-butelka-500-ml-1.png",
     "name": "Żywiec Porter",
@@ -85,7 +105,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-00",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2018/07/butelka_500_miniatura-1.png",
     "name": "Żywiec 0,0%",
@@ -102,7 +126,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-Amerykanskie-Pszeniczne",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Zywiec-_Amerykanskie_pszeniczne-butelka-500-ml-11-1.png",
     "name": "Żywiec  Amerykańskie Pszeniczne",
@@ -119,7 +147,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-IPA",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Żywiec_IPA.png",
     "name": "Żywiec IPA",
@@ -135,7 +167,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-Biale-00",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2019/05/BIALE_00_rodzaje_piwa.png",
     "name": "Żywiec Białe 0,0%",
@@ -152,7 +188,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-IPA-00",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2019/05/IPA_00_rodzaje_piwa.png",
     "name": "Żywiec IPA 0,0%",
@@ -169,7 +209,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-Belgijskie-ALE",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/10/pFodNxGGPFI6FPUzTJdD.png",
     "name": "Żywiec Belgijskie ALE",
@@ -186,7 +230,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Heineken",
     "originalUrl": "https://www.grupazywiec.pl/marki/heineken/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2019/05/Heineken_butelka_500ml_generic1-1.png",
     "name": "Heineken",
@@ -203,7 +251,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Heineken-0.0",
     "originalUrl": "https://www.grupazywiec.pl/marki/heineken/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2019/05/Heineken-0.0.-92x330.png",
     "name": "Heineken 0.0",
@@ -220,7 +272,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Desperados",
     "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/04/desperados-tequila-92-330.png",
     "name": "Desperados",
@@ -237,7 +293,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Desperados-Red",
     "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/04/MicrosoftTeams-image-6.png",
     "name": "Desperados Red",
@@ -254,7 +314,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Desperados-Mojito",
     "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/04/mojito-92x330-1.png",
     "name": "Desperados Mojito",
@@ -271,7 +335,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Desperados-Whisky-Sour",
     "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/04/whisky-92x330-1.png",
     "name": "Desperados Whisky Sour",
@@ -288,7 +356,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Desperados-Lime",
     "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/04/lime-92-330.png",
     "name": "Desperados Lime",
@@ -305,7 +377,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Desperados-Strawberry-Margerita",
     "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/yhU1EOlN4pkcCK0AQIak.png",
     "name": "Desperados Strawberry Margerita",
@@ -322,7 +398,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Desperados-Virgin-00-",
     "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/tO8cViDOJRzZSlDuV0mR.png",
     "name": "Desperados Virgin 0,0 %",
@@ -339,7 +419,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Jasne-Pelne",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/01/Warka-Classic-2021_butelka-500ml-z-kroplami-mini.png",
     "name": "Warka Jasne Pełne",
@@ -356,7 +440,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Strong",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/01/Warka-Strong-2021_butelka-500ml-z-kroplami-mini.png",
     "name": "Warka Strong",
@@ -373,7 +461,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-0.0-Cytryna",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/03/d_Warka-00_butelka500_Cytryna-krople.png",
     "name": "Warka Radler 0.0% Cytryna",
@@ -390,7 +482,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-Grejpfrut-z-Pomarancza-0",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/03/d_Warka-00_butelka500_Grejpfrut-krople.png",
     "name": "Warka Radler Grejpfrut z Pomarańczą 0%",
@@ -407,7 +503,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-Jablko-z-Mieta-0",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/03/d_Warka-00_butelka500_Jablko-krople.png",
     "name": "Warka Radler Jabłko z Miętą 0%",
@@ -424,7 +524,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-Ciemne-Cytrynowe-0",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/03/d_Warka-00_butelka500_Dark_krople.png",
     "name": "Warka Radler Ciemne Cytrynowe 0%",
@@ -441,7 +545,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-Rabarbar-z-Truskawka-0",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/03/d_Warka-00_butelka500_Rabarbar-krople.png",
     "name": "Warka Radler Rabarbar z Truskawką 0%",
@@ -458,7 +566,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-Ananas-z-Cytrusami-0",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/EWtbb4dU1pO11CvR2fF9.png",
     "name": "Warka Radler Ananas z Cytrusami 0%",
@@ -475,7 +587,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-Kiwi-z-Pigwa-0",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/FsptXswalySd5lnTaP5t.png",
     "name": "Warka Radler Kiwi z Pigwą 0%",
@@ -492,7 +608,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-35-Cytryna",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/MicrosoftTeams-image-59.png",
     "name": "Warka Radler 3,5% Cytryna",
@@ -509,7 +629,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-35-Jablko-z-Gruszka",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/d_Warka-Radler-35-Jablko-Gruszka_butelka-500ml_krople_50cm.png",
     "name": "Warka Radler 3,5% Jabłko z Gruszką",
@@ -526,7 +650,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-35-Malina-z-Cytrusami",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/MicrosoftTeams-image-58-1.png",
     "name": "Warka Radler 3,5% Malina z Cytrusami",
@@ -543,7 +671,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-35-Granat-z-Pomarancza",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/MicrosoftTeams-image-56-1.png",
     "name": "Warka Radler 3,5% Granat z Pomarańczą",
@@ -560,7 +692,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "EB",
     "originalUrl": "https://www.grupazywiec.pl/marki/eb/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/EB_butelka_500_prosta-1.png",
     "name": "EB",
@@ -577,7 +713,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Specjal-Jasny-Pelny",
     "originalUrl": "https://www.grupazywiec.pl/marki/specjal/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/l687Iumzbc76xmelm0qx.png",
     "name": "Specjal Jasny Pełny",
@@ -594,7 +734,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Namyslow-Pils",
     "originalUrl": "https://www.grupazywiec.pl/marki/namyslow/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/namyslow-pils.png",
     "name": "Namysłów Pils",
@@ -611,7 +755,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Namyslow-Ciemne-typu-Irlandzkiego",
     "originalUrl": "https://www.grupazywiec.pl/marki/namyslow/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/namyslow.png",
     "name": "Namysłów Ciemne typu Irlandzkiego",
@@ -628,7 +776,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Tatra-Janse-Pelne",
     "originalUrl": "https://www.grupazywiec.pl/marki/tatra/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/BUTELKA_500-TATRA-JASNE_MALY-1.png",
     "name": "Tatra Janse Pełne",
@@ -645,7 +797,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Tatra-Mocne",
     "originalUrl": "https://www.grupazywiec.pl/marki/tatra/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/Tatra_M_butelka_packshot_RGB-copy-1.png",
     "name": "Tatra Mocne",
@@ -662,7 +818,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Krolewskie",
     "originalUrl": "https://www.grupazywiec.pl/marki/krolewskie/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/BUTELKA_KROLEWSKIE_RGB-1.png",
     "name": "Królewskie",
@@ -679,7 +839,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Lezajsk-Pelne",
     "originalUrl": "https://www.grupazywiec.pl/marki/lezajsk/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/LEZAJSK_BUTELKA_500_PELNE_RGB-1.png",
     "name": "Leżajsk Pełne",
@@ -696,7 +860,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Lezajsk-Chmielowe-Pils",
     "originalUrl": "https://www.grupazywiec.pl/marki/lezajsk/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/LEZAJSK_BUTELKA_500_CHMIEL_RGB-1.png",
     "name": "Leżajsk Chmielowe Pils",
@@ -713,7 +881,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Lezajsk-Pszeniczne-Klarowne",
     "originalUrl": "https://www.grupazywiec.pl/marki/lezajsk/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/Grafika_Butelka-lezajsk1.png",
     "name": "Leżajsk Pszeniczne Klarowne",
@@ -730,7 +902,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Lezajsk-Niepasteryzowane",
     "originalUrl": "https://www.grupazywiec.pl/marki/lezajsk/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/lezajsk-xxl.png",
     "name": "Leżajsk Niepasteryzowane",
@@ -747,7 +923,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Brackie-Cieszyn",
     "originalUrl": "https://www.grupazywiec.pl/marki/brackie/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/04/brackie_cieszyn_rodzaje_piwa.jpg",
     "name": "Brackie Cieszyn",
@@ -764,7 +944,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Brackie-Pils",
     "originalUrl": "https://www.grupazywiec.pl/marki/brackie/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/Brackie-Pils-butelka-wizualizacja-png-32-2017-07-27-1.png",
     "name": "Brackie Pils",
@@ -781,7 +965,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zlaty-Bazant",
     "originalUrl": "https://www.grupazywiec.pl/marki/zlaty-bazant/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2019/03/zlaty_bazant_miniatura_wieksza.png",
     "name": "Zlatý Bažant",
@@ -798,7 +986,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zamkowe",
     "originalUrl": "https://www.grupazywiec.pl/marki/pozostale-marki/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/06/zamkowe-92-330.png",
     "name": "Zamkowe",
@@ -815,7 +1007,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zloty-Denar",
     "originalUrl": "https://www.grupazywiec.pl/marki/pozostale-marki/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/zloty-denar.png",
     "name": "Złoty Denar",
@@ -832,7 +1028,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zloty-Denar-Mocny",
     "originalUrl": "https://www.grupazywiec.pl/marki/pozostale-marki/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/zloty-denar-mocny.png",
     "name": "Złoty Denar Mocny",

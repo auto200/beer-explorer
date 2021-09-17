@@ -2,7 +2,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/ksiaz/ksiaz-czarny-specjal/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/1313/ksiaz_ciemne_small.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Ksiaz-Czarny-Specjal",
     "name": "Książ Czarny Specjał",
     "description": "Smak: Książ Czarny Specjał to mocniejsza wersja jasnego piwa Książ Książęcy Specjał. Swój głęboki i dojrzały smak zawdzięcza procesowi leżakowania. Piwo odznacza się piękną, mocną bursztynową barwą.Historia: Piwo Książ związane jest z regionem Dolnego Śląska, słynącym z tradycji warzenia piwa. Do jego stworzenia zainspirowała nas oryginalna receptura odnaleziona w podziemiach Zamku Książ, który od 1292 króluje w regionie. Dzisiejszy smak piwa Książ jest wyrazem uznania naszych piwowarów dla tej bogatej historii.",
     "type": "Mocny Lager",
@@ -23,7 +27,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/ksiaz/ksiaz-ksiazecy-specjal/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/1306/butelka_ksiaz_pop.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Ksiaz-Ksiazecy-Specjal",
     "name": "Książ Książęcy Specjał",
     "description": "Smak: Książ Książęcy Specjał to lager o wysokiej klarowności. Ma szlachetny smak i złocistą barwę. Posiada dość silną goryczkę.Historia: Piwo Książ związane jest z regionem Dolnego Śląska, słynącym z tradycji warzenia piwa. Do jego stworzenia zainspirowała nas oryginalna receptura odnaleziona w podziemiach Zamku Książ, który od 1292 króluje w regionie. Dzisiejszy smak piwa Książ jest wyrazem uznania naszych piwowarów dla tej bogatej historii.",
     "type": "Lager",
@@ -44,7 +52,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/kasztelan/kasztelan-jasne-pelne/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/39759/butelka-jpkasztelan-150cm-z-kroplami.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Kasztelan-Jasne-Pelne",
     "name": "Kasztelan Jasne Pełne",
     "description": "Smak:  Kasztelan Jasne Pełne, to piwo o idealnie klarownej głębokiej złotej barwie, zwieńczone śnieżnobiałą czapą z piany. Najlepszej jakości jasny sierpecki słód typu pilzneńskiego sprawia, że Kasztelan Jasne Pełne cechuje się solidną słodowością o chlebowo-zbożowym charakterze. Bogactwo smaków słodowych doskonale współgra z wyraźnie zaznaczoną, szlachetną goryczką najlepszych odmian chmielu. Idealne do potraw zarówno mięsnych jak i rybnych, dopełniając zarówno wybrane przyprawy jak i typ obróbki.Historia: Browar w Sierpcu to jedyne miejsce w całej Polsce, gdzie jest słodowany jęczmień oraz warzone jest piwo obok siebie. Dzięki temu lepiej dbamy o jego jakość.Chcąc się dzielić tym co najlepsze, klasycznym smakiem regionalnego piwa jasnego, wprowadziliśmy do ogólnopolskiej dystrybucji regionalne piwo Kasztelan Jasne Pełne. Nasze piwo prosto z Sierpca!",
     "type": "Pilsner",
@@ -65,7 +77,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/kasztelan/kasztelan-mocne/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/39757/butelka-mocnekasztelan-150cm-z-kroplami.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Kasztelan-Mocne",
     "name": "Kasztelan Mocne",
     "description": "Historia: Browar w Sierpcu to jedyne miejsce w całej Polsce, gdzie jest słodowany jęczmień oraz warzone jest piwo obok siebie. Dzięki temu lepiej dbamy o jego jakość.Chcąc się dzielić tym co najlepsze, klasycznym smakiem regionalnego piwa jasnego, wprowadziliśmy do ogólnopolskiej dystrybucji regionalne piwo Kasztelan Jasne Pełne. Nasze piwo prosto z Sierpca!",
     "type": "Mocny Lager",
@@ -86,7 +102,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/kasztelan/kasztelan-niepasteryzowane/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/39758/butelka-npkasztelan-150cm-z-kroplami.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Kasztelan-Niepasteryzowane",
     "name": "Kasztelan Niepasteryzowane",
     "description": "Smak: Kasztelan Niepasteryzowane, to piwo o jasnozłotej, idealnie klarownej barwie i gęstej śnieżnobiałej czapie z piany. Najlepszej jakości jasny sierpecki słód typu pilzneńskiego sprawia, że Kasztelan Niepasteryzowany może poszczycić się wspaniałymi posmakami chlebowo-zbożowymi, będącymi doskonałym balansem dla szlachetnej lekkiej goryczki. Wytrawność Kasztelana Niepasteryzowanego sprawia, że pasuje doskonale do wszelkich potraw z grilla, a zwłaszcza tłustych mięs i warzyw z oliwą.Temperatura serwowania:  4-6 stopni Celsjusza.Historia: Kasztelan Niepasteryzowane był największą nowością piwną w Polsce. Zbudował zupełnie nowy segment piw niedostępny w ówczesnym czasie na rynku. Dziś Kasztelan to duża ogólnopolska marka, z mainstreamową świadomością. To marka kojarząca się konsumentom w prosty sposób z naturalnością i regionalnością.",
     "type": "Niepasteryzowane",
@@ -107,7 +127,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/okocim/okocim-0-0/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/37963/okocim-jasne-0-0_-2019-butelka-3d-cbpll62990.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Okocim-00",
     "name": "Okocim 0,0%",
     "description": "Smak: Okocim 0,0% to piwo, warzone zgodnie ze starannie opracowaną recepturą. Nie zawiera alkoholu, a warzone jest z piwnych składników:  chmielu oraz nadającego wyrazisty smak słodu jęczmiennego. Nowy Okocim 0,0% ma złocistą, nasyconą barwę i pachnie tak, że aż chce się go wypić. To sprawia, że możesz cieszyć się pełnym piwnym smakiem w każdej sytuacji, ponieważ nasze piwo zawiera 0,0% alkoholu. Spróbuj i przekonaj się sam!Skład:  woda, słód jęczmienny, dwutlenek węgla, aromaty, chmiel, ekstrakt z chmielu.",
     "type": "Bezalkoholowe",
@@ -128,7 +152,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/okocim/okocim-bialy-radler-0-0-cytryna/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/37398/okocim-2020-radler-bia-_y-cytryna-butelka.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Okocim-Bialy-Radler-00-cytryna",
     "name": "Okocim Bialy Radler 0,0% cytryna",
     "description": "Smak:  A to ciekawe. Radler z dodatkiem cytryny oraz... pszenicy. Kompozycja lekko kwaśna i słodka jednocześnie. Wyrazisty smak z jednej strony, przyjemne orzeźwienie z drugiej. To wszystko w wariancie bezalkoholowym. Delektuj się naszym Radlerem w każdej sytuacji. Taki mix ugasi pragnienie nawet w najgorętszy dzień.",
     "type": "Bezalkoholowe",
@@ -149,7 +177,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/okocim/okocim-ciemny-radler-0-0-wisnia/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/37397/okocim-2020-radler-ciemny-wis-_nia-butelka.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Okocim-Ciemny-Radler-00-Wisnia",
     "name": "Okocim Ciemny Radler 0,0% Wiśnia",
     "description": "Smak: Naszego nowego Radlera stworzyliśmy na bazie piwa ciemnego. Rzecz rzadko spotykana w świecie Radlerów. Jego wyjątkowy charakter podkreśla także orzeźwiający smak wiśni. Kojarzy się z naszym polskim latem, spędzanym gdzieś nad jeziorem. Możesz spokojnie gasić nim pragnienie nad wodą, bo nie znajdziesz tu alkoholu.",
     "type": "Bezalkoholowe",
@@ -170,7 +202,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/okocim/okocim-jasne-okocimskie/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/1314/okocim_jasne_okocimskie.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Okocim-Jasne-Okocimskie",
     "name": "Okocim Jasne Okocimskie",
     "description": "Smak: Jasne Okocimskie powstało w hołdzie Janowi Goetzowi Okocimskiemu. Jak nakazuje piwowarska sztuka, do jego warzenia użyto tylko trzech składników:  wody, słodu jęczmiennego i chmielu, by uzyskać piwo o idealnie zbalansowanym smaku i aromacie. To klasyczny lager o złotej barwie. Piwo dumnie odkrywa słodową pełnię, by po chwili zaskoczyć przyjemną goryczką i chmielowym aromatem. Zawartość alkoholu wynosi 5,2%, zawartość goryczki 17 IBU, ekstrakt 11,3%. Idealna temperatura podania to 6 stopni Celsjusza.Historia: U podstaw piwa Okocim znajdują się:  pasja do warzenia piwa, doświadczenie piwowarów i 170-letnia historia Browaru Okocim w Brzesku. Historia piwa i marki Okocim sięga 1845 roku, kiedy to Jan Ewangelista Goetz założył w Brzesku, obok miasteczka Okocim, browar – obecnie jeden z najstarszych w Polsce. Jan Goetz był jedną z najwybitniejszych osobowości ówczesnego świata piwowarskiego, nie tylko piwowarem i przedsiębiorcą, ale także aktywnym, lokalnym działaczem społecznym i filantropem. W swoim browarze stosował wyłącznie najlepszy słód jęczmienny, chmiel, wysokiej jakości drożdże i wodę, w myśl zasady „najlepsze z najlepszego”. Było to jego motto, które przyświeca również współczesnym okocimskim piwowarom.  Skład:  woda, słód jęczmienny, chmiel.",
     "type": "Lager",
@@ -191,7 +227,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/okocim/okocim-klasyczna-pszenica/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/1315/okocim_klasyczna_pszenica.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Okocim-Klasyczna-Pszenica",
     "name": "Okocim Klasyczna Pszenica",
     "description": "Smak: Klasyczna Pszenica jest wyśmienitym, lekkim piwem wytwarzanym z ziaren pszenicy. Dziś w Okocimiu warzone jest według klasycznej receptury, metodą górnej fermentacji. Klasyczna Pszenica to niefiltrowane, naturalnie mętne piwo o bukiecie moreli, goździków i dojrzałych bananów. Idealny wybór, gdy szuka się orzeźwienia. Kompozycja słodu pszenicznego i jęczmiennego uwiedzie niezwykle łagodnym smakiem. Potwierdzają to liczne wyróżnienia, m.in. srebro w ogólnopolskim konkursie Chmielaki Krasnostawskie 2015. Zawartość alkoholu w piwie wynosi 5%, goryczka 14 IBU, ekstrakt 12%. Klasyczną Pszenicę najlepiej podawać w temperaturze 8 stopni Celsjusza w szkle typu weizenglass lub w kuflu.Historia: U podstaw piwa Okocim znajdują się:  pasja do warzenia piwa, doświadczenie piwowarów i 170-letnia historia Browaru Okocim w Brzesku. Historia piwa i marki Okocim sięga 1845 roku, kiedy to Jan Ewangelista Goetz założył w Brzesku, obok miasteczka Okocim, browar – obecnie jeden z najstarszych w Polsce. Jan Goetz był jedną z najwybitniejszych osobowości ówczesnego świata piwowarskiego, nie tylko piwowarem i przedsiębiorcą, ale także aktywnym, lokalnym działaczem społecznym i filantropem. W swoim browarze stosował wyłącznie najlepszy słód jęczmienny, chmiel, wysokiej jakości drożdże i wodę, w myśl zasady „najlepsze z najlepszego”. Było to jego motto, które przyświeca również współczesnym okocimskim piwowarom.",
     "type": "Pszeniczne",
@@ -212,7 +252,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/okocim/okocim-mistrzowski-porter/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/1316/okocim_mistrzowski_porter.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Okocim-Mistrzowski-Porter",
     "name": "Okocim Mistrzowski Porter",
     "description": "Smak: Mistrzowski Porter to doskonały przykład portera bałtyckiego. Swój wyjątkowy charakter zawdzięcza leżakowaniu dłuższemu niż w przypadku jasnego piwa oraz kompozycji kilku rodzajów słodu, m.in. monachijskiego, karmelowego i palonego. Ma aksamitny, szlachetny oraz bogaty w aromaty dębowej beczki, kawy i czekolady smak. Piwo zachwyci również głęboką barwą oraz kremową pianą. To prawdziwie mistrzowski porter, wielokrotnie nagradzany, m.in. Golden Beer Poland 2013 i złotym medalem European Beer Star 2015 w Norymberdze. Mistrzowski Porter jest warzony metodą dolnej fermentacji. Zawartość alkoholu wynosi 9,6%, goryczka 38 IBU, ekstrakt 22%. Idealna temperatura podania to 12 stopni Celsjusza. Mistrzowski Porter nalewamy do szklanek typu pokal.Historia: U podstaw piwa Okocim znajdują się:  pasja do warzenia piwa, doświadczenie piwowarów i 170-letnia historia Browaru Okocim w Brzesku. Historia piwa i marki Okocim sięga 1845 roku, kiedy to Jan Ewangelista Goetz założył w Brzesku, obok miasteczka Okocim, browar – obecnie jeden z najstarszych w Polsce. Jan Goetz był jedną z najwybitniejszych osobowości ówczesnego świata piwowarskiego, nie tylko piwowarem i przedsiębiorcą, ale także aktywnym, lokalnym działaczem społecznym i filantropem. W swoim browarze stosował wyłącznie najlepszy słód jęczmienny, chmiel, wysokiej jakości drożdże i wodę, w myśl zasady „najlepsze z najlepszego”. Było to jego motto, które przyświeca również współczesnym okocimskim piwowarom.",
     "type": "Porter Bałtycki",
@@ -233,7 +277,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/okocim/okocim-mocne-dubeltowe/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/1317/okocim_mocne_dubeltowe.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Okocim-Mocne-Dubeltowe",
     "name": "Okocim Mocne Dubeltowe",
     "description": "Smak: Mocne Dubeltowe zostało uwarzone w okocimskim browarze jako jedno z pierwszych mocnych piw w Polsce i nadal nie ma sobie równych. Mocne Dubeltowe to doskonały wybór dla wielbicieli konkretnych smaków – esencjonalne, wyraziste i zdecydowane. Gęsta piana skrywa bursztynowy trunek o pięknym, głębokim kolorze. W piwie można wyczuć solidne podstawy:  nuty zboża i słodu oraz charakterystyczną chmielową goryczkę. Mocne Dubeltowe jest laureatem wielu konkursów piwnych, w tym Golden Beer Poland 2013. To piwo dolnej fermentacji, o zawartości alkoholu 6,5%, goryczka 21 IBU, ekstrakt 13,5%. Najlepsza temperatura podania wynosi 6 stopni Celsjusza. Mocne Dubeltowe podajemy w kuflu, pokalu lub szklance.Historia: U podstaw piwa Okocim znajdują się:  pasja do warzenia piwa, doświadczenie piwowarów i 170-letnia historia Browaru Okocim w Brzesku. Historia piwa i marki Okocim sięga 1845 roku, kiedy to Jan Ewangelista Goetz założył w Brzesku, obok miasteczka Okocim, browar – obecnie jeden z najstarszych w Polsce. Jan Goetz był jedną z najwybitniejszych osobowości ówczesnego świata piwowarskiego, nie tylko piwowarem i przedsiębiorcą, ale także aktywnym, lokalnym działaczem społecznym i filantropem. W swoim browarze stosował wyłącznie najlepszy słód jęczmienny, chmiel, wysokiej jakości drożdże i wodę, w myśl zasady „najlepsze z najlepszego”. Było to jego motto, które przyświeca również współczesnym okocimskim piwowarom.",
     "type": "Lager",
@@ -254,7 +302,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/okocim/okocim-o-k-beer/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/12438/pl_okocim-ok-beer.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Okocim-O.K.-Beer",
     "name": "Okocim O.K. Beer",
     "description": "O.K. Beer warzymy i eksportujemy do krajów na całym świecie już od ponad 50 lat! To nasze kultowe piwo o wielu obliczach i jednym, niepowtarzalnym smaku. Dla rodzimych piwoszy jest po prostu okejką, dla innych krakowianką, a na drugiej półkuli zwie się Stawski – na cześć Polaka, który rozsławił nasz browar za oceanem. Niezależnie od tego, jak je nazywano, to piwo było przez wielu uważane za najlepsze warzone w kraju. Dlatego dziś, dostępne głównie w okolicach browaru, znika z półek tak szybko, że trudno je upolować. Zostało też nagrodzone złotym medalem w konkursie „Chmielaki Krasnostawskie 2016” w kategorii piw jasnych w stylu European Mild Lager.Historia: U podstaw piwa Okocim znajdują się:  pasja do warzenia piwa, doświadczenie piwowarów i 170-letnia historia Browaru Okocim w Brzesku. Historia piwa i marki Okocim sięga 1845 roku, kiedy to Jan Ewangelista Goetz założył w Brzesku, obok miasteczka Okocim, browar – obecnie jeden z najstarszych w Polsce. Jan Goetz był jedną z najwybitniejszych osobowości ówczesnego świata piwowarskiego, nie tylko piwowarem i przedsiębiorcą, ale także aktywnym, lokalnym działaczem społecznym i filantropem. W swoim browarze stosował wyłącznie najlepszy słód jęczmienny, chmiel, wysokiej jakości drożdże i wodę, w myśl zasady „najlepsze z najlepszego”. Było to jego motto, które przyświeca również współczesnym okocimskim piwowarom.",
     "type": "Lager",
@@ -275,7 +327,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/okocim/okocim-radler-arbuz-z-melonem/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/37396/okocim-2020-radler-arbuz-butelka.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Okocim-Radler-Arbuz-z-Melonem",
     "name": "Okocim Radler Arbuz z Melonem",
     "description": "Smak: Z przyjemnością ogłaszamy, że stworzyliśmy unikalny smak na lato. W końcu jeden z najbardziej soczystych owoców czyli arbuz spotkał się z melonem - kolejnym soczystym i smacznym owocem. Do spotkania dochodzi w klasycznym Okocimskim Radlerze czyli mieszance pysznej lemoniady i piwnej goryczki. Smacznego! Historia: U podstaw piwa Okocim znajdują się:  Historia piwa i marki Okocim sięga 1845 r., kiedy to Jan Ewangelista Goetz założył w Brzesku, obok miasteczka Okocim, browar – obecnie jeden z najstarszych w Polsce. Jan Goetz był jedną z najwybitniejszych osobowości ówczesnego świata piwowarskiego. Był nie tylko piwowarem i przedsiębiorcą, ale także aktywnym, lokalnym działaczem społecznym i filantropem. W swoim browarze stosował wyłącznie najlepszy słód jęczmienny, chmiel, wysokiej jakości drożdże i wodę, w myśl zasady „najlepsze z najlepszego”. Było to jego motto, które przyświeca również współczesnym okocimskim piwowarom.",
     "type": "",
@@ -296,7 +352,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/okocim/okocim-radler-grejpfrut-z-limonka/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/10188/pl_okocim-radler-grejpfrut-z-limonka.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Okocim-Radler-Grejpfrut-z-Limonka",
     "name": "Okocim Radler Grejpfrut z Limonką",
     "description": "Smak: W Okocimiu zawsze najważniejsza jest jakość. Jak warzymy piwo, to tylko najlepsze z najlepszego – tak, aby smakowało nam i naszym najbliższym. Dlatego Radler Grejpfrut z Limonką powstał z połączenia Jasnego Okocimskiego z lemoniadą z grejpfrutów i limonek. To połączenie tego, co w radlerach najważniejsze:  lekkiego piwa oraz orzeźwiającego, cytrusowego smaku. Nasz wysiłek został nagrodzony na ogólnopolskim konkursie Chmielaki Krasnostawskie 2016, gdzie nasze piwo otrzymało złoty medal. Historia: U podstaw piwa Okocim znajdują się:  pasja do warzenia piwa, doświadczenie piwowarów i 170-letnia historia Browaru Okocim w Brzesku. Historia piwa i marki Okocim sięga 1845 roku, kiedy to Jan Ewangelista Goetz założył w Brzesku, obok miasteczka Okocim, browar – obecnie jeden z najstarszych w Polsce. Jan Goetz był jedną z najwybitniejszych osobowości ówczesnego świata piwowarskiego, nie tylko piwowarem i przedsiębiorcą, ale także aktywnym, lokalnym działaczem społecznym i filantropem. W swoim browarze stosował wyłącznie najlepszy słód jęczmienny, chmiel, wysokiej jakości drożdże i wodę, w myśl zasady „najlepsze z najlepszego”. Było to jego motto, które przyświeca również współczesnym okocimskim piwowarom.",
     "type": "Radler",
@@ -317,7 +377,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/okocim/okocim-radler-jablko-z-czeresnia/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/30640/pl_okocim-radler-jablko.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Okocim-Radler-Jablko-z-Czeresnia",
     "name": "Okocim Radler Jablko z Czeresnia",
     "description": "Smak: Nie ma to jak wakacje w naszym pięknym kraju. Dlatego właśnie stworzyliśmy Radlera Jabłko z Czereśnią, który ma zdecydowanie polską duszę. Smakuje jak cudowne, polskie, beztroskie lato - w górach, na Mazurach, nad morzem albo na działce. Możesz się nim delektować w każdej sytuacji, bo ma 0,0% alkoholu. Trudno sobie wyobrazić gorące dni bez okocimskiego Radlera o prawdziwie letnim smaku.",
     "type": "Bezalkoholowe",
@@ -338,7 +402,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/okocim/okocim-radler-limonka-z-owocami-lesnymi/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/11869/pl_okocim-radler-limonka-z-owocami-lesnymi.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Okocim-Radler-Limonka-z-Owocami-Lesnymi",
     "name": "Okocim Radler Limonka z Owocami Leśnymi",
     "description": "Smak: W naszym browarze nie ma osób przypadkowych. Tutaj dla każdego radością jest zarówno świetnie uwarzone piwo, jak i sama praca przy jego tworzeniu. Bo mamy taką zasadę Rób to, co kochasz. Tak właśnie powstaje nasz Radler z limonką i owocami leśnymi – to połączenie Jasnego Okocimskiego i lemoniady z owoców leśnych. Jest w nim wszystko:  lekkość piwa, owocowy smak i orzeźwienie. Dlatego nasz Radler z limonką i owocami leśnymi będzie idealnym dopełnieniem letnich dni i wieczorów. Historia: U podstaw piwa Okocim znajdują się:  pasja do warzenia piwa, doświadczenie piwowarów i 170-letnia historia Browaru Okocim w Brzesku. Historia piwa i marki Okocim sięga 1845 roku, kiedy to Jan Ewangelista Goetz założył w Brzesku, obok miasteczka Okocim, browar – obecnie jeden z najstarszych w Polsce. Jan Goetz był jedną z najwybitniejszych osobowości ówczesnego świata piwowarskiego, nie tylko piwowarem i przedsiębiorcą, ale także aktywnym, lokalnym działaczem społecznym i filantropem. W swoim browarze stosował wyłącznie najlepszy słód jęczmienny, chmiel, wysokiej jakości drożdże i wodę, w myśl zasady „najlepsze z najlepszego”. Było to jego motto, które przyświeca również współczesnym okocimskim piwowarom.",
     "type": "Radler",
@@ -359,7 +427,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/okocim/okocim-radler-malina-z-borowka-amerykanska/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/30641/pl_okocim-radler-malina.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Okocim-Radler-Malina-z-Borowka-Amerykanska",
     "name": "Okocim Radler Malina z Borowka Amerykanska",
     "description": "Smak: Prawie cały rok wszyscy czekamy na sezonowe owoce, a gdy już się pojawią, dostępne są przez bardzo krótki okres. Dlatego, by zatrzymać na dłużej ten wyczekiwany smak, uwarzyliśmy nowego Radlera - Malina z Borówką Amerykańską. Połączenie lemoniady z delikatną goryczką naszego Jasnego Okocimskiego sprawia, że całość jest wyjątkowo orzeźwiająca. I teraz smakiem lata można cieszyć się przez okrągły rok.",
     "type": "Radler , Alcohol-Free",
@@ -380,7 +452,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/okocim/okocim-radler-sycylijska-pomarancza-z-limonka/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/30642/pl_okocim-radler-pomarancza.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Okocim-Radler-Sycylijska-Pomarancza-z-Limonka",
     "name": "Okocim Radler Sycylijska Pomarancza z Limonka",
     "description": "Smak: Nasz nowy Radler jest jak pocztówka z Włoch. Sycylijska Pomarańcza połączona z limonką to smak wakacji, podróży i beztroski. Możesz się nim spokojnie delektować w każdej sytuacji, nawet w najgorętsze dni, bo ma 0,0% alkoholu. Połączenie delikatnej piwnej goryczki i wyrazistego smaku owoców sprawi, że lato będziemy wspominać jeszcze lepiej.",
     "type": "Bezalkoholowe",
@@ -401,7 +477,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/okocim/okocim-radler-truskawka-z-kwiatem-lipy/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/23452/pl_okocim-radler-truskawka.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Okocim-Radler-Truskawka-z-Kwiatem-Lipy",
     "name": "Okocim Radler Truskawka z Kwiatem Lipy",
     "description": "„Tu w Okocimiu piwo to nasza pasja, dlatego nieustannie szukamy nowych rozwiązań. Kiedy szukaliśmy nowego smaku radlera, byliśmy pewni jednego – musi być wyjątkowy. I właśnie tak, zgodnie z naszą zasadą najlepsze z najlepszego, powstał nowy Radler Truskawka z kwiatem lipy. Dzięki połączeniu Jasnego Okocimskiego i lemoniady z truskawek i kwiatu lipy, otrzymaliśmy orzeźwiające piwo pełne lekkości oraz wyrazistych, owocowych smaków. Nasz nowy Radler doskonale ugasi pragnienie i orzeźwi w upalne dni.”",
     "type": "Radler",
@@ -422,7 +502,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/okocim/okocim-radler-z-limonka/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/10189/pl_okocim-radler-limonka.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Okocim-Radler-z-Limonka",
     "name": "Okocim Radler z Limonką",
     "description": "Smak: Sto lat temu do pewnej gospody w Bawarii przybyło naraz tak wielu cyklistów, że aby dla wszystkich wystarczyło piwa, właściciel lokalu zmieszał je z lemoniadą i serwował jako specjalny chłodzący napój. Odtąd miks piwa i lemoniady nosi nazwę radler, czyli rowerzysta. Wiek później chcieliśmy stworzyć równie wyśmienite lekkie piwo, które doskonale orzeźwi i ugasi pragnienie. I udało się! Nasz radler zdobył złoty medal w ogólnopolskim konkursie Chmielaki Krasnostawskie w 2015 roku. W roku 2016 znów sukces – srebro, ustąpiliśmy miejsca jedynie Radlerowi Okocim Grejpfrut z limonką. Zawartość alkoholu wynosi 2%. Idealna temperatura podania to 4 stopnie Celsjusza.Historia: U podstaw piwa Okocim znajdują się:  pasja do warzenia piwa, doświadczenie piwowarów i 170-letnia historia Browaru Okocim w Brzesku. Historia piwa i marki Okocim sięga 1845 roku, kiedy to Jan Ewangelista Goetz założył w Brzesku, obok miasteczka Okocim, browar – obecnie jeden z najstarszych w Polsce. Jan Goetz był jedną z najwybitniejszych osobowości ówczesnego świata piwowarskiego, nie tylko piwowarem i przedsiębiorcą, ale także aktywnym, lokalnym działaczem społecznym i filantropem. W swoim browarze stosował wyłącznie najlepszy słód jęczmienny, chmiel, wysokiej jakości drożdże i wodę, w myśl zasady „najlepsze z najlepszego”. Było to jego motto, które przyświeca również współczesnym okocimskim piwowarom.",
     "type": "Radler",
@@ -443,7 +527,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/karmi/karmi-classic-0-0/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/45108/karmi_classic_500ml_pod_jasne_tlo_v2.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Karmi-Classic-00",
     "name": "Karmi Classic 0,0%",
     "description": "Swój perfekcyjnie zrównoważony smak zawdzięcza recepturze, opartej na chmielu i licznych typach słodu:  pilzneńskim, monachijskim, karmelowym i palonym.  To połączenie subtelnej goryczki z lekką nutą słodyczy tworzące pełne przyjemności bezalkoholowe piwo.",
     "type": "Bezalkoholowe",
@@ -464,7 +552,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/karmi/karmi-mrozona-kawa-0-0/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/45109/karmi_kawa_500ml_pod_jasne_tlo.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Karmi-Mrozona-Kawa-00",
     "name": "Karmi Mrożona Kawa 0,0%",
     "description": "Swój wyjątkowy smak zawdzięcza połączeniu piwnych składników oraz prawdziwej kawy. Wyczujesz w nim zbalansowane nuty kawowe i lekką goryczkę. To przyjemność delektowania się piwem i lekkie pobudzenie, dzięki kofeinie.",
     "type": "Bezalkoholowe",
@@ -485,7 +577,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/karmi/karmi-zurawina-0-0/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/45107/karmi_żurawina_400ml_pod_jasne_tlo_v2.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Karmi-Zurawina-00",
     "name": "Karmi Żurawina 0,0%",
     "description": "To ciemne piwo bezalkoholowe, łączące piwne nuty z cierpko-słodką żurawiną. Najlepiej smakuje odpowiednio schłodzone. Baaaardzo przyjemne!",
     "type": "Alcohol-Free",
@@ -506,7 +602,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/carlsberg/carlsberg/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/38402/cb_nd_50cl_pilsner_wet_bottle_kv_17k_iso_premium_merged_rgb.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Carlsberg",
     "name": "Carlsberg",
     "description": "Carlsberg to duńskie piwo typu lager, dolnej fermentacji, o złocistej barwie, wysublimowanym, chmielowym zapachu i trwałej śnieżnobiałej pianie. Cechuje się charakterystyczną miękkością i delikatną, szlachetną goryczką. Carlsberg to piwo lekkie i aromatyczne, może być komponowane z potrawami pikantnymi i cięższymi, w celu orzeźwiania i złamania ich ostrości. Przykładowe danie:  grillowane ziemniaki, stek, kwaśny sos na maśle, żółtkach i białym winie z estragonem.Historia: Piwo Carlsberg zostało uwarzone po raz pierwszy przez założyciela firmy J.C. Jacobsena w 1847 roku. Inspiracją był bawarski lager – jasne piwo dolnej fermentacji. Aż do tego czasu większość piw w Danii było piwami ciemnymi górnej fermentacji. W 1868 J.C. Jacobsen wysłał piwo do spróbowania sklepikarzowi w Szkocji i tym samym rozpoczął jego eksport. Odtąd Carlsberg stał się piwem dostępnym i znanym na całym świecie.",
     "type": "Lager",
@@ -527,7 +627,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/bosman/bosman-full/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/38446/bosman-full_butelka.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Bosman-Full",
     "name": "Bosman Full",
     "description": "Bosman Full to piwo chwalone przez szerokie rzesze piwoszy. Jednych urzeka głęboki smak i skryty w nim bogaty chmielowy bukiet, inni zwracają uwagę na pełną klarowność i gęstą pianę oraz barwę łączącą kolory bursztynu i złota. Bosman Full został nagrodzony Złotym Medalem w międzynarodowym konkursie Monde Selection w Brukseli.Historia: Browar Bosman to miejsce o ponad 165-letniej historii, gdzie pierwszą warkę piwa uwarzono w 1848 roku. W warzelni szczecińskiego browaru można oglądać tradycyjne, lśniące miedziane kadzie, które przypominają o bogatej historii browaru, w którym do dziś tworzone jest piwo Bosman. Piwowarzy w Szczecinie dbają o każdy etap warzenia piwa. Dzięki swojemu zaangażowaniu, fachowej wiedzy i sprawdzonej recepturze piwa tworzą smak popularny i ceniony nie tylko w regionie zachodniopomorskim.",
     "type": "Lager",
@@ -548,7 +652,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/bosman/bosman-special/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/38447/bosman-specjal_butelka.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Bosman-Special",
     "name": "Bosman Special",
     "description": "Smak: Piwo o niepowtarzalnym smaku, warzone od lat w browarze Bosman w Szczecinie. Urzeka łagodnym, subtelnym smakiem i bogatym, chmielowym bukietem. Ma klarowną i gęstą pianę oraz barwę łączącą kolory bursztynu i złota.Historia: Browar Bosman to miejsce o ponad 165-letniej historii, gdzie pierwszą warkę piwa uwarzono w 1848 roku. W warzelni szczecińskiego browaru można oglądać tradycyjne, lśniące miedziane kadzie, które przypominają o bogatej historii browaru, w którym do dziś tworzone jest piwo Bosman. Piwowarzy w Szczecinie dbają o każdy etap warzenia piwa. Dzięki swojemu zaangażowaniu, fachowej wiedzy i sprawdzonej recepturze piwa tworzą smak popularny i ceniony nie tylko w regionie zachodniopomorskiem.",
     "type": "Mocny Pilsner",
@@ -569,7 +677,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/harnas/harnas-jasne-pelne/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/28872/pl_harnas-jasne-pelne.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Harnas-Jasne-Pelne",
     "name": "Harnaś Jasne Pełne",
     "description": "Smak: Harnaś obecny jest na polskim rynku od ponad 15 lat. Zyskał w tym czasie miliony wiernych konsumentów i zdobył uznanie wśród smakoszy piwa. Obserwując trendy na rynku piwa zdecydowaliśmy się odświeżyć opakowania i ulepszyć smak naszego piwa by dotrzeć do jeszcze większej rzeszy konsumentów.Składniki:  woda, słód jęczmienny, jęczmień (J), syrop z pszenicy i słodu jęczmiennego (S), chmiel. JS lub SJ – w zależności od kolejności użytych składników.",
     "type": "Lager",
@@ -590,7 +702,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/piast/piast-mocne/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/38451/mocne-2020-02-18-b-02.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Piast-Mocne",
     "name": "Piast Mocne",
     "description": "Smak: Piast Mocny to piwo o intensywnym smaku i bursztynowym kolorze, kwintesencja siły i charakteru Dolnego Śląska. Zawiera 6,7 % objętości alkoholu. To piwo dla konsumentów ceniących sobie wyjątkowy, głęboki smak. Szata graficzna utrzymana w czarno-złotej tonacji podkreśla siłę i charakter Mocnego. Dowodem wysokiej jakości tego piwa są medale zdobywane na prestiżowych konkursach piwnych w Polsce i zagranicą m.in. złote medale na konkursie Monde Selection w Brukseli w 2009 oraz 2010 roku, czy srebrny medal zdobyty podczas piwnego święta wszystkich Chmielarzy i Piwowarów - Chmielaków Krasnostawskich w 2008 roku.Historia:  To regionalne piwo z Dolnego Śląska warzone w dwóch wariantach:  związany z regionem Piast Wrocławski oraz Piast Mocny o intensywnym smaku i bursztynowym kolorze, kwintesencja siły i charakteru Dolnego Śląska.",
     "type": "Mocny Pilsner",
@@ -611,7 +727,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/piast/piast-wroclawski/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/38450/pw-butelka-generyk.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Piast-Wroclawski",
     "name": "Piast Wrocławski",
     "description": "Smak: Piast Wrocławski to złociste piwo o łagodnym smaku i bogatym chmielowym bukiecie. Od lat związane z regionem i wysoko cenione przez jego mieszkańców. Piast Wrocławski to wielokrotny zdobywca wielu prestiżowych nagród na konkursach piwnych w Polsce i zagranicą, m.in. Lauru Konsumenta 2008 oraz złotego medalu w konkursie Monde Selection w Brukseli w 2010 roku.Historia:  Piast to regionalne piwo z Dolnego Śląska warzone w dwóch wariantach:  związany z regionem Piast Wrocławski oraz Piast Mocny o intensywnym smaku i bursztynowym kolorze, kwintesencja siły i charakteru Dolnego Śląska.",
     "type": "Lager",
@@ -632,7 +752,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/grimbergen/grimbergen-blanche/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/26602/ru_grimbergen-blanche.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Grimbergen-Blanche",
     "name": "Grimbergen Blanche",
     "description": "Smak: Belgijskie białe piwo może pochwalić się długą tradycją warzenia, która w Opactwie Grimbergen sięga XIV wieku. W celu wydobycia niepowtarzalnego charakteru tego wariantu klasztornego piwa, mnisi użyli starannie wyselekcjonowanych składników, które słynęły z lekkości i orzeźwienia. Tak narodził się Grimbergen Blanche – jasne piwo pszeniczne o pięknej słomko-złotej barwie. Już delikatne bąbelki, aromat cytrusów, goździków i kolendry z delikatną nutką wanilii wyróżniają to białe piwo. Ale to zaskakująca bergamotka sprawia, że jego smak jest jedyny w swoim rodzaju. Wariant wyróżnia się słomkowym kolorem, naturalną mętnością, świeżym bukietem i lekką, białą pianką. Historia: Na przestrzeni wieków Feniks wywarł wpływ na wiele cywilizacji. Persowie, Grecy i Rzymianie uznali go za symbol odrodzenia i spokoju. Przez wieki jego mistyczne moce inspirowały ludzi pragnących wolności do stałego doskonalenia siebie. Założone w 1128 roku, opactwo Grimbergen zostało strawione przez płomienie w 1142r, następne pożary wybuchały w 1566r. i 1798r zrównując klasztor z ziemią. Za każdym razem opactwo zostało odbudowane. Zakonnicy Grimbergen uznali Feniksa jako swój symbol, znak nieustannego odrodzenia. Na jego cześć przyjęto również dewizę:  Ardet nec consumitur – „Spalony, ale nie zniszczony”. Receptura piwa również wytrzymała próbę czasu, dając trunek o niezrównanym charakterze. Autentyczne, unikalne i aromatyczne piwo Feniksa z każdym łykiem uwalnia nieoczekiwane smaki.",
     "type": "Klasztorne",
@@ -653,7 +777,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/grimbergen/grimbergen-blonde/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/26603/ru_grimbergen-blonde.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Grimbergen-Blonde",
     "name": "Grimbergen Blonde",
     "description": "Smak: Kiedy w średniowieczu powstawały pierwsze browary, filtracja piwa nie była jeszcze popularna. Tylko nieliczni opanowali tą metodę do perfekcji – a wśród nich znaleźli się mnisi z Opactwa Grimbergen. Ich pierwszym arcydziełem było lekkie i klarowne Grimbergen Blonde. Grimbergen Blonde to piwo o głębokiej barwie złota, zachwyca aromatem dojrzałych owoców i goździków. W unikalnej kompozycji smakosze odnajdą również lukrecję, miód oraz skórkę pomarańczową. Po dziś dzień wariant Blonde przygotowywany jest według najstarszej klasztornej receptury. Współcześni koneserzy gatunku chwalą je za idealnie zachowany balans między kwaśnością a słodyczą. Serwowane w kielichu cieszy delikatnym smakiem i gęstą, aksamitnie białą pianą.Historia: Na przestrzeni wieków Feniks wywarł wpływ na wiele cywilizacji. Persowie, Grecy i Rzymianie uznali go za symbol odrodzenia i spokoju. Przez wieki jego mistyczne moce inspirowały ludzi pragnących wolności do stałego doskonalenia siebie. Założone w 1128 roku, opactwo Grimbergen zostało strawione przez płomienie w 1142r, następne pożary wybuchały w 1566r. i 1798r zrównując klasztor z ziemią. Za każdym razem opactwo zostało odbudowane. Zakonnicy Grimbergen uznali Feniksa jako swój symbol, znak nieustannego odrodzenia. Na jego cześć przyjęto również dewizę:  Ardet nec consumitur – „Spalony, ale nie zniszczony”. Receptura piwa również wytrzymała próbę czasu, dając trunek o niezrównanym charakterze. Autentyczne, unikalne i aromatyczne piwo Feniksa z każdym łykiem uwalnia nieoczekiwane smaki.",
     "type": "Klasztorne",
@@ -674,7 +802,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/grimbergen/grimbergen-double-ambree/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/26600/ru_grimbergen-double-ambree.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Grimbergen-Double-Ambree",
     "name": "Grimbergen Double-Ambrée",
     "description": "Smak: W średniowieczu zwykłe browary płaciły dużo wyższe podatki, niż browary przyklasztorne. Dzięki temu mnisi z Opactwa Grimbergen mogli sobie pozwolić na zakup produktów najwyższej jakości. Połączenie wyjątkowych składników ze specjalistyczną wiedzą piwowarską zrodziło wariant Grimbergen Double. Swój głęboki, bursztynowy kolor oraz mocny smak zawdzięcza mieszance różnych gatunków słodów i procesowi podwójnej fermentacji. Intensywna słodowa nuta, wymieszana z delikatnym posmakiem karmelu i suszonych śliwek nadaje temu wariantowi piwa „podwójnie” dobry smak. Wariant Double wyróżnia się mocnym temperamentem i korzenno-karmelowym aromatem, sięgają po niego smakosze, ceniący w piwie delikatną słodycz, z obecną na niskim poziomie goryczką. Ciemnobursztynowa barwa i jasna, gęsta i kremowa piana to cechy charakterystyczne Grimbergen Double.Historia: Na przestrzeni wieków Feniks wywarł wpływ na wiele cywilizacji. Persowie, Grecy i Rzymianie uznali go za symbol odrodzenia i spokoju. Przez wieki jego mistyczne moce inspirowały ludzi pragnących wolności do stałego doskonalenia siebie. Założone w 1128 roku, opactwo Grimbergen zostało strawione przez płomienie w 1142r, następne pożary wybuchały w 1566r. i 1798r zrównując klasztor z ziemią. Za każdym razem opactwo zostało odbudowane. Zakonnicy Grimbergen uznali Feniksa jako swój symbol, znak nieustannego odrodzenia. Na jego cześć przyjęto również dewizę:  Ardet nec consumitur – „Spalony, ale nie zniszczony”. Receptura piwa również wytrzymała próbę czasu, dając trunek o niezrównanym charakterze. Autentyczne, unikalne i aromatyczne piwo Feniksa z każdym łykiem uwalnia nieoczekiwane smaki.",
     "type": "Klasztorne",
@@ -695,7 +827,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/guinness/guinness-draught/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/6174/guinness_44_cl.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Guinness-Draught",
     "name": "Guinness Draught",
     "description": "Smak: Guinness to ciemne piwo górnej fermentacji typu stout, ze względu na kolor często nazywane czarnym towarem (z ang. the black stuff). Warzone jest na bazie wody, słodu jęczmiennego, chmielu i drożdży. Oryginalny kolor oraz wyrazisty, słodko-gorzki smak zawdzięcza dodatkowi palonego słodu jęczmiennego. Gęsta, kremowa piana, z której słynie Guinness, powstaje dzięki napełnianiu beczek mieszaniną dwutlenku węgla i azotu - wpychają one trunek, nadając pianie trwałość. Jego receptura jest opatentowana i chroniona. Historia: Guinness to słynne piwo rodem z Irlandii i najpopularniejszy w tym kraju złoty trunek. Warzone jest od 1759 roku w założonym przez Arthura Guinnessa browarze St. Jame’s Gate Brewery w Dublinie. Szybko zdobyło popularność na Wyspach Brytyjskich, a później na całym świecie. W 1833 roku firma była największym irlandzkim browarem, zaś pół wieku później warzyła już milion beczek piwa rocznie. Właścicielem marki Guinness oraz browaru St. Jame’s Gate jest firma Diageo.",
     "type": "Irish Stout",
@@ -716,7 +852,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/somersby/somersby-apple/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/30444/pl_somersby-apple.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Somersby-Apple",
     "name": "Somersby Apple",
     "description": "Lekko słodki i orzeźwiający jabłkowy smak, który podawany z lodem idealnie pasuje do spędzenia słonecznych dni ze znajomymi.",
     "type": "Napój piwny",
@@ -737,7 +877,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/somersby/somersby-blackberry/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/30445/pl_somersby-blackberry.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Somersby-Blackberry",
     "name": "Somersby Blackberry",
     "description": "Intensywny, wyjątkowo pyszny i orzeźwiający smak jeżyn, który mocno schłodzony pasuje na specjalne okazje, ale też codzienne chwile z przyjaciółmi.",
     "type": "Napój piwny",
@@ -758,7 +902,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/somersby/somersby-mango-lime/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/39583/somersby_mango_400_ml_pl-krople.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Somersby-Mango-and-Lime",
     "name": "Somersby Mango & Lime",
     "description": "Słodki smak egzotycznego mango przełamany rześką limonką, który mocno schłodzony idealnie orzeźwia w ciepłe dni z przyjaciółmi.",
     "type": "Napój piwny",
@@ -779,7 +927,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/somersby/somersby-passion-fruit-orange/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/40083/somersby_passion-fruit_400_v2.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Somersby-Passion-Fruit-and-Orange",
     "name": "Somersby Passion Fruit & Orange",
     "description": "Owocowe orzeźwienie pochodzące z egzotycznej marakui z dodatkiem kwaśnej pomarańczy. Podawane z lodem pasujące do beztroskich chwil w gronie przyjaciół.",
     "type": "",
@@ -800,7 +952,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/somersby/somersby-pear-0-0/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/39582/somersby_pear-0_400_ml_pl-krople-new.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Somersby-Pear-00",
     "name": "Somersby Pear 0,0%",
     "description": "Bezalkoholowe gruszkowe orzeźwienie, które przywodzi na myśl ciepłe, słoneczne dni w gronie przyjaciół. Podawane z lodem schładza podczas codziennych aktywności w ciągu dnia.",
     "type": "Napój piwny",
@@ -821,7 +977,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/somersby/somersby-pina-colada/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/42945/somersby-pina-colada-400-ml-ah.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Somersby-Pina-Colada",
     "name": "Somersby Piña Colada",
     "description": "Wystrzałowe połączenie kokosa i ananasa, które podawane z lodem eksploduje orzeźwiającą lekkością. Smak, który świetnie pasuje do spędzania czasu z przyjaciółmi.",
     "type": "Napój piwny",
@@ -842,7 +1002,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/somersby/somersby-sparkling-rose/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/46103/050_somersby_sparkling_rose_33cl_bottle_sr_w.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Somersby-Sparkling-Rose",
     "name": "Somersby Sparkling Rosé",
     "description": "Inspirowane różowym winem, lekkie w smaku piwo, które podawane z lodem idealnie pasuje na specjalne okazje, ale też codzienne chwile z przyjaciółmi.",
     "type": "",
@@ -863,7 +1027,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/somersby/somersby-strawberry-lime-0-0/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/42946/somersby-strawberry-400_ml-ah.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Somersby-Strawberry-and-Lime-00",
     "name": "Somersby Strawberry & Lime 0,0%",
     "description": "Bezalkoholowe, rześkie połączenie słodkiej truskawki z cytrusowym smakiem limonki. Słodzone, mocno orzeźwia w ciągu dnia podczas spotkań ze znajomymi.",
     "type": "Napój piwny",
@@ -884,7 +1052,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/somersby/somersby-watermelon/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/30447/pl_somersby-watermelon.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Somersby-Watermelon",
     "name": "Somersby Watermelon",
     "description": "Wystrzałowe, arbuzowe orzeźwienie, które pozwala cieszyć się słonecznymi dniami przez cały rok. Mocno schłodzony idealnie pasuje na wypady z przyjaciółmi.",
     "type": "Napój piwny",
@@ -905,7 +1077,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/somersby/somersby-wild-berries-0-0/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/37395/somersby-wild-berries-00-400-ml-pl-krople.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Somersby-Wild-Berries-00",
     "name": "Somersby Wild Berries 0,0%",
     "description": "Bezalkoholowy smak owoców leśnych, czyli kwaskowate orzeźwienie z nutą słodyczy. Mocno schłodzone, idealnie pasuje do codziennych aktywności w ciągu dnia w gronie przyjaciół.",
     "type": "",
@@ -926,7 +1102,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/zatecky/zatecky-0-0/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/37400/butelka.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Zatecky-00",
     "name": "Žatecký  0,0%",
     "description": "Jedyne piwo 0,0% z wyjątkowym, žateckim chmielem o szlachetnym smaku i przyjemnym goryczkowym aromacie.",
     "type": "Bezalkoholowe",
@@ -947,7 +1127,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/zatecky/zatecky-svetly-lezak/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/19432/pl_zatecky-svetly-lezak.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "Zatecky-Svetly-Lezak",
     "name": "Žatecký Světlý Ležák",
     "description": "Smak:  Piwo Žatecký Světlý Ležák warzone jest według receptury stworzonej przez Tomasa Lejseka, znanego czeskiego piwowara. Recepturę tę wyróżnia wyjątkowy chmiel z Žatca. Nadaje on piwu łagodnie goryczkowy smak i dobrze zbalansowany aromat.Historia: Najstarsze źródło dotyczące żateckiego chmielu zwanego także Saaz, pochodzi z pierwszej połowy XI wieku, bo już w 1101 r. żatecki chmiel był sprzedawany na rynku w Hamburgu. W 1261 r. w Žatecu powstało towarzystwo piwowarów, które warzyło piwo cenione za swoje „niezwykłe cnoty, esencję i moc”. Zaś w XVIII wieku w tym mieście działało już 30 słodowni i 4 browary. Obecnie chmiel żatecki, znany jako chmiel Saaz, wciąż uprawiany jest jedynie w rejonie miasta Žatec na powierzchni zaledwie 40 km2. Chmiel ten uznawany jest przez piwnych specjalistów za jeden z najlepszych na świecie. Dzięki uniwersalnej charakterystyce smakowej, pretenduje do statusu klasycznego chmielu wykorzystywanego do warzenia piw pilzneńskich.",
     "type": "Pilsner",
@@ -968,7 +1152,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/s-r-s-garage/s-r-s-garage-kamikaze/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/42949/garage_kamikaze_400ml_2021.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "SandR's-Garage-Kamikaze",
     "name": "S&R’s Garage Kamikaze",
     "description": "Mix piwa i napoju o smaku curacao i limonki.",
     "type": "",
@@ -989,7 +1177,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/s-r-s-garage/s-r-s-garage-strawberry-margarita/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/42948/garage_strawberry-margarita_400ml_2021.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "SandR's-Garage-Strawberry-Margarita",
     "name": "S&R’s Garage Strawberry Margarita",
     "description": "Mix piwa i napoju o smaku tequilli i truskawki.",
     "type": "",
@@ -1010,7 +1202,11 @@
   {
     "originalUrl": "https://carlsbergpolska.pl/products/s-r-s-garage/s-r-s-garage-hard-lemon/?Ckey=13776 ",
     "img": "https://carlsbergpolska.pl/media/39511/garage-hard-lemon-pack-13jan20b.png",
-    "owner": "Carlsberg Polska",
+    "owner": {
+      "name": "Carlsberg Polska",
+      "website": "https://carlsbergpolska.pl/"
+    },
+    "slug": "SandR's-Garage-Hard-Lemon",
     "name": "S&R's Garage Hard Lemon",
     "description": "Seth and Riley’s Garage to marka stworzona z myślą o tych, którzy szukają nowych wrażeń i lubią imprezować w gronie znajomych. S&R Garage Hard Lemon – orzeźwiające piwo o smaku „hardo” wyciśniętej cytryny. Jego wyjątkowy smak doskonale orzeźwia w letnim upale, a także idealnie się sprawdza podczas domówek i imprez pod chmurką. Najlepiej smakuje z kostkami lodu i z dodatkiem cytryny.",
     "type": "",
@@ -1029,7 +1225,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-Jasne-Pelne",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Zywiec-Lager-butelka-500-ml-1.png",
     "name": "Żywiec Jasne Pełne",
@@ -1046,7 +1246,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-Jasne-Lekkie",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/03/MicrosoftTeams-image-44.png",
     "name": "Żywiec Jasne Lekkie",
@@ -1063,7 +1267,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-APA",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Zywiec-APA-butelka-500-ml-1.png",
     "name": "Żywiec APA",
@@ -1080,7 +1288,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-Biale",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Zywiec-Biale-butelka-500-mlpng-1.png",
     "name": "Żywiec Białe",
@@ -1097,7 +1309,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-Porter",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Zywiec-Porter-butelka-500-ml-1.png",
     "name": "Żywiec Porter",
@@ -1114,7 +1330,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-00",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2018/07/butelka_500_miniatura-1.png",
     "name": "Żywiec 0,0%",
@@ -1131,7 +1351,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-Amerykanskie-Pszeniczne",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Zywiec-_Amerykanskie_pszeniczne-butelka-500-ml-11-1.png",
     "name": "Żywiec  Amerykańskie Pszeniczne",
@@ -1148,7 +1372,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-IPA",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Żywiec_IPA.png",
     "name": "Żywiec IPA",
@@ -1164,7 +1392,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-Biale-00",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2019/05/BIALE_00_rodzaje_piwa.png",
     "name": "Żywiec Białe 0,0%",
@@ -1181,7 +1413,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-IPA-00",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2019/05/IPA_00_rodzaje_piwa.png",
     "name": "Żywiec IPA 0,0%",
@@ -1198,7 +1434,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zywiec-Belgijskie-ALE",
     "originalUrl": "https://www.grupazywiec.pl/marki/zywiec/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/10/pFodNxGGPFI6FPUzTJdD.png",
     "name": "Żywiec Belgijskie ALE",
@@ -1215,7 +1455,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Heineken",
     "originalUrl": "https://www.grupazywiec.pl/marki/heineken/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2019/05/Heineken_butelka_500ml_generic1-1.png",
     "name": "Heineken",
@@ -1232,7 +1476,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Heineken-0.0",
     "originalUrl": "https://www.grupazywiec.pl/marki/heineken/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2019/05/Heineken-0.0.-92x330.png",
     "name": "Heineken 0.0",
@@ -1249,7 +1497,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Desperados",
     "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/04/desperados-tequila-92-330.png",
     "name": "Desperados",
@@ -1266,7 +1518,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Desperados-Red",
     "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/04/MicrosoftTeams-image-6.png",
     "name": "Desperados Red",
@@ -1283,7 +1539,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Desperados-Mojito",
     "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/04/mojito-92x330-1.png",
     "name": "Desperados Mojito",
@@ -1300,7 +1560,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Desperados-Whisky-Sour",
     "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/04/whisky-92x330-1.png",
     "name": "Desperados Whisky Sour",
@@ -1317,7 +1581,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Desperados-Lime",
     "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/04/lime-92-330.png",
     "name": "Desperados Lime",
@@ -1334,7 +1602,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Desperados-Strawberry-Margerita",
     "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/yhU1EOlN4pkcCK0AQIak.png",
     "name": "Desperados Strawberry Margerita",
@@ -1351,7 +1623,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Desperados-Virgin-00-",
     "originalUrl": "https://www.grupazywiec.pl/marki/desperados/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/tO8cViDOJRzZSlDuV0mR.png",
     "name": "Desperados Virgin 0,0 %",
@@ -1368,7 +1644,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Jasne-Pelne",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/01/Warka-Classic-2021_butelka-500ml-z-kroplami-mini.png",
     "name": "Warka Jasne Pełne",
@@ -1385,7 +1665,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Strong",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/01/Warka-Strong-2021_butelka-500ml-z-kroplami-mini.png",
     "name": "Warka Strong",
@@ -1402,7 +1686,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-0.0-Cytryna",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/03/d_Warka-00_butelka500_Cytryna-krople.png",
     "name": "Warka Radler 0.0% Cytryna",
@@ -1419,7 +1707,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-Grejpfrut-z-Pomarancza-0",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/03/d_Warka-00_butelka500_Grejpfrut-krople.png",
     "name": "Warka Radler Grejpfrut z Pomarańczą 0%",
@@ -1436,7 +1728,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-Jablko-z-Mieta-0",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/03/d_Warka-00_butelka500_Jablko-krople.png",
     "name": "Warka Radler Jabłko z Miętą 0%",
@@ -1453,7 +1749,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-Ciemne-Cytrynowe-0",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/03/d_Warka-00_butelka500_Dark_krople.png",
     "name": "Warka Radler Ciemne Cytrynowe 0%",
@@ -1470,7 +1770,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-Rabarbar-z-Truskawka-0",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/03/d_Warka-00_butelka500_Rabarbar-krople.png",
     "name": "Warka Radler Rabarbar z Truskawką 0%",
@@ -1487,7 +1791,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-Ananas-z-Cytrusami-0",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/EWtbb4dU1pO11CvR2fF9.png",
     "name": "Warka Radler Ananas z Cytrusami 0%",
@@ -1504,7 +1812,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-Kiwi-z-Pigwa-0",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/FsptXswalySd5lnTaP5t.png",
     "name": "Warka Radler Kiwi z Pigwą 0%",
@@ -1521,7 +1833,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-35-Cytryna",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/MicrosoftTeams-image-59.png",
     "name": "Warka Radler 3,5% Cytryna",
@@ -1538,7 +1854,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-35-Jablko-z-Gruszka",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/d_Warka-Radler-35-Jablko-Gruszka_butelka-500ml_krople_50cm.png",
     "name": "Warka Radler 3,5% Jabłko z Gruszką",
@@ -1555,7 +1875,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-35-Malina-z-Cytrusami",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/MicrosoftTeams-image-58-1.png",
     "name": "Warka Radler 3,5% Malina z Cytrusami",
@@ -1572,7 +1896,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Warka-Radler-35-Granat-z-Pomarancza",
     "originalUrl": "https://www.grupazywiec.pl/marki/warka-radler/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2021/04/MicrosoftTeams-image-56-1.png",
     "name": "Warka Radler 3,5% Granat z Pomarańczą",
@@ -1589,7 +1917,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "EB",
     "originalUrl": "https://www.grupazywiec.pl/marki/eb/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/EB_butelka_500_prosta-1.png",
     "name": "EB",
@@ -1606,7 +1938,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Specjal-Jasny-Pelny",
     "originalUrl": "https://www.grupazywiec.pl/marki/specjal/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/l687Iumzbc76xmelm0qx.png",
     "name": "Specjal Jasny Pełny",
@@ -1623,7 +1959,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Namyslow-Pils",
     "originalUrl": "https://www.grupazywiec.pl/marki/namyslow/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/namyslow-pils.png",
     "name": "Namysłów Pils",
@@ -1640,7 +1980,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Namyslow-Ciemne-typu-Irlandzkiego",
     "originalUrl": "https://www.grupazywiec.pl/marki/namyslow/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/namyslow.png",
     "name": "Namysłów Ciemne typu Irlandzkiego",
@@ -1657,7 +2001,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Tatra-Janse-Pelne",
     "originalUrl": "https://www.grupazywiec.pl/marki/tatra/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/BUTELKA_500-TATRA-JASNE_MALY-1.png",
     "name": "Tatra Janse Pełne",
@@ -1674,7 +2022,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Tatra-Mocne",
     "originalUrl": "https://www.grupazywiec.pl/marki/tatra/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/Tatra_M_butelka_packshot_RGB-copy-1.png",
     "name": "Tatra Mocne",
@@ -1691,7 +2043,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Krolewskie",
     "originalUrl": "https://www.grupazywiec.pl/marki/krolewskie/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/BUTELKA_KROLEWSKIE_RGB-1.png",
     "name": "Królewskie",
@@ -1708,7 +2064,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Lezajsk-Pelne",
     "originalUrl": "https://www.grupazywiec.pl/marki/lezajsk/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/LEZAJSK_BUTELKA_500_PELNE_RGB-1.png",
     "name": "Leżajsk Pełne",
@@ -1725,7 +2085,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Lezajsk-Chmielowe-Pils",
     "originalUrl": "https://www.grupazywiec.pl/marki/lezajsk/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/LEZAJSK_BUTELKA_500_CHMIEL_RGB-1.png",
     "name": "Leżajsk Chmielowe Pils",
@@ -1742,7 +2106,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Lezajsk-Pszeniczne-Klarowne",
     "originalUrl": "https://www.grupazywiec.pl/marki/lezajsk/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/Grafika_Butelka-lezajsk1.png",
     "name": "Leżajsk Pszeniczne Klarowne",
@@ -1759,7 +2127,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Lezajsk-Niepasteryzowane",
     "originalUrl": "https://www.grupazywiec.pl/marki/lezajsk/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/lezajsk-xxl.png",
     "name": "Leżajsk Niepasteryzowane",
@@ -1776,7 +2148,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Brackie-Cieszyn",
     "originalUrl": "https://www.grupazywiec.pl/marki/brackie/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/04/brackie_cieszyn_rodzaje_piwa.jpg",
     "name": "Brackie Cieszyn",
@@ -1793,7 +2169,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Brackie-Pils",
     "originalUrl": "https://www.grupazywiec.pl/marki/brackie/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/03/Brackie-Pils-butelka-wizualizacja-png-32-2017-07-27-1.png",
     "name": "Brackie Pils",
@@ -1810,7 +2190,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zlaty-Bazant",
     "originalUrl": "https://www.grupazywiec.pl/marki/zlaty-bazant/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2019/03/zlaty_bazant_miniatura_wieksza.png",
     "name": "Zlatý Bažant",
@@ -1827,7 +2211,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zamkowe",
     "originalUrl": "https://www.grupazywiec.pl/marki/pozostale-marki/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/06/zamkowe-92-330.png",
     "name": "Zamkowe",
@@ -1844,7 +2232,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zloty-Denar",
     "originalUrl": "https://www.grupazywiec.pl/marki/pozostale-marki/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/zloty-denar.png",
     "name": "Złoty Denar",
@@ -1861,7 +2253,11 @@
     }
   },
   {
-    "owner": "Grupa Żywiec",
+    "owner": {
+      "name": "Grupa Żywiec",
+      "website": "https://www.grupazywiec.pl/"
+    },
+    "slug": "Zloty-Denar-Mocny",
     "originalUrl": "https://www.grupazywiec.pl/marki/pozostale-marki/",
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2020/05/zloty-denar-mocny.png",
     "name": "Złoty Denar Mocny",
@@ -1878,7 +2274,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Tyskie-Gronie",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=tyskie-gronie",
     "name": "Tyskie Gronie",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/tyskie-136x320.png",
@@ -1894,7 +2294,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Tyskie-Edycja-Klasyczna",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=tyskie-klasyczne",
     "name": "Tyskie Edycja Klasyczna",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/BUTELKA-KLASYCZNE-2019-WIZv2-83x320.png",
@@ -1910,7 +2314,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Tyskie-00",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=tyskie-00",
     "name": "Tyskie 0,0%",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/03/BUTELKA-TYSKIE-ZERO-150OKxxx-82x320.png",
@@ -1926,7 +2334,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Tyskie-Radler",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=tyskie-radler",
     "name": "Tyskie Radler",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/Tyskie-Radler-Dose-500ml-150x300.png",
@@ -1942,7 +2354,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Tyskie-14-dniowe",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=tyskie-14-dniowe",
     "name": "Tyskie 14-dniowe",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/tyskie-14-dniowe-2-112x320.png",
@@ -1958,7 +2374,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Premium",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-premium",
     "name": "Lech Premium",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/lech-136x320.png",
@@ -1974,7 +2394,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Premium-Chmiele-Cytrusowe",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-premium-chmiele-cytrusowe",
     "name": "Lech Premium Chmiele Cytrusowe",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/03/LECH_PREMIUM_CHMIELE_CYTRUSOWE_SZRON_500-83x320.png",
@@ -1990,7 +2414,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Pils",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-pils",
     "name": "Lech Pils",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/lech-pils-86x320.png",
@@ -2006,7 +2434,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Shandy-Spritz",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-shandy-spritz",
     "name": "Lech Shandy Spritz",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/02/RB500-LECH-SHANDY-SPRITZ-86x320.png",
@@ -2022,7 +2454,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Shandy-Margarita",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-shandy-strawberry-margarita",
     "name": "Lech Shandy Margarita",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2019/03/STRAWBERRY-min-91x320.png",
@@ -2038,7 +2474,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Shandy-Lemon",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-ice-shandy",
     "name": "Lech Shandy Lemon",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/190318-piwka-lemon-86x320.png",
@@ -2054,7 +2494,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Shandy-Bloody-Orange",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-ice-bloody-orange",
     "name": "Lech Shandy Bloody Orange",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/190318-piwka-orange-86x320.png",
@@ -2070,7 +2514,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Shandy-Mojito",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-ice-mojito",
     "name": "Lech Shandy Mojito",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/190318-piwka-mojito-86x320.png",
@@ -2086,7 +2534,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Free-Lager",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-free",
     "name": "Lech Free Lager",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/03/LFR-lager-NRB330-82x320.png",
@@ -2102,7 +2554,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Free-Chmiele-Cytrusowe",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-free-chmiele-cytrusowe",
     "name": "Lech Free Chmiele Cytrusowe",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/03/LECH_FREE_CHMIELE_CYTRUSOWE_SZRON_500-128x320.png",
@@ -2118,7 +2574,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Free-Arbuz-z-Mieta",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-free-arbuz",
     "name": "Lech Free Arbuz z Miętą",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/03/LFR-arbuz-NRB330-130x320.png",
@@ -2134,7 +2594,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Free-Limonka-z-Mieta",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-free-limonka-z-mieta",
     "name": "Lech Free Limonka z Mięta",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/03/LFR-limonka-NRB330-82x320.png",
@@ -2150,7 +2614,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Free-Marakuja-i-Melon",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-free-marakuja-i-melon",
     "name": "Lech Free Marakuja i Melon",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/03/LFR-marakuja-NRB330-82x320.png",
@@ -2166,7 +2634,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Free-Granat-i-Acai",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-free-granat-i-acai",
     "name": "Lech Free Granat i Acai",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/03/LFR-granat-NRB330-82x320.png",
@@ -2182,7 +2654,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Free-Pomelo-i-Grejpfrut",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-free-pomelo-i-grejpfrut",
     "name": "Lech Free Pomelo i Grejpfrut",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/03/LFR-pomelo-NRB330-82x320.png",
@@ -2198,7 +2674,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Free-Ananas-i-Guawa",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-free-ananas-i-guawa",
     "name": "Lech Free Ananas i Guawa",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/03/LFR-ananas-NRB330-82x320.png",
@@ -2214,7 +2694,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Zubr",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=zubr",
     "name": "Żubr",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/zubr-136x320.png",
@@ -2230,7 +2714,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Debowe",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=debowe",
     "name": "Dębowe",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/debowe-136x320.png",
@@ -2246,7 +2734,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Wojak-Jasny-Pelny",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=wojak-jasny-pelny",
     "name": "Wojak Jasny Pełny",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/wojak-136x320.png",
@@ -2262,7 +2754,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Redd's-Papaja-i-Limonka",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=redds-papaja-i-limonka",
     "name": "Redd’s Papaja i Limonka",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/02/BUTELKA-REDDS-PAPAJA-2020-BEZ-84x320.png",
@@ -2278,7 +2774,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Redd's-Marakuja-i-Brzoskwinia",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=redds-marakuja-i-brzoskwinia",
     "name": "Redd’s Marakuja i Brzoskwinia",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/02/BUTELKA-REDDS-MARAKUJA-2020-NOWOSC-83x320.png",
@@ -2294,7 +2794,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Redd's-Zurawina",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=redds-zurawina",
     "name": "Redd’s Żurawina",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/BUTELKA-REDDS-ZURAWINA-2020-84x320.png",
@@ -2310,7 +2814,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Redd's-Malina-Granat",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=redds-malina-granat",
     "name": "Redd’s Malina Granat",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/BUTELKA-REDDS-MALINA-2020-84x320.png",
@@ -2326,7 +2834,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Redd's-Jablko-i-Trawa-Cytrynowa",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=redds-jablko-i-trawa-cytrynowa",
     "name": "Redd’s Jabłko i Trawa Cytrynowa",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/BUTELKA-REDDS-APPLE-2020-79x320.png",
@@ -2342,7 +2854,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Redd's-Mango-i-Cytryna",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=redds-mango-i-cytryna",
     "name": "Redd’s Mango i Cytryna",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2019/03/BUTELKA-REDDS-MANGO-2020-79x320.png",
@@ -2358,7 +2874,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Captain-Jack",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=capitan-jack",
     "name": "Captain Jack",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/BUTELKA-CAPTAIN-JACK-ORIGINAL-2021-KROPLE-PION-TTO-79x320.png",
@@ -2374,7 +2894,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Captain-Jack-Pirate-Orange",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=captain-jack-pirate-orange",
     "name": "Captain Jack Pirate Orange",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/BUTELKA-CAPTAIN-JACK-ORANGE-PION-2021-TTO-78x320.png",
@@ -2390,7 +2914,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Captain-Jack-Cuba-Libre",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=captain-jack-cuba-libre",
     "name": "Captain Jack Cuba Libre",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/02/BUTELKA-CAPTAIN-JACK-CUBA-LIBRE-PION-OK-105x320.png",
@@ -2406,7 +2934,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Captain-Jack-Exotic-Daiquiri",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=captain-jack-exotic-daiquiri",
     "name": "Captain Jack Exotic Daiquiri",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/BUTELKA-CAPTAIN-JACK-DAIQUIRI-PION-2021-TTO-78x320.png",
@@ -2422,7 +2954,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "HARDMADE-PEACH-ICE-TEA-CRUSH",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=hardmade-peach-ice-tea-crush",
     "name": "HARDMADE PEACH ICE TEA CRUSH",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/03/hardmade-Peach_-150x200.png",
@@ -2438,7 +2974,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "HARDMADE-RASPBERRY-CRUSH",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=hardmade-raspberry-crush",
     "name": "HARDMADE RASPBERRY CRUSH",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/03/hardmade-Raspberry-150x200.png",
@@ -2454,7 +2994,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "HARDMADE-GRAPEFRUIT-CRUSH",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=hardmade-grapefruit-crush",
     "name": "HARDMADE GRAPEFRUIT CRUSH",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/03/hardmade-Grapefruit-150x200.png",
@@ -2470,7 +3014,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Pilsner-Urquell",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=pilsner-urquell",
     "name": "Pilsner Urquell",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/pilsner-1-136x320.png",
@@ -2486,7 +3034,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Ksiazece-Zlote-Pszeniczne",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=ksiazece-zlote-przeniczne",
     "name": "Książęce Złote Pszeniczne",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/Złote-Pszeniczne-95x320.png",
@@ -2502,7 +3054,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Ksiazece-Ciemne-Lagodne",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=245",
     "name": "Książęce Ciemne Łagodne",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/Ciemne-Łagodne-95x320.png",
@@ -2518,7 +3074,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "KSIAZeCE-Czerwony-Lager",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=ksiazece-czerwony-lager",
     "name": "KSIĄŻĘCE Czerwony Lager",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/Czerwony-Lager-95x320.png",
@@ -2534,7 +3094,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Ksiazece-IPA",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=ksiazece-ipa",
     "name": "Książęce IPA",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/IPA-95x320.png",
@@ -2550,7 +3114,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Ksiazece-Cherry-Ale",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=ksiazece-cherry-ale",
     "name": "Książęce Cherry Ale",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/03/CHERRY_butelka_V9_12_11-87x320.png",
@@ -2566,7 +3134,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Ksiazece-Weizen",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=ksiazece-weizen",
     "name": "Książęce Weizen",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/weizen-95x320.png",
@@ -2582,7 +3154,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Ksiazece-Porter",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=ksiazece-porter",
     "name": "Książęce Porter",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/Poerter-95x320.png",
@@ -2598,7 +3174,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Ksiazece-Irish-Ale",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=ksiazece-irish-ale",
     "name": "Książęce Irish Ale",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/irish-ale-81x320.png",
@@ -2614,7 +3194,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Velkopopovicky-Kozel-Lezak",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=velkopopovicky-kozel-cerny",
     "name": "Velkopopovický Kozel Lezak",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/KOZEL_LEZAK_RB500_WIZ_20_01-89x320.png",
@@ -2630,7 +3214,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Velkopopovicky-Kozel-Cerny",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=velkopopovicky-kozel-cerny-2",
     "name": "Velkopopovický Kozel Černý",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/KOZEL_CERNY_RB500_WIZ_20_01-89x320.png",
@@ -2646,7 +3234,11 @@
     }
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Jasne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-jasne/42.html",
     "img": "https://vanpur.com.pl/uploads/product42.png",
     "name": "Łomża Jasne",
@@ -2655,7 +3247,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Pils",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-pils/43.html",
     "img": "https://vanpur.com.pl/uploads/product43.png",
     "name": "Łomża Pils",
@@ -2664,7 +3260,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-00",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-0-0proc/44.html",
     "img": "https://vanpur.com.pl/uploads/product44.png",
     "name": "Łomża 0,0%",
@@ -2673,7 +3273,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Radler-20",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-radler-2-0/45.html",
     "img": "https://vanpur.com.pl/uploads/product45.png",
     "name": "Łomża Radler 2,0",
@@ -2682,7 +3286,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Radler-00-Grapefruit",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-radler-0-0-grapefruit/46.html",
     "img": "https://vanpur.com.pl/uploads/product46.png",
     "name": "Łomża Radler 0,0 Grapefruit",
@@ -2691,7 +3299,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Pszeniczne-Radler-00-Mango-Marakuja",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-pszeniczne-radler-0-0proc-mango-marakuja/47.html",
     "img": "https://vanpur.com.pl/uploads/product47.png",
     "name": "Łomża Pszeniczne Radler 0,0% Mango, Marakuja",
@@ -2700,7 +3312,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Miodowe",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-miodowe/48.html",
     "img": "https://vanpur.com.pl/uploads/product48.png",
     "name": "Łomża Miodowe",
@@ -2709,7 +3325,11 @@
     "servingTemperature": "4-6°C lub podgrzane do temperatury 45°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Niepasteryzowane",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-niepasteryzowane/49.html",
     "img": "https://vanpur.com.pl/uploads/product49.png",
     "name": "Łomża Niepasteryzowane",
@@ -2718,7 +3338,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Jasne-Pelne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-jasne-pelne/50.html",
     "img": "https://vanpur.com.pl/uploads/product50.png",
     "name": "Łomża Jasne Pełne",
@@ -2727,7 +3351,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Wyborowe",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-wyborowe/51.html",
     "img": "https://vanpur.com.pl/uploads/product51.png",
     "name": "Łomża Wyborowe",
@@ -2736,7 +3364,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Mocne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-mocne/52.html",
     "img": "https://vanpur.com.pl/uploads/product52.png",
     "name": "Łomża Mocne",
@@ -2745,7 +3377,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Cortes-Extra",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/cortes-extra/53.html",
     "img": "https://vanpur.com.pl/uploads/product53.png",
     "name": "Cortes Extra",
@@ -2754,7 +3390,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Cortes-Tequila",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/cortes-tequila/54.html",
     "img": "https://vanpur.com.pl/uploads/product54.png",
     "name": "Cortes Tequila",
@@ -2763,7 +3403,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Cortes-Muscat",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/cortes-muscat/62.html",
     "img": "https://vanpur.com.pl/uploads/product62.png",
     "name": "Cortes Muscat",
@@ -2772,7 +3416,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Cortes-Rosado",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/cortes-rosado/63.html",
     "img": "https://vanpur.com.pl/uploads/product63.png",
     "name": "Cortes Rosado",
@@ -2781,7 +3429,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Cortes-00-Ananas",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/cortes-0-0proc-ananas/59.html",
     "img": "https://vanpur.com.pl/uploads/product59.png",
     "name": "Cortes 0,0% Ananas",
@@ -2790,7 +3442,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Cortes-00-Arbuz-Melon",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/cortes-0-0proc-arbuz-melon/60.html",
     "img": "https://vanpur.com.pl/uploads/product60.png",
     "name": "Cortes 0,0% Arbuz, Melon",
@@ -2799,7 +3455,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Cortes-00-Kiwi-Liczi",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/cortes-0-0proc-kiwi-liczi/61.html",
     "img": "https://vanpur.com.pl/uploads/product61.png",
     "name": "Cortes 0,0% Kiwi, Liczi",
@@ -2808,7 +3468,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Kuflowe",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/kuflowe/2.html",
     "img": "https://vanpur.com.pl/uploads/product2.png",
     "name": "Kuflowe",
@@ -2817,7 +3481,11 @@
     "servingTemperature": "7-10°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Brok-Premium",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/brok-premium/20.html",
     "img": "https://vanpur.com.pl/uploads/product20.png",
     "name": "Brok Premium",
@@ -2826,7 +3494,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Brok-Sambor",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/brok-sambor/21.html",
     "img": "https://vanpur.com.pl/uploads/product21.png",
     "name": "Brok Sambor",
@@ -2835,7 +3507,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Brok-Martin",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/brok-martin/22.html",
     "img": "https://vanpur.com.pl/uploads/product22.png",
     "name": "Brok Martin",
@@ -2844,7 +3520,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Braniewo",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/braniewo/3.html",
     "img": "https://vanpur.com.pl/uploads/product3.png",
     "name": "Braniewo",
@@ -2853,7 +3533,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Karpackie-Pils",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/karpackie-pils/14.html",
     "img": "https://vanpur.com.pl/uploads/product14.png",
     "name": "Karpackie Pils",
@@ -2862,7 +3546,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Karpackie-Mocne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/karpackie-mocne/15.html",
     "img": "https://vanpur.com.pl/uploads/product15.png",
     "name": "Karpackie Mocne",
@@ -2871,7 +3559,11 @@
     "servingTemperature": "7-10°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Karpackie-Super-Mocne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/karpackie-super-mocne/16.html",
     "img": "https://vanpur.com.pl/uploads/product16.png",
     "name": "Karpackie Super Mocne",
@@ -2880,7 +3572,11 @@
     "servingTemperature": "8-12°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Karpackie-Premium",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/karpackie-premium/55.html",
     "img": "https://vanpur.com.pl/uploads/product55.png",
     "name": "Karpackie Premium",
@@ -2889,7 +3585,11 @@
     "servingTemperature": "8-12°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Slaskie",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/slaskie/4.html",
     "img": "https://vanpur.com.pl/uploads/product4.png",
     "name": "Śląskie",
@@ -2898,7 +3598,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Halne-Jasne-Pelne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/halne-jasne-pelne/11.html",
     "img": "https://vanpur.com.pl/uploads/product11.png",
     "name": "Halne Jasne Pełne",
@@ -2907,7 +3611,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Halne-Mocne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/halne-mocne/12.html",
     "img": "https://vanpur.com.pl/uploads/product12.png",
     "name": "Halne Mocne",
@@ -2916,7 +3624,11 @@
     "servingTemperature": "7-10°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Halne-Mega-Mocne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/halne-mega-mocne/13.html",
     "img": "https://vanpur.com.pl/uploads/product13.png",
     "name": "Halne Mega Mocne",
@@ -2925,7 +3637,11 @@
     "servingTemperature": "8-12°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Pilsener",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-pilsener/23.html",
     "img": "https://vanpur.com.pl/uploads/product23.png",
     "name": "Edelmeister Pilsener",
@@ -2934,7 +3650,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-00",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-0-0proc/24.html",
     "img": "https://vanpur.com.pl/uploads/product24.png",
     "name": "Edelmeister 0,0%",
@@ -2943,7 +3663,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-88",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-8-8proc/25.html",
     "img": "https://vanpur.com.pl/uploads/product25.png",
     "name": "Edelmeister 8,8%",
@@ -2952,7 +3676,11 @@
     "servingTemperature": "8-12°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Schwarzbier",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-schwarzbier/26.html",
     "img": "https://vanpur.com.pl/uploads/product26.png",
     "name": "Edelmeister Schwarzbier",
@@ -2961,7 +3689,11 @@
     "servingTemperature": "8-13°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Weizenbier",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-weizenbier/27.html",
     "img": "https://vanpur.com.pl/uploads/product27.png",
     "name": "Edelmeister Weizenbier",
@@ -2970,7 +3702,11 @@
     "servingTemperature": "4-7°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-IPA",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-ipa/28.html",
     "img": "https://vanpur.com.pl/uploads/product28.png",
     "name": "Edelmeister IPA",
@@ -2979,7 +3715,11 @@
     "servingTemperature": "8-13°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Niefiltrowane",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-niefiltrowane/29.html",
     "img": "https://vanpur.com.pl/uploads/product29.png",
     "name": "Edelmeister Niefiltrowane",
@@ -2988,7 +3728,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Radler-Lemon-2",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-radler-lemon-2proc/30.html",
     "img": "https://vanpur.com.pl/uploads/product30.png",
     "name": "Edelmeister Radler Lemon 2%",
@@ -2997,7 +3741,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Radler-Grapefruit-25",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-radler-grapefruit-2-5proc/31.html",
     "img": "https://vanpur.com.pl/uploads/product31.png",
     "name": "Edelmeister Radler Grapefruit 2,5%",
@@ -3006,7 +3754,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Radler-00-Kwiat-Bzu-z-Cytryna-i-Mieta",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-radler-0-0proc-kwiat-bzu-z-cytryna-i-mieta/32.html",
     "img": "https://vanpur.com.pl/uploads/product32.png",
     "name": "Edelmeister Radler 0,0% Kwiat Bzu z Cytryną i Miętą",
@@ -3015,7 +3767,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Radler-00-Mango",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-radler-0-0proc-mango/33.html",
     "img": "https://vanpur.com.pl/uploads/product33.png",
     "name": "Edelmeister Radler 0,0% Mango",
@@ -3024,7 +3780,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Radler-00-Cytryna",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-radler-0-0proc-cytryna/34.html",
     "img": "https://vanpur.com.pl/uploads/product34.png",
     "name": "Edelmeister Radler 0,0% Cytryna",
@@ -3033,7 +3793,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Radler-00-Borowka",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-radler-0-0proc-borowka/35.html",
     "img": "https://vanpur.com.pl/uploads/product35.png",
     "name": "Edelmeister Radler 0,0% Borówka",
@@ -3042,7 +3806,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Radler-00-Wisnia",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-radler-0-0proc-wisnia/36.html",
     "img": "https://vanpur.com.pl/uploads/product36.png",
     "name": "Edelmeister Radler 0,0% Wiśnia",
@@ -3051,7 +3819,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Van-Pur-Premium",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/van-pur-premium/17.html",
     "img": "https://vanpur.com.pl/uploads/product17.png",
     "name": "Van Pur Premium",
@@ -3060,7 +3832,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Van-Pur-Bezalkoholowe",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/van-pur-bezalkoholowe/18.html",
     "img": "https://vanpur.com.pl/uploads/product18.png",
     "name": "Van Pur Bezalkoholowe",
@@ -3069,7 +3845,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Van-Pur-10",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/van-pur-10proc/19.html",
     "img": "https://vanpur.com.pl/uploads/product19.png",
     "name": "Van Pur 10%",
@@ -3078,7 +3858,11 @@
     "servingTemperature": "8-12°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Van-Pur-Malt-Original-Dark-Malt",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/van-pur-malt-original-dark-malt/37.html",
     "img": "https://vanpur.com.pl/uploads/product37.png",
     "name": "Van Pur Malt Original Dark Malt",
@@ -3087,7 +3871,11 @@
     "servingTemperature": "7-10°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Van-Pur-Malt-Coffee",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/van-pur-malt-coffee/38.html",
     "img": "https://vanpur.com.pl/uploads/product38.png",
     "name": "Van Pur Malt Coffee",
@@ -3096,7 +3884,11 @@
     "servingTemperature": "7-10°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Van-Pur-Malt-Vanilla",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/van-pur-malt-vanilla/39.html",
     "img": "https://vanpur.com.pl/uploads/product39.png",
     "name": "Van Pur Malt Vanilla",
@@ -3105,7 +3897,11 @@
     "servingTemperature": "7-10°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Jasne-ze-Pelne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/jasne-ze-pelne/1.html",
     "img": "https://vanpur.com.pl/uploads/product1.png",
     "name": "Jasne że Pełne",
@@ -3114,7 +3910,11 @@
     "servingTemperature": "3-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Gornoslaskie",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/gornoslaskie/64.html",
     "img": "https://vanpur.com.pl/uploads/product64.png",
     "name": "Górnośląskie",

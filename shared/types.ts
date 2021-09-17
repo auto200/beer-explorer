@@ -1,8 +1,4 @@
-type Owners =
-  | "Van Pur"
-  | "Grupa Żywiec"
-  | "Carlsberg Polska"
-  | "Kompania Piwowarska";
+import { OWNERS_DATA } from "./sharedConstants";
 
 export type NutritionalValues = {
   kj: string;
@@ -16,27 +12,28 @@ export type NutritionalValues = {
 };
 
 interface BeerBase {
-  owner: Owners;
+  owner: { name: string; website: string };
   originalUrl: string;
   img: string;
   name: string;
+  slug: string;
 }
 
 export interface VanPurBeer extends BeerBase {
-  owner: "Van Pur";
+  owner: typeof OWNERS_DATA.VAN_PUR;
   description: string;
   alcoholByVolume: string;
   servingTemperature: string;
 }
 
 export interface GrupaZywiecBeer extends BeerBase {
-  owner: "Grupa Żywiec";
+  owner: typeof OWNERS_DATA.GRUPA_ZYWIEC;
   description: string;
   nutritionalValues: NutritionalValues;
 }
 
 export interface CarlsbergBeer extends BeerBase {
-  owner: "Carlsberg Polska";
+  owner: typeof OWNERS_DATA.CARLSBERG_POLSKA;
   description: string;
   type: string;
   alcoholByVolume: string;
@@ -46,7 +43,7 @@ export interface CarlsbergBeer extends BeerBase {
 }
 
 export interface AbcalkoholuBeer extends BeerBase {
-  owner: "Kompania Piwowarska";
+  owner: typeof OWNERS_DATA.KOMPANIA_PIWOWARSKA;
   nutritionalValues: NutritionalValues;
 }
 

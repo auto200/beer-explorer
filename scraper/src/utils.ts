@@ -1,4 +1,8 @@
 import fs from "fs/promises";
+import slugify from "slugify";
+
+export const beerNameToSlug = (beerName: string) =>
+  slugify(beerName).replace("percent", "");
 
 export async function createDirsIfNotExists(path: string) {
   try {

@@ -1,6 +1,10 @@
 [
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Jasne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-jasne/42.html",
     "img": "https://vanpur.com.pl/uploads/product42.png",
     "name": "Łomża Jasne",
@@ -9,7 +13,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Pils",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-pils/43.html",
     "img": "https://vanpur.com.pl/uploads/product43.png",
     "name": "Łomża Pils",
@@ -18,7 +26,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-00",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-0-0proc/44.html",
     "img": "https://vanpur.com.pl/uploads/product44.png",
     "name": "Łomża 0,0%",
@@ -27,7 +39,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Radler-20",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-radler-2-0/45.html",
     "img": "https://vanpur.com.pl/uploads/product45.png",
     "name": "Łomża Radler 2,0",
@@ -36,7 +52,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Radler-00-Grapefruit",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-radler-0-0-grapefruit/46.html",
     "img": "https://vanpur.com.pl/uploads/product46.png",
     "name": "Łomża Radler 0,0 Grapefruit",
@@ -45,7 +65,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Pszeniczne-Radler-00-Mango-Marakuja",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-pszeniczne-radler-0-0proc-mango-marakuja/47.html",
     "img": "https://vanpur.com.pl/uploads/product47.png",
     "name": "Łomża Pszeniczne Radler 0,0% Mango, Marakuja",
@@ -54,7 +78,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Miodowe",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-miodowe/48.html",
     "img": "https://vanpur.com.pl/uploads/product48.png",
     "name": "Łomża Miodowe",
@@ -63,7 +91,11 @@
     "servingTemperature": "4-6°C lub podgrzane do temperatury 45°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Niepasteryzowane",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-niepasteryzowane/49.html",
     "img": "https://vanpur.com.pl/uploads/product49.png",
     "name": "Łomża Niepasteryzowane",
@@ -72,7 +104,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Jasne-Pelne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-jasne-pelne/50.html",
     "img": "https://vanpur.com.pl/uploads/product50.png",
     "name": "Łomża Jasne Pełne",
@@ -81,7 +117,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Wyborowe",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-wyborowe/51.html",
     "img": "https://vanpur.com.pl/uploads/product51.png",
     "name": "Łomża Wyborowe",
@@ -90,7 +130,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Lomza-Mocne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/lomza-mocne/52.html",
     "img": "https://vanpur.com.pl/uploads/product52.png",
     "name": "Łomża Mocne",
@@ -99,7 +143,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Cortes-Extra",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/cortes-extra/53.html",
     "img": "https://vanpur.com.pl/uploads/product53.png",
     "name": "Cortes Extra",
@@ -108,7 +156,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Cortes-Tequila",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/cortes-tequila/54.html",
     "img": "https://vanpur.com.pl/uploads/product54.png",
     "name": "Cortes Tequila",
@@ -117,7 +169,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Cortes-Muscat",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/cortes-muscat/62.html",
     "img": "https://vanpur.com.pl/uploads/product62.png",
     "name": "Cortes Muscat",
@@ -126,7 +182,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Cortes-Rosado",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/cortes-rosado/63.html",
     "img": "https://vanpur.com.pl/uploads/product63.png",
     "name": "Cortes Rosado",
@@ -135,7 +195,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Cortes-00-Ananas",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/cortes-0-0proc-ananas/59.html",
     "img": "https://vanpur.com.pl/uploads/product59.png",
     "name": "Cortes 0,0% Ananas",
@@ -144,7 +208,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Cortes-00-Arbuz-Melon",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/cortes-0-0proc-arbuz-melon/60.html",
     "img": "https://vanpur.com.pl/uploads/product60.png",
     "name": "Cortes 0,0% Arbuz, Melon",
@@ -153,7 +221,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Cortes-00-Kiwi-Liczi",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/cortes-0-0proc-kiwi-liczi/61.html",
     "img": "https://vanpur.com.pl/uploads/product61.png",
     "name": "Cortes 0,0% Kiwi, Liczi",
@@ -162,7 +234,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Kuflowe",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/kuflowe/2.html",
     "img": "https://vanpur.com.pl/uploads/product2.png",
     "name": "Kuflowe",
@@ -171,7 +247,11 @@
     "servingTemperature": "7-10°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Brok-Premium",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/brok-premium/20.html",
     "img": "https://vanpur.com.pl/uploads/product20.png",
     "name": "Brok Premium",
@@ -180,7 +260,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Brok-Sambor",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/brok-sambor/21.html",
     "img": "https://vanpur.com.pl/uploads/product21.png",
     "name": "Brok Sambor",
@@ -189,7 +273,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Brok-Martin",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/brok-martin/22.html",
     "img": "https://vanpur.com.pl/uploads/product22.png",
     "name": "Brok Martin",
@@ -198,7 +286,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Braniewo",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/braniewo/3.html",
     "img": "https://vanpur.com.pl/uploads/product3.png",
     "name": "Braniewo",
@@ -207,7 +299,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Karpackie-Pils",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/karpackie-pils/14.html",
     "img": "https://vanpur.com.pl/uploads/product14.png",
     "name": "Karpackie Pils",
@@ -216,7 +312,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Karpackie-Mocne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/karpackie-mocne/15.html",
     "img": "https://vanpur.com.pl/uploads/product15.png",
     "name": "Karpackie Mocne",
@@ -225,7 +325,11 @@
     "servingTemperature": "7-10°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Karpackie-Super-Mocne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/karpackie-super-mocne/16.html",
     "img": "https://vanpur.com.pl/uploads/product16.png",
     "name": "Karpackie Super Mocne",
@@ -234,7 +338,11 @@
     "servingTemperature": "8-12°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Karpackie-Premium",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/karpackie-premium/55.html",
     "img": "https://vanpur.com.pl/uploads/product55.png",
     "name": "Karpackie Premium",
@@ -243,7 +351,11 @@
     "servingTemperature": "8-12°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Slaskie",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/slaskie/4.html",
     "img": "https://vanpur.com.pl/uploads/product4.png",
     "name": "Śląskie",
@@ -252,7 +364,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Halne-Jasne-Pelne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/halne-jasne-pelne/11.html",
     "img": "https://vanpur.com.pl/uploads/product11.png",
     "name": "Halne Jasne Pełne",
@@ -261,7 +377,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Halne-Mocne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/halne-mocne/12.html",
     "img": "https://vanpur.com.pl/uploads/product12.png",
     "name": "Halne Mocne",
@@ -270,7 +390,11 @@
     "servingTemperature": "7-10°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Halne-Mega-Mocne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/halne-mega-mocne/13.html",
     "img": "https://vanpur.com.pl/uploads/product13.png",
     "name": "Halne Mega Mocne",
@@ -279,7 +403,11 @@
     "servingTemperature": "8-12°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Pilsener",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-pilsener/23.html",
     "img": "https://vanpur.com.pl/uploads/product23.png",
     "name": "Edelmeister Pilsener",
@@ -288,7 +416,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-00",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-0-0proc/24.html",
     "img": "https://vanpur.com.pl/uploads/product24.png",
     "name": "Edelmeister 0,0%",
@@ -297,7 +429,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-88",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-8-8proc/25.html",
     "img": "https://vanpur.com.pl/uploads/product25.png",
     "name": "Edelmeister 8,8%",
@@ -306,7 +442,11 @@
     "servingTemperature": "8-12°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Schwarzbier",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-schwarzbier/26.html",
     "img": "https://vanpur.com.pl/uploads/product26.png",
     "name": "Edelmeister Schwarzbier",
@@ -315,7 +455,11 @@
     "servingTemperature": "8-13°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Weizenbier",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-weizenbier/27.html",
     "img": "https://vanpur.com.pl/uploads/product27.png",
     "name": "Edelmeister Weizenbier",
@@ -324,7 +468,11 @@
     "servingTemperature": "4-7°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-IPA",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-ipa/28.html",
     "img": "https://vanpur.com.pl/uploads/product28.png",
     "name": "Edelmeister IPA",
@@ -333,7 +481,11 @@
     "servingTemperature": "8-13°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Niefiltrowane",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-niefiltrowane/29.html",
     "img": "https://vanpur.com.pl/uploads/product29.png",
     "name": "Edelmeister Niefiltrowane",
@@ -342,7 +494,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Radler-Lemon-2",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-radler-lemon-2proc/30.html",
     "img": "https://vanpur.com.pl/uploads/product30.png",
     "name": "Edelmeister Radler Lemon 2%",
@@ -351,7 +507,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Radler-Grapefruit-25",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-radler-grapefruit-2-5proc/31.html",
     "img": "https://vanpur.com.pl/uploads/product31.png",
     "name": "Edelmeister Radler Grapefruit 2,5%",
@@ -360,7 +520,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Radler-00-Kwiat-Bzu-z-Cytryna-i-Mieta",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-radler-0-0proc-kwiat-bzu-z-cytryna-i-mieta/32.html",
     "img": "https://vanpur.com.pl/uploads/product32.png",
     "name": "Edelmeister Radler 0,0% Kwiat Bzu z Cytryną i Miętą",
@@ -369,7 +533,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Radler-00-Mango",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-radler-0-0proc-mango/33.html",
     "img": "https://vanpur.com.pl/uploads/product33.png",
     "name": "Edelmeister Radler 0,0% Mango",
@@ -378,7 +546,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Radler-00-Cytryna",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-radler-0-0proc-cytryna/34.html",
     "img": "https://vanpur.com.pl/uploads/product34.png",
     "name": "Edelmeister Radler 0,0% Cytryna",
@@ -387,7 +559,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Radler-00-Borowka",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-radler-0-0proc-borowka/35.html",
     "img": "https://vanpur.com.pl/uploads/product35.png",
     "name": "Edelmeister Radler 0,0% Borówka",
@@ -396,7 +572,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Edelmeister-Radler-00-Wisnia",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/edelmeister-radler-0-0proc-wisnia/36.html",
     "img": "https://vanpur.com.pl/uploads/product36.png",
     "name": "Edelmeister Radler 0,0% Wiśnia",
@@ -405,7 +585,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Van-Pur-Premium",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/van-pur-premium/17.html",
     "img": "https://vanpur.com.pl/uploads/product17.png",
     "name": "Van Pur Premium",
@@ -414,7 +598,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Van-Pur-Bezalkoholowe",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/van-pur-bezalkoholowe/18.html",
     "img": "https://vanpur.com.pl/uploads/product18.png",
     "name": "Van Pur Bezalkoholowe",
@@ -423,7 +611,11 @@
     "servingTemperature": "4-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Van-Pur-10",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/van-pur-10proc/19.html",
     "img": "https://vanpur.com.pl/uploads/product19.png",
     "name": "Van Pur 10%",
@@ -432,7 +624,11 @@
     "servingTemperature": "8-12°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Van-Pur-Malt-Original-Dark-Malt",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/van-pur-malt-original-dark-malt/37.html",
     "img": "https://vanpur.com.pl/uploads/product37.png",
     "name": "Van Pur Malt Original Dark Malt",
@@ -441,7 +637,11 @@
     "servingTemperature": "7-10°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Van-Pur-Malt-Coffee",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/van-pur-malt-coffee/38.html",
     "img": "https://vanpur.com.pl/uploads/product38.png",
     "name": "Van Pur Malt Coffee",
@@ -450,7 +650,11 @@
     "servingTemperature": "7-10°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Van-Pur-Malt-Vanilla",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/van-pur-malt-vanilla/39.html",
     "img": "https://vanpur.com.pl/uploads/product39.png",
     "name": "Van Pur Malt Vanilla",
@@ -459,7 +663,11 @@
     "servingTemperature": "7-10°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Jasne-ze-Pelne",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/jasne-ze-pelne/1.html",
     "img": "https://vanpur.com.pl/uploads/product1.png",
     "name": "Jasne że Pełne",
@@ -468,7 +676,11 @@
     "servingTemperature": "3-6°C"
   },
   {
-    "owner": "Van Pur",
+    "owner": {
+      "name": "Van Pur",
+      "website": "https://vanpur.com.pl/"
+    },
+    "slug": "Gornoslaskie",
     "originalUrl": "https://vanpur.com.pl/pl/nasze-marki/gornoslaskie/64.html",
     "img": "https://vanpur.com.pl/uploads/product64.png",
     "name": "Górnośląskie",

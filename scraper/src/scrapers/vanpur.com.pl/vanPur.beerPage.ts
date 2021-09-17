@@ -2,6 +2,8 @@ import cheerio from "cheerio";
 import { VanPurBeer } from "@shared/types";
 import axios from "../axiosInstance";
 import { VAN_PUR_BASE_URL } from "./vanPur.constants";
+import { OWNERS_DATA } from "@shared/sharedConstants";
+import { beerNameToSlug } from "scraper/src/utils";
 
 export const getVanPurBeerInfoFromURL = async (
   url: string
@@ -28,7 +30,8 @@ export const getVanPurBeerInfoFromURL = async (
     .text();
 
   return {
-    owner: "Van Pur",
+    owner: OWNERS_DATA.VAN_PUR,
+    slug: beerNameToSlug(name),
     originalUrl: url,
     img,
     name,

@@ -26,6 +26,6 @@ async function combineOutputIntoOneFile() {
   const combined = Object.values(outArrays)
     .flat()
     //sort for consistant order, that way you can easly see what changed
-    .sort((a, b) => a.owner.localeCompare(b.owner));
+    .sort((a, b) => a.owner.name.localeCompare(b.owner.name));
   await parseToJSONAndSaveToFile(COMBINED_DATA_OUT_PATH, combined);
 }

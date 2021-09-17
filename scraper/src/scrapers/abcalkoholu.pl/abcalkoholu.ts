@@ -2,6 +2,8 @@ import cheerio, { CheerioAPI, Element } from "cheerio";
 import { AbcalkoholuBeer, NutritionalValues } from "@shared/types";
 import axios from "../axiosInstance";
 import { ABC_ALKOHOLU_BEER_COLLECTION_URL } from "./abcalkoholu.constants";
+import { OWNERS_DATA } from "@shared/sharedConstants";
+import { beerNameToSlug } from "scraper/src/utils";
 
 export const scrapeAbcalkoholu = async (): Promise<AbcalkoholuBeer[]> => {
   const { data: html } = await axios.get(ABC_ALKOHOLU_BEER_COLLECTION_URL);
@@ -18,7 +20,8 @@ export const scrapeAbcalkoholu = async (): Promise<AbcalkoholuBeer[]> => {
       const nutritionalValues = getNutritionalValues($, el);
 
       return {
-        owner: "Kompania Piwowarska" as const,
+        owner: OWNERS_DATA.KOMPANIA_PIWOWARSKA,
+        slug: beerNameToSlug(name),
         originalUrl,
         name,
         img,

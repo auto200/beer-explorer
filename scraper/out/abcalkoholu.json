@@ -1,6 +1,10 @@
 [
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Tyskie-Gronie",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=tyskie-gronie",
     "name": "Tyskie Gronie",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/tyskie-136x320.png",
@@ -16,7 +20,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Tyskie-Edycja-Klasyczna",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=tyskie-klasyczne",
     "name": "Tyskie Edycja Klasyczna",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/BUTELKA-KLASYCZNE-2019-WIZv2-83x320.png",
@@ -32,7 +40,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Tyskie-00",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=tyskie-00",
     "name": "Tyskie 0,0%",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/03/BUTELKA-TYSKIE-ZERO-150OKxxx-82x320.png",
@@ -48,7 +60,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Tyskie-Radler",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=tyskie-radler",
     "name": "Tyskie Radler",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/Tyskie-Radler-Dose-500ml-150x300.png",
@@ -64,7 +80,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Tyskie-14-dniowe",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=tyskie-14-dniowe",
     "name": "Tyskie 14-dniowe",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/tyskie-14-dniowe-2-112x320.png",
@@ -80,7 +100,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Premium",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-premium",
     "name": "Lech Premium",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/lech-136x320.png",
@@ -96,7 +120,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Premium-Chmiele-Cytrusowe",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-premium-chmiele-cytrusowe",
     "name": "Lech Premium Chmiele Cytrusowe",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/03/LECH_PREMIUM_CHMIELE_CYTRUSOWE_SZRON_500-83x320.png",
@@ -112,7 +140,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Pils",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-pils",
     "name": "Lech Pils",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/lech-pils-86x320.png",
@@ -128,7 +160,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Shandy-Spritz",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-shandy-spritz",
     "name": "Lech Shandy Spritz",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/02/RB500-LECH-SHANDY-SPRITZ-86x320.png",
@@ -144,7 +180,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Shandy-Margarita",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-shandy-strawberry-margarita",
     "name": "Lech Shandy Margarita",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2019/03/STRAWBERRY-min-91x320.png",
@@ -160,7 +200,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Shandy-Lemon",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-ice-shandy",
     "name": "Lech Shandy Lemon",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/190318-piwka-lemon-86x320.png",
@@ -176,7 +220,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Shandy-Bloody-Orange",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-ice-bloody-orange",
     "name": "Lech Shandy Bloody Orange",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/190318-piwka-orange-86x320.png",
@@ -192,7 +240,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Shandy-Mojito",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-ice-mojito",
     "name": "Lech Shandy Mojito",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/190318-piwka-mojito-86x320.png",
@@ -208,7 +260,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Free-Lager",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-free",
     "name": "Lech Free Lager",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/03/LFR-lager-NRB330-82x320.png",
@@ -224,7 +280,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Free-Chmiele-Cytrusowe",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-free-chmiele-cytrusowe",
     "name": "Lech Free Chmiele Cytrusowe",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/03/LECH_FREE_CHMIELE_CYTRUSOWE_SZRON_500-128x320.png",
@@ -240,7 +300,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Free-Arbuz-z-Mieta",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-free-arbuz",
     "name": "Lech Free Arbuz z Miętą",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/03/LFR-arbuz-NRB330-130x320.png",
@@ -256,7 +320,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Free-Limonka-z-Mieta",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-free-limonka-z-mieta",
     "name": "Lech Free Limonka z Mięta",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/03/LFR-limonka-NRB330-82x320.png",
@@ -272,7 +340,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Free-Marakuja-i-Melon",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-free-marakuja-i-melon",
     "name": "Lech Free Marakuja i Melon",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/03/LFR-marakuja-NRB330-82x320.png",
@@ -288,7 +360,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Free-Granat-i-Acai",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-free-granat-i-acai",
     "name": "Lech Free Granat i Acai",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/03/LFR-granat-NRB330-82x320.png",
@@ -304,7 +380,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Free-Pomelo-i-Grejpfrut",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-free-pomelo-i-grejpfrut",
     "name": "Lech Free Pomelo i Grejpfrut",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/03/LFR-pomelo-NRB330-82x320.png",
@@ -320,7 +400,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Lech-Free-Ananas-i-Guawa",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=lech-free-ananas-i-guawa",
     "name": "Lech Free Ananas i Guawa",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/03/LFR-ananas-NRB330-82x320.png",
@@ -336,7 +420,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Zubr",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=zubr",
     "name": "Żubr",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/zubr-136x320.png",
@@ -352,7 +440,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Debowe",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=debowe",
     "name": "Dębowe",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/debowe-136x320.png",
@@ -368,7 +460,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Wojak-Jasny-Pelny",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=wojak-jasny-pelny",
     "name": "Wojak Jasny Pełny",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/wojak-136x320.png",
@@ -384,7 +480,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Redd's-Papaja-i-Limonka",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=redds-papaja-i-limonka",
     "name": "Redd’s Papaja i Limonka",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2020/02/BUTELKA-REDDS-PAPAJA-2020-BEZ-84x320.png",
@@ -400,7 +500,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Redd's-Marakuja-i-Brzoskwinia",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=redds-marakuja-i-brzoskwinia",
     "name": "Redd’s Marakuja i Brzoskwinia",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/02/BUTELKA-REDDS-MARAKUJA-2020-NOWOSC-83x320.png",
@@ -416,7 +520,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Redd's-Zurawina",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=redds-zurawina",
     "name": "Redd’s Żurawina",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/BUTELKA-REDDS-ZURAWINA-2020-84x320.png",
@@ -432,7 +540,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Redd's-Malina-Granat",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=redds-malina-granat",
     "name": "Redd’s Malina Granat",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/BUTELKA-REDDS-MALINA-2020-84x320.png",
@@ -448,7 +560,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Redd's-Jablko-i-Trawa-Cytrynowa",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=redds-jablko-i-trawa-cytrynowa",
     "name": "Redd’s Jabłko i Trawa Cytrynowa",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/BUTELKA-REDDS-APPLE-2020-79x320.png",
@@ -464,7 +580,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Redd's-Mango-i-Cytryna",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=redds-mango-i-cytryna",
     "name": "Redd’s Mango i Cytryna",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2019/03/BUTELKA-REDDS-MANGO-2020-79x320.png",
@@ -480,7 +600,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Captain-Jack",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=capitan-jack",
     "name": "Captain Jack",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/BUTELKA-CAPTAIN-JACK-ORIGINAL-2021-KROPLE-PION-TTO-79x320.png",
@@ -496,7 +620,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Captain-Jack-Pirate-Orange",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=captain-jack-pirate-orange",
     "name": "Captain Jack Pirate Orange",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/BUTELKA-CAPTAIN-JACK-ORANGE-PION-2021-TTO-78x320.png",
@@ -512,7 +640,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Captain-Jack-Cuba-Libre",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=captain-jack-cuba-libre",
     "name": "Captain Jack Cuba Libre",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/02/BUTELKA-CAPTAIN-JACK-CUBA-LIBRE-PION-OK-105x320.png",
@@ -528,7 +660,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Captain-Jack-Exotic-Daiquiri",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=captain-jack-exotic-daiquiri",
     "name": "Captain Jack Exotic Daiquiri",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/BUTELKA-CAPTAIN-JACK-DAIQUIRI-PION-2021-TTO-78x320.png",
@@ -544,7 +680,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "HARDMADE-PEACH-ICE-TEA-CRUSH",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=hardmade-peach-ice-tea-crush",
     "name": "HARDMADE PEACH ICE TEA CRUSH",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/03/hardmade-Peach_-150x200.png",
@@ -560,7 +700,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "HARDMADE-RASPBERRY-CRUSH",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=hardmade-raspberry-crush",
     "name": "HARDMADE RASPBERRY CRUSH",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/03/hardmade-Raspberry-150x200.png",
@@ -576,7 +720,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "HARDMADE-GRAPEFRUIT-CRUSH",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=hardmade-grapefruit-crush",
     "name": "HARDMADE GRAPEFRUIT CRUSH",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/03/hardmade-Grapefruit-150x200.png",
@@ -592,7 +740,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Pilsner-Urquell",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=pilsner-urquell",
     "name": "Pilsner Urquell",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/pilsner-1-136x320.png",
@@ -608,7 +760,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Ksiazece-Zlote-Pszeniczne",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=ksiazece-zlote-przeniczne",
     "name": "Książęce Złote Pszeniczne",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/Złote-Pszeniczne-95x320.png",
@@ -624,7 +780,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Ksiazece-Ciemne-Lagodne",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=245",
     "name": "Książęce Ciemne Łagodne",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/Ciemne-Łagodne-95x320.png",
@@ -640,7 +800,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "KSIAZeCE-Czerwony-Lager",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=ksiazece-czerwony-lager",
     "name": "KSIĄŻĘCE Czerwony Lager",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/Czerwony-Lager-95x320.png",
@@ -656,7 +820,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Ksiazece-IPA",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=ksiazece-ipa",
     "name": "Książęce IPA",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/IPA-95x320.png",
@@ -672,7 +840,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Ksiazece-Cherry-Ale",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=ksiazece-cherry-ale",
     "name": "Książęce Cherry Ale",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2021/03/CHERRY_butelka_V9_12_11-87x320.png",
@@ -688,7 +860,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Ksiazece-Weizen",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=ksiazece-weizen",
     "name": "Książęce Weizen",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/weizen-95x320.png",
@@ -704,7 +880,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Ksiazece-Porter",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=ksiazece-porter",
     "name": "Książęce Porter",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/Poerter-95x320.png",
@@ -720,7 +900,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Ksiazece-Irish-Ale",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=ksiazece-irish-ale",
     "name": "Książęce Irish Ale",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/irish-ale-81x320.png",
@@ -736,7 +920,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Velkopopovicky-Kozel-Lezak",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=velkopopovicky-kozel-cerny",
     "name": "Velkopopovický Kozel Lezak",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/KOZEL_LEZAK_RB500_WIZ_20_01-89x320.png",
@@ -752,7 +940,11 @@
     }
   },
   {
-    "owner": "Kompania Piwowarska",
+    "owner": {
+      "name": "Kompania Piwowarska",
+      "website": "https://www.kp.pl/"
+    },
+    "slug": "Velkopopovicky-Kozel-Cerny",
     "originalUrl": "https://www.abcalkoholu.pl/co-zawiera-piwo/wartosci-odzywcze?beer=velkopopovicky-kozel-cerny-2",
     "name": "Velkopopovický Kozel Černý",
     "img": "https://www.abcalkoholu.pl/wp-content/uploads/2018/11/KOZEL_CERNY_RB500_WIZ_20_01-89x320.png",
