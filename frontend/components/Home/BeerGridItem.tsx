@@ -10,7 +10,7 @@ import {
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
-import { AnyBeer } from "../../beerTypes";
+import { AnyBeer } from "@shared/types";
 
 interface Props {
   beer: AnyBeer;
