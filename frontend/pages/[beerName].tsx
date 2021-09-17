@@ -1,7 +1,7 @@
 import { Box, Heading, Img, Text } from "@chakra-ui/react";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import beersData from "../beers-data.json";
-import { AnyBeer } from "../beerTypes";
+import { AnyBeer } from "@shared/types";
 
 interface Props {
   beer: AnyBeer;
