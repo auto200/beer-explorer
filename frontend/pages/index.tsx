@@ -1,6 +1,6 @@
 import { SimpleGrid } from "@chakra-ui/react";
 import type { NextPage } from "next";
-import beersData from "../beers-data.json";
+import beersData from "@shared/beers-data.json";
 import { AnyBeer } from "@shared/types";
 import BeerGridItem from "../components/Home/BeerGridItem";
 
