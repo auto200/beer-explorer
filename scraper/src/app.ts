@@ -27,5 +27,15 @@ async function combineOutputIntoOneFile() {
     .flat()
     //sort for consistant order, that way you can easly see what changed
     .sort((a, b) => a.owner.name.localeCompare(b.owner.name));
+
+  //name is used as an id, so better be sure for it to be unique
+  const beerNames = combined.map(({ name }) => name);
+  if (beerNames.length !== new Set(beerNames).size) {
+    const duplicates = beerNames.filter(
+      (name, i) => beerNames.indexOf(name) !== i
+    );
+    console.error("There are duplicated beer names:", duplicates);
+  }
+
   await parseToJSONAndSaveToFile(COMBINED_DATA_OUT_PATH, combined);
 }
