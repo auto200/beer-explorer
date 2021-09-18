@@ -2,7 +2,7 @@ import cheerio, { CheerioAPI, Element } from "cheerio";
 import { AbcalkoholuBeer, NutritionalValues } from "@shared/types";
 import axios from "../axiosInstance";
 import { ABC_ALKOHOLU_BEER_COLLECTION_URL } from "./abcalkoholu.constants";
-import { OWNERS_DATA } from "@shared/sharedConstants";
+import { OWNERS_DATA } from "@shared/constants";
 import { beerNameToSlug } from "scraper/src/utils";
 
 export const scrapeAbcalkoholu = async (): Promise<AbcalkoholuBeer[]> => {

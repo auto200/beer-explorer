@@ -2,7 +2,7 @@ import cheerio from "cheerio";
 import { VanPurBeer } from "@shared/types";
 import axios from "../axiosInstance";
 import { VAN_PUR_BASE_URL } from "./vanPur.constants";
-import { OWNERS_DATA } from "@shared/sharedConstants";
+import { OWNERS_DATA } from "@shared/constants";
 import { beerNameToSlug } from "scraper/src/utils";
 
 export const getVanPurBeerInfoFromURL = async (

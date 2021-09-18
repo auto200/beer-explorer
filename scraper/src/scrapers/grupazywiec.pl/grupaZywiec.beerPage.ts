@@ -1,7 +1,7 @@
 import cheerio, { CheerioAPI, Element } from "cheerio";
 import { GrupaZywiecBeer, NutritionalValues } from "@shared/types";
 import axios from "../axiosInstance";
-import { OWNERS_DATA } from "@shared/sharedConstants";
+import { OWNERS_DATA } from "@shared/constants";
 import { beerNameToSlug } from "scraper/src/utils";
 
 export const getGrupaZywiecBeersInfoFromCollectionUrl = async (

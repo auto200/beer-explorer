@@ -2,7 +2,7 @@ import cheerio, { CheerioAPI } from "cheerio";
 import { CarlsbergBeer, NutritionalValues } from "@shared/types";
 import axios from "../axiosInstance";
 import { CARLSBERG_BASE_URL } from "./carlsberg.constants";
-import { OWNERS_DATA } from "@shared/sharedConstants";
+import { OWNERS_DATA } from "@shared/constants";
 import { beerNameToSlug } from "scraper/src/utils";
 
 export const getCarlsbergBeerInfoFromURL = async (

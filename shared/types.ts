@@ -1,4 +1,4 @@
-import { OWNERS_DATA } from "./sharedConstants";
+import { OWNERS_DATA } from "./constants";
 
 export type NutritionalValues = {
   kj: string;
