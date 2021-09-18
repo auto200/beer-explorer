@@ -1,7 +1,9 @@
-import { Box, Heading, Img, Text } from "@chakra-ui/react";
+import { ArrowBackIcon } from "@chakra-ui/icons";
+import { Heading, Img, Text, VStack } from "@chakra-ui/react";
 import beersData from "@shared/beers-data.json";
 import { AnyBeer } from "@shared/types";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
+import Link from "next/link";
 
 interface Props {
   beer: AnyBeer;
@@ -9,11 +11,18 @@ interface Props {
 
 const BeerPage: NextPage<Props> = ({ beer }) => {
   return (
-    <Box>
-      <Img src={beer.img} alt={beer.name} h="450px" />
-      <Heading>{beer.name}</Heading>
-      <Text>Producent - {beer.owner.name}</Text>
-    </Box>
+    <>
+      <Link href="/">
+        <a>
+          <ArrowBackIcon fontSize="35px" ml={3} mt={3} />
+        </a>
+      </Link>
+      <VStack>
+        <Img src={beer.img} alt={beer.name} h="250px" />
+        <Heading>{beer.name}</Heading>
+        <Text>Producent - {beer.owner.name}</Text>
+      </VStack>
+    </>
   );
 };
 

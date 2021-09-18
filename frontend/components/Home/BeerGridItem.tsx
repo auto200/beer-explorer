@@ -31,28 +31,28 @@ const BeerGridItem: React.FC<Props> = ({ beer }) => {
 
   return (
     //TODO: pass proper href to the product page
-    <Link href="#">
-      <VStack as="a">
-        <Tooltip
-          label={beer.name}
-          placement="top"
-          textAlign="center"
-          visibility={isTooltipVisible ? undefined : "hidden"}
-        >
-          <Box h="120px" textAlign="center">
-            <Heading noOfLines={2} alt={beer.name} ref={titleRef}>
-              {beer.name}
-            </Heading>
-          </Box>
-        </Tooltip>
-        <Box>
-          <Img src={beer.img} alt={beer.name} h="150px" />
+    <VStack as="a">
+      <Tooltip
+        label={beer.name}
+        placement="top"
+        textAlign="center"
+        visibility={isTooltipVisible ? undefined : "hidden"}
+      >
+        <Box h="120px" textAlign="center">
+          <Heading noOfLines={2} alt={beer.name} ref={titleRef}>
+            {beer.name}
+          </Heading>
         </Box>
-        <Text alt="Producent">
+      </Tooltip>
+      <Box>
+        <Img src={beer.img} alt={beer.name} h="150px" />
+      </Box>
+      <Link href={`/${beer.slug}`}>
+        <a>
           <Button>Dowiedz się więcej</Button>
-        </Text>
-      </VStack>
-    </Link>
+        </a>
+      </Link>
+    </VStack>
   );
 };
 
