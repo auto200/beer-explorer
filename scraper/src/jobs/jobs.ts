@@ -15,7 +15,7 @@ interface Job {
   handler: () => Promise<AnyBeer[]>;
 }
 
-export const jobs: Job[] = [
+export const jobs: readonly Job[] = [
   {
     name: "Calsberg",
     outPath: `${BASE_OUT_PATH}/carlsbergpolska.json`,
