@@ -28,11 +28,11 @@ async function combineOutputIntoOneFile() {
     //sort for consistant order, that way you can easly see what changed
     .sort((a, b) => a.owner.name.localeCompare(b.owner.name));
 
-  //name is used as an id, so better be sure for it to be unique
-  const beerNames = combined.map(({ name }) => name);
-  if (beerNames.length !== new Set(beerNames).size) {
-    const duplicates = beerNames.filter(
-      (name, i) => beerNames.indexOf(name) !== i
+  //slug must be unique for the url so better be sure it is
+  const beerSlugs = combined.map(({ slug }) => slug);
+  if (beerSlugs.length !== new Set(beerSlugs).size) {
+    const duplicates = beerSlugs.filter(
+      (slug, i) => beerSlugs.indexOf(slug) !== i
     );
     console.error("There are duplicated beer names:", duplicates);
   }
