@@ -1,15 +1,21 @@
 import { ArrowBackIcon } from "@chakra-ui/icons";
 import { Heading, Img, Link as ChLink, VStack } from "@chakra-ui/react";
+import Abcalkoholu from "@components/BeerPage/Abcalkoholu";
+import Carlsberg from "@components/BeerPage/Carlsberg";
+import VanPur from "@components/BeerPage/VanPur";
+import Zywiec from "@components/BeerPage/Zywiec";
+import ExternalLink from "@components/shared/ExternalLink";
 import beersData from "@shared/beers-data.json";
 import { AnyBeer } from "@shared/types";
-import Carlsberg from "@components/BeerPage/Carlsberg";
-import ExternalLink from "@components/shared/ExternalLink";
-import { isAbcalkoholuBeer, isCarlsbergBeer, isGrupaZywiecBeer } from "@utils";
+import {
+  isAbcalkoholuBeer,
+  isCarlsbergBeer,
+  isGrupaZywiecBeer,
+  isVanPurBeer,
+} from "@utils";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import NextLink from "next/link";
 import React from "react";
-import Zywiec from "@components/BeerPage/Zywiec";
-import Abcalkoholu from "@components/BeerPage/Abcalkoholu";
 
 interface Props {
   beer: AnyBeer;
@@ -23,8 +29,8 @@ const BeerPage: NextPage<Props> = ({ beer }) => {
           <ArrowBackIcon fontSize="35px" />
         </ChLink>
       </NextLink>
-      <VStack p={2} pb={0}>
-        <VStack m={3} maxW="768px" w="full" mb={0}>
+      <VStack px={2} pb={0}>
+        <VStack mx={3} maxW="768px" w="full" minH="100vh">
           <Img src={beer.img} alt={beer.name} h="250px" mt={5} />
           <Heading textAlign="center">{beer.name}</Heading>
           <ExternalLink href={beer.owner.website} mt="0 !important">
@@ -33,7 +39,8 @@ const BeerPage: NextPage<Props> = ({ beer }) => {
           {isCarlsbergBeer(beer) && <Carlsberg beer={beer} />}
           {isGrupaZywiecBeer(beer) && <Zywiec beer={beer} />}
           {isAbcalkoholuBeer(beer) && <Abcalkoholu beer={beer} />}
-          <ExternalLink href={beer.originalUrl} mt="25px !important">
+          {isVanPurBeer(beer) && <VanPur beer={beer} />}
+          <ExternalLink href={beer.originalUrl} mt="auto !important">
             Originalna Strona Produktu
           </ExternalLink>
         </VStack>
