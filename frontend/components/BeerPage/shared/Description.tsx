@@ -1,11 +1,11 @@
 import {
   Accordion,
-  AccordionItem,
   AccordionButton,
   AccordionIcon,
+  AccordionItem,
   AccordionPanel,
 } from "@chakra-ui/accordion";
-import { Heading, Box } from "@chakra-ui/layout";
+import { Box, Heading } from "@chakra-ui/layout";
 import React from "react";
 
 interface Props {
@@ -17,7 +17,7 @@ const Description: React.FC<Props> = ({ label = "Opis", children }) => {
     <Accordion allowToggle={true} w="full">
       <AccordionItem>
         <Heading>
-          <AccordionButton>
+          <AccordionButton _focus={{ boxShadow: "" }}>
             <Box flex="1" textAlign="left" fontWeight="medium">
               {label}
             </Box>

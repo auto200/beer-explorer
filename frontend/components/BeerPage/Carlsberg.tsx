@@ -1,9 +1,12 @@
-import React from "react";
-import { Text, Heading, VStack } from "@chakra-ui/react";
+import { Heading, Text, VStack } from "@chakra-ui/react";
 import { CarlsbergBeer } from "@shared/types";
-import LabelValuePair from "./shared/LabelValuePair";
-import Description from "./shared/Description";
-import NutritionalValuesTable from "./shared/NutritionalValuesTable";
+import React from "react";
+import {
+  Description,
+  LabelValuePair,
+  NutritionalValuesTable,
+  SpecificBeerInfoWrapper,
+} from "./shared";
 
 interface Props {
   beer: CarlsbergBeer;
@@ -11,7 +14,7 @@ interface Props {
 
 const Carlsberg: React.FC<Props> = ({ beer }) => {
   return (
-    <VStack mt="25px !important" w="full">
+    <SpecificBeerInfoWrapper>
       {beer.alcoholByVolume !== "0%" && (
         <LabelValuePair
           label="Zawartość alkoholu:"
@@ -34,7 +37,7 @@ const Carlsberg: React.FC<Props> = ({ beer }) => {
       {beer.origin && (
         <LabelValuePair label="Pochodzenie" value={beer.origin} />
       )}
-    </VStack>
+    </SpecificBeerInfoWrapper>
   );
 };
 

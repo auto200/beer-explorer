@@ -24,6 +24,9 @@
       "@shared/*": [
         "shared/*"
       ],
+      "@utils": [
+        "frontend/utils/utils"
+      ],
       "@components/*": [
         "frontend/components/*"
       ]
