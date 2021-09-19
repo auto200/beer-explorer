@@ -3,6 +3,7 @@ import { Heading, Img, Text, Link as ChLink, VStack } from "@chakra-ui/react";
 import beersData from "@shared/beers-data.json";
 import { AnyBeer } from "@shared/types";
 import Carlsberg from "frontend/components/BeerPage/BeerTypes/Carlsberg";
+import ExternalLink from "@components/shared/ExternalLink";
 import { isCarlsbergBeer } from "frontend/utils/utils";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import NextLink from "next/link";
@@ -24,18 +25,13 @@ const BeerPage: NextPage<Props> = ({ beer }) => {
         <VStack m={3} maxW="768px" w="full">
           <Img src={beer.img} alt={beer.name} h="250px" mt={5} />
           <Heading textAlign="center">{beer.name}</Heading>
-          <ChLink href={beer.owner.website} mt="0 !important" isExternal>
-            <Text display="flex" alignItems="center">
-              Producent - {beer.owner.name} <ExternalLinkIcon ml="5px" />
-            </Text>
-          </ChLink>
+          <ExternalLink href={beer.owner.website} mt="0 !important">
+            Producent - {beer.owner.name}
+          </ExternalLink>
           {isCarlsbergBeer(beer) && <Carlsberg beer={beer} />}
-          <ChLink href={beer.originalUrl} isExternal mt="25px !important">
-            <Text display="flex" alignItems="center">
-              Originalna Strona Produktu
-              <ExternalLinkIcon ml="5px" />
-            </Text>
-          </ChLink>
+          <ExternalLink href={beer.originalUrl} mt="25px !important">
+            Originalna Strona Produktu
+          </ExternalLink>
         </VStack>
       </VStack>
     </>
