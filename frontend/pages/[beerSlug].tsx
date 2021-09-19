@@ -4,11 +4,12 @@ import beersData from "@shared/beers-data.json";
 import { AnyBeer } from "@shared/types";
 import Carlsberg from "@components/BeerPage/Carlsberg";
 import ExternalLink from "@components/shared/ExternalLink";
-import { isCarlsbergBeer, isGrupaZywiecBeer } from "@utils";
+import { isAbcalkoholuBeer, isCarlsbergBeer, isGrupaZywiecBeer } from "@utils";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import NextLink from "next/link";
 import React from "react";
 import Zywiec from "@components/BeerPage/Zywiec";
+import Abcalkoholu from "@components/BeerPage/Abcalkoholu";
 
 interface Props {
   beer: AnyBeer;
@@ -31,6 +32,7 @@ const BeerPage: NextPage<Props> = ({ beer }) => {
           </ExternalLink>
           {isCarlsbergBeer(beer) && <Carlsberg beer={beer} />}
           {isGrupaZywiecBeer(beer) && <Zywiec beer={beer} />}
+          {isAbcalkoholuBeer(beer) && <Abcalkoholu beer={beer} />}
           <ExternalLink href={beer.originalUrl} mt="25px !important">
             Originalna Strona Produktu
           </ExternalLink>
