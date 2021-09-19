@@ -1,8 +1,8 @@
-import { ArrowBackIcon, ExternalLinkIcon } from "@chakra-ui/icons";
-import { Heading, Img, Text, Link as ChLink, VStack } from "@chakra-ui/react";
+import { ArrowBackIcon } from "@chakra-ui/icons";
+import { Heading, Img, Link as ChLink, VStack } from "@chakra-ui/react";
 import beersData from "@shared/beers-data.json";
 import { AnyBeer } from "@shared/types";
-import Carlsberg from "frontend/components/BeerPage/BeerTypes/Carlsberg";
+import Carlsberg from "@components/BeerPage/Carlsberg";
 import ExternalLink from "@components/shared/ExternalLink";
 import { isCarlsbergBeer } from "frontend/utils/utils";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
@@ -17,12 +17,12 @@ const BeerPage: NextPage<Props> = ({ beer }) => {
   return (
     <>
       <NextLink href="/">
-        <ChLink pos="absolute" top="0" left="12px">
+        <ChLink pos="absolute" top={3} left={3}>
           <ArrowBackIcon fontSize="35px" />
         </ChLink>
       </NextLink>
-      <VStack p={2}>
-        <VStack m={3} maxW="768px" w="full">
+      <VStack p={2} pb={0}>
+        <VStack m={3} maxW="768px" w="full" mb={0}>
           <Img src={beer.img} alt={beer.name} h="250px" mt={5} />
           <Heading textAlign="center">{beer.name}</Heading>
           <ExternalLink href={beer.owner.website} mt="0 !important">
