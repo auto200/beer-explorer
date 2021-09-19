@@ -11,7 +11,7 @@ import {
 (async () => {
   try {
     await createDirsIfNotExists(BASE_OUT_PATH);
-    await Promise.all(jobs.map(async (job) => handleJob(job)));
+    await Promise.all(jobs.map(handleJob));
     await combineOutputIntoOneFile();
   } catch (err) {
     console.log(err);

@@ -13,16 +13,7 @@
     "alcoholByVolume": "9%",
     "origin": "Polska, Dolny Śląsk",
     "ingredients": "",
-    "nutritionalValues": {
-      "kj": "",
-      "kcal": "",
-      "carbs": "",
-      "sugars": "",
-      "protein": "",
-      "fat": "",
-      "saturatedFat": "",
-      "salt": ""
-    }
+    "nutritionalValues": null
   },
   {
     "originalUrl": "https://carlsbergpolska.pl/products/ksiaz/ksiaz-ksiazecy-specjal/?Ckey=13776 ",
@@ -838,16 +829,7 @@
     "alcoholByVolume": "4,2%",
     "origin": "Irlandia",
     "ingredients": "",
-    "nutritionalValues": {
-      "kj": "",
-      "kcal": "",
-      "carbs": "",
-      "sugars": "",
-      "protein": "",
-      "fat": "",
-      "saturatedFat": "",
-      "salt": ""
-    }
+    "nutritionalValues": null
   },
   {
     "originalUrl": "https://carlsbergpolska.pl/products/somersby/somersby-apple/?Ckey=13776 ",

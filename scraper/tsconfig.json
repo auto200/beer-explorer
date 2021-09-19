@@ -13,12 +13,16 @@
     "resolveJsonModule": true,
     "downlevelIteration": true,
     "noUnusedParameters": true,
+    "strictNullChecks": true,
     "noUnusedLocals": true,
     "forceConsistentCasingInFileNames": true,
     "baseUrl": "../",
     "paths": {
       "@shared/*": [
         "shared/*"
+      ],
+      "@utils": [
+        "scraper/src/utils"
       ]
     }
   }

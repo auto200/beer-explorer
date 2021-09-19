@@ -2,7 +2,7 @@ import cheerio, { CheerioAPI, Element } from "cheerio";
 import { GrupaZywiecBeer, NutritionalValues } from "@shared/types";
 import axios from "../axiosInstance";
 import { OWNERS_DATA } from "@shared/constants";
-import { beerNameToSlug } from "scraper/src/utils";
+import { beerNameToSlug } from "@utils";
 
 export const getGrupaZywiecBeersInfoFromCollectionUrl = async (
   url: string
@@ -41,7 +41,12 @@ export const getGrupaZywiecBeersInfoFromCollectionUrl = async (
 const getNutritionalValues = (
   $: CheerioAPI,
   el: Element
-): NutritionalValues => {
+): NutritionalValues | null => {
+  const tableExists = $(el).find(
+    ".lightbox__content__bottom .primaryText"
+  ).length;
+  if (!tableExists) return null;
+
   const nutritionalValues = {
     kj: "",
     kcal: "",

@@ -21,7 +21,7 @@ interface BeerBase {
 
 export interface VanPurBeer extends BeerBase {
   owner: typeof OWNERS_DATA.VAN_PUR;
-  description: string;
+  description?: string;
   alcoholByVolume: string;
   servingTemperature: string;
 }
@@ -29,17 +29,17 @@ export interface VanPurBeer extends BeerBase {
 export interface GrupaZywiecBeer extends BeerBase {
   owner: typeof OWNERS_DATA.GRUPA_ZYWIEC;
   description: string;
-  nutritionalValues: NutritionalValues;
+  nutritionalValues: NutritionalValues | null;
 }
 
 export interface CarlsbergBeer extends BeerBase {
   owner: typeof OWNERS_DATA.CARLSBERG_POLSKA;
   description: string;
-  type: string;
+  type?: string;
   alcoholByVolume: string;
-  origin: string;
-  ingredients: string;
-  nutritionalValues: NutritionalValues;
+  origin?: string;
+  ingredients?: string;
+  nutritionalValues: NutritionalValues | null;
 }
 
 export interface AbcalkoholuBeer extends BeerBase {

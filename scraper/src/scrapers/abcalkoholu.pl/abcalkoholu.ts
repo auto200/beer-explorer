@@ -3,7 +3,7 @@ import { AbcalkoholuBeer, NutritionalValues } from "@shared/types";
 import axios from "../axiosInstance";
 import { ABC_ALKOHOLU_BEER_COLLECTION_URL } from "./abcalkoholu.constants";
 import { OWNERS_DATA } from "@shared/constants";
-import { beerNameToSlug } from "scraper/src/utils";
+import { beerNameToSlug } from "@utils";
 
 export const scrapeAbcalkoholu = async (): Promise<AbcalkoholuBeer[]> => {
   const { data: html } = await axios.get(ABC_ALKOHOLU_BEER_COLLECTION_URL);

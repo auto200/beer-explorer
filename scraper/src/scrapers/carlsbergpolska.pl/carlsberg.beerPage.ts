@@ -3,7 +3,7 @@ import { CarlsbergBeer, NutritionalValues } from "@shared/types";
 import axios from "../axiosInstance";
 import { CARLSBERG_BASE_URL } from "./carlsberg.constants";
 import { OWNERS_DATA } from "@shared/constants";
-import { beerNameToSlug } from "scraper/src/utils";
+import { beerNameToSlug } from "@utils";
 
 export const getCarlsbergBeerInfoFromURL = async (
   url: string
@@ -43,19 +43,22 @@ const getBeerInfo = ($: CheerioAPI) => {
   };
 };
 
-const getNutritionalValues = ($: CheerioAPI): NutritionalValues => {
-  const getNextELementSiblingText = (selector: string) =>
+const getNutritionalValues = ($: CheerioAPI): NutritionalValues | null => {
+  const tableExists = $(".module--product-nutritional__heading").length;
+  if (!tableExists) return null;
+
+  const getNextElementSiblingText = (selector: string) =>
     $(selector).next().text().trim();
 
   const nutritionalValues = {
-    kj: getNextELementSiblingText("#kJ"),
-    kcal: getNextELementSiblingText("#kcal"),
-    carbs: getNextELementSiblingText("#Carbohydrates"),
-    sugars: getNextELementSiblingText("#Sugars"),
-    protein: getNextELementSiblingText("#Protein"),
-    fat: getNextELementSiblingText("#Fat"),
-    saturatedFat: getNextELementSiblingText("#SaturatedFat"),
-    salt: getNextELementSiblingText("#Salt"),
+    kj: getNextElementSiblingText("#kJ"),
+    kcal: getNextElementSiblingText("#kcal"),
+    carbs: getNextElementSiblingText("#Carbohydrates"),
+    sugars: getNextElementSiblingText("#Sugars"),
+    protein: getNextElementSiblingText("#Protein"),
+    fat: getNextElementSiblingText("#Fat"),
+    saturatedFat: getNextElementSiblingText("#SaturatedFat"),
+    salt: getNextElementSiblingText("#Salt"),
   };
 
   return nutritionalValues;

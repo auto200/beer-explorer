@@ -156,15 +156,7 @@
     "img": "https://www.grupazywiec.pl/wp-content/uploads/2016/02/Żywiec_IPA.png",
     "name": "Żywiec IPA",
     "description": "Żywiec IPA Żywiec Sesyjne IPA charakteryzuje się przyjemną chmielową goryczką oraz wyraźnie wyczuwalnymi nutami owoców egzotycznych i cytrusów. Jest chmielone na zimno wyjątkową kompozycją amerykańskich chmieli.",
-    "nutritionalValues": {
-      "kj": "",
-      "fat": "",
-      "saturatedFat": "",
-      "carbs": "",
-      "sugars": "",
-      "protein": "",
-      "salt": ""
-    }
+    "nutritionalValues": null
   },
   {
     "owner": {
