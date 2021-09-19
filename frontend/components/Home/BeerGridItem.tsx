@@ -30,8 +30,7 @@ const BeerGridItem: React.FC<Props> = ({ beer }) => {
   }, []);
 
   return (
-    //TODO: pass proper href to the product page
-    <VStack as="a">
+    <VStack>
       <Tooltip
         label={beer.name}
         placement="top"
