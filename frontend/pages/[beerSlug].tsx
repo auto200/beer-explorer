@@ -1,9 +1,6 @@
 import { ArrowBackIcon } from "@chakra-ui/icons";
 import { Heading, Img, Link as ChLink, VStack } from "@chakra-ui/react";
-import Abcalkoholu from "@components/BeerPage/Abcalkoholu";
-import Carlsberg from "@components/BeerPage/Carlsberg";
-import VanPur from "@components/BeerPage/VanPur";
-import Zywiec from "@components/BeerPage/Zywiec";
+import { Abcalkoholu, Carlsberg, VanPur, Zywiec } from "@components/BeerPage";
 import ExternalLink from "@components/shared/ExternalLink";
 import beersData from "@shared/beers-data.json";
 import { AnyBeer } from "@shared/types";
