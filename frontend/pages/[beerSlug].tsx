@@ -9,16 +9,21 @@ import {
   isCarlsbergBeer,
   isGrupaZywiecBeer,
   isVanPurBeer,
+  limitCarlsbergBeerImgSrcHeight,
 } from "@utils";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import NextLink from "next/link";
 import React from "react";
 
+const IMAGE_HEIGHT = 250;
+
 interface Props {
   beer: AnyBeer;
 }
-
 const BeerPage: NextPage<Props> = ({ beer }) => {
+  const imgSrc = isCarlsbergBeer(beer)
+    ? limitCarlsbergBeerImgSrcHeight(beer.img, IMAGE_HEIGHT)
+    : beer.img;
   return (
     <>
       <NextLink href="/">
@@ -28,7 +33,7 @@ const BeerPage: NextPage<Props> = ({ beer }) => {
       </NextLink>
       <VStack px={2} pb={0}>
         <VStack mx={3} maxW="768px" w="full" minH="100vh">
-          <Img src={beer.img} alt={beer.name} h="250px" mt={5} />
+          <Img src={imgSrc} alt={beer.name} h={IMAGE_HEIGHT} mt={5} />
           <Heading textAlign="center">{beer.name}</Heading>
           <ExternalLink href={beer.owner.website} mt="0 !important">
             Producent - {beer.owner.name}

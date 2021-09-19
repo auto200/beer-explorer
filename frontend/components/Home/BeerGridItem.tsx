@@ -1,16 +1,10 @@
-import {
-  Box,
-  Heading,
-  VStack,
-  Img,
-  Text,
-  Button,
-  Tooltip,
-} from "@chakra-ui/react";
+import { Box, Heading, VStack, Img, Button, Tooltip } from "@chakra-ui/react";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-
 import { AnyBeer } from "@shared/types";
+import { isCarlsbergBeer, limitCarlsbergBeerImgSrcHeight } from "@utils";
+
+const IMAGE_HEIGHT = 150;
 
 interface Props {
   beer: AnyBeer;
@@ -29,6 +23,10 @@ const BeerGridItem: React.FC<Props> = ({ beer }) => {
     if (scrollHeight - clientHeight > MARGIN) setIsTooltipVisible(true);
   }, []);
 
+  const imgSrc = isCarlsbergBeer(beer)
+    ? limitCarlsbergBeerImgSrcHeight(beer.img, IMAGE_HEIGHT)
+    : beer.img;
+
   return (
     <VStack>
       <Tooltip
@@ -44,7 +42,7 @@ const BeerGridItem: React.FC<Props> = ({ beer }) => {
         </Box>
       </Tooltip>
       <Box>
-        <Img src={beer.img} alt={beer.name} h="150px" />
+        <Img src={imgSrc} alt={beer.name} h={IMAGE_HEIGHT} />
       </Box>
       <Link href={`/${beer.slug}`}>
         <a>
