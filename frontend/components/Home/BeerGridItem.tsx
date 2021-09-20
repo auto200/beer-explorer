@@ -8,7 +8,7 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import { AnyBeer } from "@shared/types";
-import { isCarlsbergBeer, limitCarlsbergBeerImgSrcHeight } from "@utils";
+import { isCarlsbergBeer, limitCarlsbergBeerImgSrcHeight } from "@utils/utils";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 

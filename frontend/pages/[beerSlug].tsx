@@ -10,7 +10,7 @@ import {
   isGrupaZywiecBeer,
   isVanPurBeer,
   limitCarlsbergBeerImgSrcHeight,
-} from "@utils";
+} from "@utils/utils";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
 import Head from "next/head";
 import NextLink from "next/link";

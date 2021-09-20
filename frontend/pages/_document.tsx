@@ -1,7 +1,7 @@
 import { ColorModeScript } from "@chakra-ui/react";
 // eslint-disable-next-line
 import NextDocument, { Html, Head, Main, NextScript } from "next/document";
-import theme from "../utils/theme";
+import theme from "@utils/theme";
 
 export default class Document extends NextDocument {
   render() {
