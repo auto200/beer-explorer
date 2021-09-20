@@ -12,6 +12,7 @@ import {
   limitCarlsbergBeerImgSrcHeight,
 } from "@utils";
 import { GetStaticPaths, GetStaticProps, NextPage } from "next";
+import Head from "next/head";
 import NextLink from "next/link";
 import React from "react";
 
@@ -26,6 +27,12 @@ const BeerPage: NextPage<Props> = ({ beer }) => {
     : beer.img;
   return (
     <>
+      <Head>
+        <title>{beer.name}</title>
+        <meta property="og:title" content={beer.name} key="title" />
+        <meta property="og:image" content={beer.img} />
+        <meta property="og:description" content="Słodycz piwa cie omija" />
+      </Head>
       <NextLink href="/">
         <ChLink pos="absolute" top={3} left={3}>
           <ArrowBackIcon fontSize="35px" />

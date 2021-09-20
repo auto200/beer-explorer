@@ -35,7 +35,7 @@ const Carlsberg: React.FC<Props> = ({ beer }) => {
         <NutritionalValuesTable values={beer.nutritionalValues} />
       )}
       {beer.origin && (
-        <LabelValuePair label="Pochodzenie" value={beer.origin} />
+        <LabelValuePair label="Pochodzenie: " value={beer.origin} />
       )}
     </SpecificBeerInfoWrapper>
   );

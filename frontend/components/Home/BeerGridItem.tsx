@@ -1,8 +1,16 @@
-import { Box, Heading, VStack, Img, Button, Tooltip } from "@chakra-ui/react";
-import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import {
+  Box,
+  Button,
+  Divider,
+  Heading,
+  Img,
+  Tooltip,
+  VStack,
+} from "@chakra-ui/react";
 import { AnyBeer } from "@shared/types";
 import { isCarlsbergBeer, limitCarlsbergBeerImgSrcHeight } from "@utils";
+import Link from "next/link";
+import React, { useEffect, useRef, useState } from "react";
 
 const IMAGE_HEIGHT = 150;
 
@@ -28,28 +36,31 @@ const BeerGridItem: React.FC<Props> = ({ beer }) => {
     : beer.img;
 
   return (
-    <VStack>
-      <Tooltip
-        label={beer.name}
-        placement="top"
-        textAlign="center"
-        visibility={isTooltipVisible ? undefined : "hidden"}
-      >
-        <Box h="120px" textAlign="center">
-          <Heading noOfLines={2} alt={beer.name} ref={titleRef}>
-            {beer.name}
-          </Heading>
+    <>
+      <VStack>
+        <Tooltip
+          label={beer.name}
+          placement="top"
+          textAlign="center"
+          visibility={isTooltipVisible ? undefined : "hidden"}
+        >
+          <Box h="120px" textAlign="center">
+            <Heading noOfLines={2} alt={beer.name} ref={titleRef}>
+              {beer.name}
+            </Heading>
+          </Box>
+        </Tooltip>
+        <Box>
+          <Img src={imgSrc} alt={beer.name} h={IMAGE_HEIGHT} />
         </Box>
-      </Tooltip>
-      <Box>
-        <Img src={imgSrc} alt={beer.name} h={IMAGE_HEIGHT} />
-      </Box>
-      <Link href={`/${beer.slug}`}>
-        <a>
-          <Button>Dowiedz się więcej</Button>
-        </a>
-      </Link>
-    </VStack>
+        <Link href={`/${beer.slug}`}>
+          <a>
+            <Button>Dowiedz się więcej</Button>
+          </a>
+        </Link>
+      </VStack>
+      <Divider display={[null, "none"]} />
+    </>
   );
 };
 

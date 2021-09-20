@@ -1,16 +1,18 @@
-import { SimpleGrid } from "@chakra-ui/react";
+import BeersGrid from "@components/Home/BeersGrid";
+import Footer from "@components/Home/Footer";
 import type { NextPage } from "next";
-import beersData from "@shared/beers-data.json";
-import { AnyBeer } from "@shared/types";
-import BeerGridItem from "../components/Home/BeerGridItem";
+import Head from "next/head";
+import React from "react";
 
 const Home: NextPage = () => {
   return (
-    <SimpleGrid minChildWidth="260px" spacing="40px" m="20px">
-      {(beersData as AnyBeer[]).map((beer) => (
-        <BeerGridItem beer={beer} key={beer.name} />
-      ))}
-    </SimpleGrid>
+    <>
+      <Head>
+        <title>Lista Najpopularniejszych Piw w Polsce</title>
+      </Head>
+      <BeersGrid />
+      <Footer />
+    </>
   );
 };
 
