@@ -15,10 +15,10 @@ const Footer = () => {
       p="5px"
     >
       {sources.map(({ name, website }, i) => (
-        <>
+        <React.Fragment key={name}>
           <ExternalLink href={website}>{name}</ExternalLink>
           {i !== sources.length - 1 && <Box mx="5px">|</Box>}
-        </>
+        </React.Fragment>
       ))}
     </Flex>
   );
