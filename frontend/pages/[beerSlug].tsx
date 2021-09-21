@@ -25,6 +25,7 @@ const BeerPage: NextPage<Props> = ({ beer }) => {
   const imgSrc = isCarlsbergBeer(beer)
     ? limitCarlsbergBeerImgSrcHeight(beer.img, IMAGE_HEIGHT)
     : beer.img;
+
   return (
     <>
       <Head>

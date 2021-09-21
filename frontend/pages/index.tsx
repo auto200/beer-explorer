@@ -32,6 +32,7 @@ const Home: NextPage = () => {
 
     setFiltredBeers(filtredByBrandAndNameBeers);
   }, [filterBrandId, filterBeerName]);
+
   return (
     <>
       <Head>
