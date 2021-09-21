@@ -1,6 +1,5 @@
-import { Flex, Heading, SimpleGrid, VStack } from "@chakra-ui/react";
+import { Flex, Heading, SimpleGrid, VStack, Img } from "@chakra-ui/react";
 import { AnyBeer } from "@shared/types";
-import Image from "next/image";
 import React from "react";
 import BeerGridItem from "./BeerGridItem";
 
@@ -18,7 +17,7 @@ const BeersGrid: React.FC<Props> = ({ beers }) => {
         textAlign="center"
       >
         <VStack>
-          <Image src="/beer-not-found.png" width={100} height={250} />
+          <Img src="/beer-not-found.png" width={100} height={250} alt="" />
           <Heading>Brak wyników</Heading>
         </VStack>
       </Flex>
