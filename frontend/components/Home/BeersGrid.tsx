@@ -1,7 +1,8 @@
 import { Flex, Heading, SimpleGrid, VStack, Img } from "@chakra-ui/react";
 import { AnyBeer } from "@shared/types";
-import React from "react";
+import React, { useMemo } from "react";
 import BeerGridItem from "./BeerGridItem";
+import { GridComponents, VirtuosoGrid } from "react-virtuoso";
 
 interface Props {
   beers: AnyBeer[];
@@ -24,12 +25,30 @@ const BeersGrid: React.FC<Props> = ({ beers }) => {
     );
   }
 
+  const components = useMemo(() => {
+    return {
+      List: React.forwardRef<HTMLDivElement>(({ children, ...props }, ref) => {
+        return (
+          <SimpleGrid minChildWidth="320px" mt="20px" ref={ref} {...props}>
+            {children}
+          </SimpleGrid>
+        );
+      }),
+    };
+  }, []);
+
   return (
-    <SimpleGrid minChildWidth="260px" spacing="40px" m="20px">
-      {beers.map((beer) => (
-        <BeerGridItem beer={beer} key={beer.name} />
-      ))}
-    </SimpleGrid>
+    <VirtuosoGrid
+      useWindowScroll
+      totalCount={beers.length}
+      overscan={200}
+      components={components as GridComponents}
+      itemContent={(index) => {
+        if (index !== -1) {
+          return <BeerGridItem beer={beers[index]} />;
+        }
+      }}
+    />
   );
 };
 
