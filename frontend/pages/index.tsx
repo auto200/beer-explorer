@@ -1,3 +1,6 @@
+import { Box } from "@chakra-ui/layout";
+import BeerNotFound from "@components/Home/BeerNotFound";
+import BeersGrid from "@components/Home/BeersGrid";
 import Footer from "@components/Home/Footer";
 import Header from "@components/Home/Header";
 import beersData from "@shared/beers-data.json";
@@ -7,7 +10,6 @@ import { BrandFilterId } from "@utils/types";
 import type { NextPage } from "next";
 import Head from "next/head";
 import React, { useEffect, useState } from "react";
-import BeersGrid from "@components/Home/BeersGrid";
 
 const Home: NextPage = () => {
   const [filterBrandId, setFilterBrandId] = useState<BrandFilterId>("ALL");
@@ -53,7 +55,12 @@ const Home: NextPage = () => {
         setFilterBrandId={setFilterBrandId}
         setFilterBeerName={setFilterBeerName}
       />
-      <BeersGrid beers={filtredBeers} />
+      {filtredBeers.length === 0 ? (
+        <BeerNotFound />
+      ) : (
+        <BeersGrid beers={filtredBeers} />
+      )}
+      <Box h="50px" />
       <Footer />
     </>
   );
