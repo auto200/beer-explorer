@@ -1,3 +1,5 @@
+import { Box } from "@chakra-ui/layout";
+import BeerNotFound from "@components/Home/BeerNotFound";
 import BeersGrid from "@components/Home/BeersGrid";
 import Footer from "@components/Home/Footer";
 import Header from "@components/Home/Header";
@@ -18,20 +20,30 @@ const Home: NextPage = () => {
   );
 
   useEffect(() => {
-    const filtredByBrandBeers =
-      filterBrandId === "ALL"
-        ? (beersData as AnyBeer[])
-        : (beersData as AnyBeer[]).filter(
-            ({ owner }) => owner.name === OWNERS_DATA[filterBrandId].name
-          );
-    const filtredByBrandAndNameBeers = !filterBeerName
-      ? filtredByBrandBeers
-      : filtredByBrandBeers.filter(({ name }) =>
-          name.toLocaleLowerCase().includes(filterBeerName.toLocaleLowerCase())
-        );
+    if (filterBrandId === "ALL") {
+      setFiltredBeers(beersData as AnyBeer[]);
+      return;
+    }
 
-    setFiltredBeers(filtredByBrandAndNameBeers);
-  }, [filterBrandId, filterBeerName]);
+    setFiltredBeers(
+      (beersData as AnyBeer[]).filter(
+        ({ owner }) => owner.name === OWNERS_DATA[filterBrandId].name
+      )
+    );
+  }, [filterBrandId]);
+
+  useEffect(() => {
+    if (!filterBeerName) {
+      setFiltredBeers(beersData as AnyBeer[]);
+      return;
+    }
+
+    setFiltredBeers(
+      (beersData as AnyBeer[]).filter(({ name }) =>
+        name.toLocaleLowerCase().includes(filterBeerName.toLocaleLowerCase())
+      )
+    );
+  }, [filterBeerName]);
 
   return (
     <>
@@ -43,7 +55,12 @@ const Home: NextPage = () => {
         setFilterBrandId={setFilterBrandId}
         setFilterBeerName={setFilterBeerName}
       />
-      <BeersGrid beers={filtredBeers} />
+      {filtredBeers.length === 0 ? (
+        <BeerNotFound />
+      ) : (
+        <BeersGrid beers={filtredBeers} />
+      )}
+      <Box h="50px" />
       <Footer />
     </>
   );

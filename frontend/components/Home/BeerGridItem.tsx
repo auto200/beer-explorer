@@ -37,7 +37,7 @@ const BeerGridItem: React.FC<Props> = ({ beer }) => {
 
   return (
     <>
-      <VStack>
+      <VStack p="40px" pt="0">
         <Tooltip
           label={beer.name}
           placement="top"

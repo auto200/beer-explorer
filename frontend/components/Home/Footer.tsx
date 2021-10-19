@@ -9,6 +9,11 @@ const Footer = () => {
   return (
     <Flex
       as="footer"
+      pos="absolute"
+      bottom="5px"
+      left="50%"
+      w="full"
+      transform="translateX(-50%)"
       alignItems="center"
       justifyContent="center"
       wrap="wrap"

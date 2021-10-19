@@ -5,6 +5,15 @@ const config: ThemeConfig = {
   useSystemColorMode: false,
 };
 
-const theme = extendTheme({ config });
+const theme = extendTheme({
+  config,
+  styles: {
+    global: {
+      "#__next": {
+        minHeight: "100vh",
+      },
+    },
+  },
+});
 
 export default theme;
