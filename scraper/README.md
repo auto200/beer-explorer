@@ -11,16 +11,12 @@ Data scraper, scraping infos about most popular beers in Poland from:<br/>
 Install dependencies
 
 ```bash
-npm install
-# or
 yarn
 ```
 
 Scrape!
 
 ```bash
-npm run start
-# or
 yarn start
 ```
 

@@ -4,6 +4,8 @@
 
 Data is pulled from `shared/beers-data.json` directory
 
+Home page is a <b>virtual list</b> of all beers. Virtualization is provided by [react-virtuoso](https://github.com/petyosi/react-virtuoso)
+
 ---
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
@@ -13,16 +15,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 Install:
 
 ```bash
-npm install
-# or
-yarn
+yarn install
 ```
 
 Run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 

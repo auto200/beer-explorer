@@ -18,7 +18,9 @@ Written in [NextJS](https://nextjs.org/), basically maps over JSON and generates
 
 ---
 
-#### These two apps are independent (do not need to work at the same time) For more info go to invidual directories
+These two apps are independent (do not need to work at the same time)
+
+### For more info go to specific directories
 
 <br/>
 
