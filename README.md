@@ -10,7 +10,7 @@ Application is divided into two parts:
 
 ### Scraper
 
-Gathers information about beers, (name, description, type etc.) from producers websites and combines it into single JSON file. It uses [Cheerio](https://www.npmjs.com/package/cheerio) for DOM traversing
+Gathers information about beers, (name, description, type etc.) from producer's websites and combines it into single JSON file. It uses [Cheerio](https://www.npmjs.com/package/cheerio) for DOM traversing
 
 ### Frontend
 
